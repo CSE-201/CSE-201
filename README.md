@@ -9,7 +9,7 @@
 
 <a name="overview"/></a>
 ## Overview
-This is the repository for the development of a currently unnamed project for CSE 201 at [Miami University](http://miamioh.edu/).
+This is the repository for the development of a currently unnamed project for [CSE 201](https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-201/index.htmlhttps://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-201/index.html) at [Miami University](http://miamioh.edu/).
 
 <a name="media"/></a>
 ## Media
