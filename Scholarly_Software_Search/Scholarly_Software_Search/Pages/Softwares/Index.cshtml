@@ -1,0 +1,54 @@
+﻿@page
+@model Scholary_Software_Search.Pages.Softwares.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].SoftwareName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].CitedArticles)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].PublishDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].UpdateDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Software) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoftwareName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CitedArticles)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublishDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateDate)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.UrlAddress">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.UrlAddress">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.UrlAddress">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
