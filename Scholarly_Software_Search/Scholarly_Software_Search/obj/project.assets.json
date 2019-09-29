@@ -8362,26 +8362,23 @@
   },
   "packageFolders": {
     "C:\\Users\\Ktlie\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\Software\\CSE-201-WebApp-Prototype\\Scholarly_Software_Search\\Scholarly_Software_Search\\Scholarly_Software_Search.csproj",
+      "projectUniqueName": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\Scholarly_Software_Search\\Scholarly_Software_Search\\Scholarly_Software_Search.csproj",
       "projectName": "Scholarly_Software_Search",
-      "projectPath": "D:\\Development\\Software\\CSE-201-WebApp-Prototype\\Scholarly_Software_Search\\Scholarly_Software_Search\\Scholarly_Software_Search.csproj",
+      "projectPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\Scholarly_Software_Search\\Scholarly_Software_Search\\Scholarly_Software_Search.csproj",
       "packagesPath": "C:\\Users\\Ktlie\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\Software\\CSE-201-WebApp-Prototype\\Scholarly_Software_Search\\Scholarly_Software_Search\\obj\\",
+      "outputPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\Scholarly_Software_Search\\Scholarly_Software_Search\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Ktlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

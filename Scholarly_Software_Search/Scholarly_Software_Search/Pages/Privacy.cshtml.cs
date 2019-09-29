@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
 namespace Scholary_Software_Search.Pages {
-    [Authorize]
+    [Authorize(Roles = "admin")]
     public class PrivacyModel : PageModel {
         private readonly ILogger<PrivacyModel> _logger;
 
