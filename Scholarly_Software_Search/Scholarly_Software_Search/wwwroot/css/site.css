@@ -10,8 +10,8 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+a, a:active, a:hover {
+    color: #dc3545;
 }
 
 .btn-primary {
@@ -20,9 +20,9 @@ a {
     border-color: #c42938;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active {
     color: #fff;
-    background-color: #c42938;
+    background-color: #dc3545;
     border-color: #c42938;
 }
 
