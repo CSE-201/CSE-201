@@ -20,16 +20,21 @@ a, a:active, a:hover {
     border-color: #c42938;
 }
 
-    .btn-primary:hover, .btn-primary:active {
-        color: #fff;
-        background-color: #c42938;
-        border-color: #c42938;
-    }
+.btn-primary:hover, .btn-primary:active {
+    color: #fff;
+    background-color: #c42938;
+    border-color: #c42938;
+}
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
     background-color: #dc3545;
     border-color: #c42938;
+}
+
+.header-scale {
+    height: 1.5em;
+    width: 1.5em;
 }
 
 /* Sticky footer styles
