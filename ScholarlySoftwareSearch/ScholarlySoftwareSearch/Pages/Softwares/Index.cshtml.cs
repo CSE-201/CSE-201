@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Scholary_Software_Search.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
+    [Authorize]
     public class IndexModel : PageModel {
         private readonly ScholarlySoftwareSearch.Models.SoftwareContext _context;
 
