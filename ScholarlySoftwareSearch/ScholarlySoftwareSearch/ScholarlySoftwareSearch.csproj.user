@@ -10,5 +10,6 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile>~/Pages/Shared/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_DbContextTypeFullName>ScholarlySoftwareSearch.Models.SoftwareContext</WebStackScaffolding_DbContextTypeFullName>
+    <NameOfLastUsedPublishProfile>ScholarlySoftwareSearch - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

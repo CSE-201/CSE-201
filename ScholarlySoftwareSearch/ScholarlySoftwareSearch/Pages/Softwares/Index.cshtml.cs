@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
-    [Authorize]
     public class IndexModel : PageModel {
         private readonly ScholarlySoftwareSearch.Models.SoftwareContext _context;
 
