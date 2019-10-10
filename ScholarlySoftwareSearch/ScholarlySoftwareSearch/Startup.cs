@@ -34,8 +34,8 @@ namespace ScholarlySoftwareSearch {
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
 
-            services.AddDbContext<SoftwareContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SoftwareContext")));
+            services.AddDbContext<ModelContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ModelContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
     public class DeleteModel : PageModel {
-        private readonly ScholarlySoftwareSearch.Models.SoftwareContext _context;
+        private readonly ScholarlySoftwareSearch.Models.ModelContext _context;
 
-        public DeleteModel(ScholarlySoftwareSearch.Models.SoftwareContext context) {
+        public DeleteModel(ScholarlySoftwareSearch.Models.ModelContext context) {
             _context = context;
         }
 

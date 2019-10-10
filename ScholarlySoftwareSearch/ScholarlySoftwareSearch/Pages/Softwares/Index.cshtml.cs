@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
     public class IndexModel : PageModel {
-        private readonly ScholarlySoftwareSearch.Models.SoftwareContext _context;
+        private readonly ScholarlySoftwareSearch.Models.ModelContext _context;
 
-        public IndexModel(ScholarlySoftwareSearch.Models.SoftwareContext context) {
+        public IndexModel(ScholarlySoftwareSearch.Models.ModelContext context) {
             _context = context;
         }
 

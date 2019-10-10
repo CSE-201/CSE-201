@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
 namespace ScholarlySoftwareSearch.Models {
-    public class SoftwareContext : DbContext {
-        public SoftwareContext(DbContextOptions<SoftwareContext> options)
+    public class ModelContext : DbContext {
+        public ModelContext(DbContextOptions<ModelContext> options)
             : base(options) {
         }
 
