@@ -265,11 +265,6 @@ D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwar
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Create.cshtml.g.cs
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Delete.cshtml.g.cs
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Details.cshtml.g.cs
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Edit.cshtml.g.cs
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Index.cshtml.g.cs
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\_ViewImports.cshtml.g.cs
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\_ViewStart.cshtml.g.cs
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.RazorTargetAssemblyInfo.cache
@@ -496,3 +491,8 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.csproj.CopyComplete
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.pdb
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Create.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Delete.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Details.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Edit.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Softwares\Index.cshtml.g.cs

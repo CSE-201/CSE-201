@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
 <h1>Index</h1>
@@ -14,16 +15,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].SoftwareName)
+                @Html.DisplayNameFor(model => model.Software[0].Authors)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].CitedArticles)
+                @Html.DisplayNameFor(model => model.Software[0].UploaderID)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].PublishDate)
+                @Html.DisplayNameFor(model => model.Software[0].UploadDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].UpdateDate)
+                @Html.DisplayNameFor(model => model.Software[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].Publisher)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].DownloadURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].Tag)
             </th>
             <th></th>
         </tr>
@@ -32,21 +42,30 @@
 @foreach (var item in Model.Software) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.SoftwareName)
+                @Html.DisplayFor(modelItem => item.Authors)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CitedArticles)
+                @Html.DisplayFor(modelItem => item.UploaderID)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PublishDate)
+                @Html.DisplayFor(modelItem => item.UploadDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UpdateDate)
+                @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.UrlAddress">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.UrlAddress">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.UrlAddress">Delete</a>
+                @Html.DisplayFor(modelItem => item.Publisher)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DownloadURL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tag)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }

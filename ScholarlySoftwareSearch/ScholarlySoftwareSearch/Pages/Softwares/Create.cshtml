@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
 <h1>Create</h1>
@@ -14,29 +15,39 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Software.UrlAddress" class="control-label"></label>
-                <input asp-for="Software.UrlAddress" class="form-control" />
-                <span asp-validation-for="Software.UrlAddress" class="text-danger"></span>
+                <label asp-for="Software.Authors" class="control-label"></label>
+                <input asp-for="Software.Authors" class="form-control" />
+                <span asp-validation-for="Software.Authors" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Software.SoftwareName" class="control-label"></label>
-                <input asp-for="Software.SoftwareName" class="form-control" />
-                <span asp-validation-for="Software.SoftwareName" class="text-danger"></span>
+                <label asp-for="Software.UploaderID" class="control-label"></label>
+                <input asp-for="Software.UploaderID" class="form-control" />
+                <span asp-validation-for="Software.UploaderID" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Software.CitedArticles" class="control-label"></label>
-                <input asp-for="Software.CitedArticles" class="form-control" />
-                <span asp-validation-for="Software.CitedArticles" class="text-danger"></span>
+                <label asp-for="Software.UploadDate" class="control-label"></label>
+                <input asp-for="Software.UploadDate" class="form-control" />
+                <span asp-validation-for="Software.UploadDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Software.PublishDate" class="control-label"></label>
-                <input asp-for="Software.PublishDate" class="form-control" />
-                <span asp-validation-for="Software.PublishDate" class="text-danger"></span>
+                <label asp-for="Software.Description" class="control-label"></label>
+                <input asp-for="Software.Description" class="form-control" />
+                <span asp-validation-for="Software.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Software.UpdateDate" class="control-label"></label>
-                <input asp-for="Software.UpdateDate" class="form-control" />
-                <span asp-validation-for="Software.UpdateDate" class="text-danger"></span>
+                <label asp-for="Software.Publisher" class="control-label"></label>
+                <input asp-for="Software.Publisher" class="form-control" />
+                <span asp-validation-for="Software.Publisher" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Software.DownloadURL" class="control-label"></label>
+                <input asp-for="Software.DownloadURL" class="form-control" />
+                <span asp-validation-for="Software.DownloadURL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Software.Tag" class="control-label"></label>
+                <input asp-for="Software.Tag" class="form-control" />
+                <span asp-validation-for="Software.Tag" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

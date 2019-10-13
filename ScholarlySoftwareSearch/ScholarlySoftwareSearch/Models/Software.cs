@@ -1,12 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Scholary_Software_Search.Models {
+namespace ScholarlySoftwareSearch.Models {
     public class Software {
-        [System.ComponentModel.DataAnnotations.Key]
-        public string UrlAddress { get; set; }
-        public string SoftwareName { get; set; }
-        public int CitedArticles { get; set; }
-        public DateTime PublishDate { get; set; }
-        public DateTime UpdateDate { get; set; }
+
+        public int Id { get; set; }
+        
+        public string Authors { get; set; }
+        
+        public string UploaderID { get; set; }
+       
+        public DateTime UploadDate { get; set; }
+
+        public string Description { get; set; }
+
+        public string Publisher { get; set; }
+
+        public string DownloadURL { get; set; }
+
+        public string Tag { get; set; }
+
     }
 }
