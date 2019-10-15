@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.CreateModel">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.DeleteModel">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.DetailsModel">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.EditModel">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAABAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.IndexModel">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Models.Software">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACABAAAAAgAAAACAAAAAAAAADAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Software.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="System.Collections.Generic.IList&lt;T&gt;">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

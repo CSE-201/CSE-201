@@ -5,18 +5,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ScholarlySoftwareSearch.Controllers;
 using ScholarlySoftwareSearch.Data;
 using ScholarlySoftwareSearch.Models;
 using System;
 using System.Threading.Tasks;
 
+
 namespace ScholarlySoftwareSearch {
     public class Startup {
-
-        // Project default properties.
-        private readonly string[] roles = { "admin", "manager", "member" };
-        private readonly IdentityUser admin = new IdentityUser { UserName = "root@email.com", Email = "root@email.com" };
-        private readonly string admin_password = "Password_test201";
 
         public Startup(IConfiguration configuration) {
             Configuration = configuration;
@@ -61,36 +58,13 @@ namespace ScholarlySoftwareSearch {
                 endpoints.MapRazorPages();
             });
 
+            UserController userController = new UserController();
+
             // Creates the default roles.
-            CreateRolesAsync(serviceProvider).Wait();
+            userController.CreateRolesAsync(serviceProvider).Wait();
 
             // Creates the default admin.
-            CreateAdmin(serviceProvider).Wait();
-        }
-
-        private async Task CreateAdmin(IServiceProvider serviceProvider) {
-            // Adding admin.
-            UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
-            IdentityUser user = admin;
-            var result = await userManager.CreateAsync(user, admin_password);
-            string token = await userManager.GenerateEmailConfirmationTokenAsync(user);
-            await userManager.ConfirmEmailAsync(user, token);
-            await userManager.AddToRoleAsync(user, roles[0]);
-        }
-
-        private async Task CreateRolesAsync(IServiceProvider serviceProvider) {
-            // Adding roles.
-            RoleManager<IdentityRole> roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            string[] roleNames = roles;
-            IdentityResult roleResult;
-
-            foreach (string roleName in roleNames) {
-                // Creating the roles and adding them to the database.
-                bool roleExist = await roleManager.RoleExistsAsync(roleName);
-                if (!roleExist) {
-                    roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
-                }
-            }
+            userController.CreateAdmin(serviceProvider).Wait();
         }
     }
 }

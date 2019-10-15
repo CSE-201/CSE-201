@@ -10,8 +10,8 @@ using ScholarlySoftwareSearch.Data;
 namespace ScholarlySoftwareSearch.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20191013002149_ApplicationDbContextSnapshot")]
-    partial class ApplicationDbContextSnapshot
+    [Migration("20191015181939_ApplicationDbContext_Snapshot")]
+    partial class ApplicationDbContext_Snapshot
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
