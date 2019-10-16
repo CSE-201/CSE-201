@@ -8,31 +8,55 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using ScholarlySoftwareSearch.Data;
-using ScholarlySoftwareSearch.Models;
-using System;
-using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Controllers {
     public class UserController {
+        public static UserController instance;
 
-        // Project default properties.
-        private readonly string[] roles = { "admin", "manager", "member" };
-        private readonly IdentityUser admin = new IdentityUser { UserName = "root@email.com", Email = "root@email.com" };
-        private readonly string admin_password = "Password_test201";
+        private IServiceProvider serviceProvider;
 
-        public async Task CreateAdmin(IServiceProvider serviceProvider) {
-            // Adding admin.
-            UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
-            IdentityUser user = admin;
-            var result = await userManager.CreateAsync(user, admin_password);
-            string token = await userManager.GenerateEmailConfirmationTokenAsync(user);
-            await userManager.ConfirmEmailAsync(user, token);
-            await userManager.AddToRoleAsync(user, roles[0]);
+        // Default roles.
+        public enum Roles { Admin, Manager, Member };
+
+        public UserController (IServiceProvider serviceProvider) {
+            // Enforces singleton pattern.
+            instance = this;
+
+            this.serviceProvider = serviceProvider;
         }
 
-        public async Task CreateRolesAsync(IServiceProvider serviceProvider) {
+        /// <summary>
+        /// Creates a user and adds them to the database.
+        /// </summary>
+        /// <param name="user">The user being added to the database.</param>
+        /// <param name="password">The user's password.</param>
+        /// <param name="role">The user's default role. Can be changed later.</param>
+        /// <returns></returns>
+        public async Task CreateUser (IdentityUser user, string password, Roles role) {
+            UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            await userManager.CreateAsync(user, password);
+            string token = await userManager.GenerateEmailConfirmationTokenAsync(user);
+            await userManager.ConfirmEmailAsync(user, token);
+            await AddUserToRole(user, role);
+        }
+
+        /// <summary>
+        /// Adds an existing user to a role.
+        /// </summary>
+        /// <param name="user">The existing user.</param>
+        /// <param name="role">The role the user is being added to.</param>
+        /// <returns></returns>
+        public async Task AddUserToRole (IdentityUser user, Roles role) {
+            UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            await userManager.AddToRoleAsync(user, role.ToString());
+        }
+
+        /// <summary>
+        /// Creates new roles for users to be added to into the RoleManager.
+        /// </summary>
+        /// <param name="roles">The roles being added to the RoleManager.</param>
+        /// <returns></returns>
+        public async Task CreateRolesAsync(string[] roles) {
             // Adding roles.
             RoleManager<IdentityRole> roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             string[] roleNames = roles;

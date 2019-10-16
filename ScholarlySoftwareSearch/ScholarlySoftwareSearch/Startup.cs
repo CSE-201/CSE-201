@@ -58,13 +58,21 @@ namespace ScholarlySoftwareSearch {
                 endpoints.MapRazorPages();
             });
 
-            UserController userController = new UserController();
+            /* Creates an admin user pulling information from the 
+             * appsettings.json file. */
+            UserController userController = new UserController(serviceProvider);
 
-            // Creates the default roles.
-            userController.CreateRolesAsync(serviceProvider).Wait();
+            IdentityUser admin = new IdentityUser { UserName = Configuration.GetSection("Admin")["Username"], 
+                                                    Email = Configuration.GetSection("Admin")["Email"]};
 
-            // Creates the default admin.
-            userController.CreateAdmin(serviceProvider).Wait();
+            userController.CreateUser(admin, Configuration.GetSection("Admin")["Password"], UserController.Roles.Admin).Wait();
         }
+
+        //// Creates the default roles.
+        //userController.CreateRolesAsync(serviceProvider).Wait();
+
+        //// Creates the default admin.
+        //userController.CreateAdmin(serviceProvider).Wait();
+    }
     }
 }
