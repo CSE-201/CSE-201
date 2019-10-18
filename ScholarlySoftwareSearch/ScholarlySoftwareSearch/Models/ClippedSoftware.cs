@@ -15,6 +15,7 @@ namespace ScholarlySoftwareSearch.Models {
             UploaderID = "1";
             SoftwareID = "2";
             ClipDate = DateTime.MinValue;
+            Id = 0;
         }
 
         /// <summary>
@@ -23,12 +24,14 @@ namespace ScholarlySoftwareSearch.Models {
         /// <param name="uploaderID"></param>
         /// <param name="softwareID"></param>
         /// <param name="clipDate"></param>
-        public ClippedSoftware(string uploaderID, string softwareID, DateTime clipDate) {
+        public ClippedSoftware(string uploaderID, string softwareID, DateTime clipDate, int id) {
             UploaderID = uploaderID;
             SoftwareID = softwareID;
             ClipDate = clipDate;
+            Id = id;
         }
 
+        public int Id { get; set; }
         public string UploaderID { get; set; }
 
         public string SoftwareID { get; set; }

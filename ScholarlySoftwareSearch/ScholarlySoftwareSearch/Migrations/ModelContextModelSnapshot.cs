@@ -19,6 +19,27 @@ namespace ScholarlySoftwareSearch.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("ScholarlySoftwareSearch.Models.ClippedSoftware", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("ClipDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SoftwareID")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UploaderID")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ClippedSoftware");
+                });
+
             modelBuilder.Entity("ScholarlySoftwareSearch.Models.Software", b =>
                 {
                     b.Property<int>("Id")

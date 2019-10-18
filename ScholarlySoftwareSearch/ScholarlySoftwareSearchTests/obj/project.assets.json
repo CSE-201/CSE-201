@@ -9814,23 +9814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ktlie\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\soumy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearchTests\\ScholarlySoftwareSearchTests.csproj",
+      "projectUniqueName": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearchTests\\ScholarlySoftwareSearchTests.csproj",
       "projectName": "ScholarlySoftwareSearchTests",
-      "projectPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearchTests\\ScholarlySoftwareSearchTests.csproj",
-      "packagesPath": "C:\\Users\\Ktlie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearchTests\\obj\\",
+      "projectPath": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearchTests\\ScholarlySoftwareSearchTests.csproj",
+      "packagesPath": "C:\\Users\\soumy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearchTests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ktlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\soumy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9843,8 +9839,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj": {
-              "projectPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj"
+            "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj": {
+              "projectPath": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj"
             }
           }
         }

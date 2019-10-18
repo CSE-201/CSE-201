@@ -11,5 +11,7 @@
     <WebStackScaffolding_LayoutPageFile>~/Pages/Shared/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_DbContextTypeFullName>ScholarlySoftwareSearch.Models.ModelContext</WebStackScaffolding_DbContextTypeFullName>
     <NameOfLastUsedPublishProfile>ScholarlySoftwareSearch - Web Deploy</NameOfLastUsedPublishProfile>
+    <RazorPage_SelectedScaffolderID>Microsoft.WebTools.Scaffolding.Core.ModelBasedCrudRazorPageScaffolder</RazorPage_SelectedScaffolderID>
+    <RazorPage_SelectedScaffolderCategoryPath>root/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
   </PropertyGroup>
 </Project>
