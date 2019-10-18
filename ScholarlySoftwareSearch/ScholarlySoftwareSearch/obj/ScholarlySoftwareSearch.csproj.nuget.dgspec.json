@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj": {}
+    "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj": {
+    "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj",
+        "projectUniqueName": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj",
         "projectName": "ScholarlySoftwareSearch",
-        "projectPath": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj",
-        "packagesPath": "C:\\Users\\soumy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\soumy\\source\\repos\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\obj\\",
+        "projectPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch.csproj",
+        "packagesPath": "C:\\Users\\Ktlie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\soumy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ktlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
