@@ -3,6 +3,35 @@
 namespace ScholarlySoftwareSearch.Models {
     public class Software {
 
+        /// <summary>
+        /// Creates an instance of Software with default values.
+        /// Id = 0, Authors = string.Empty, UploadID = string.Empty, UploadDate = DateTime.MinValue, 
+        /// Description = string.Empty, Publisher = string.Empty, DownloadURL = string.Empty, and
+        /// Tag = string.Empty.
+        /// </summary>
+        public Software() {
+            Id = 0;
+            Authors = string.Empty;
+            UploaderID = string.Empty;
+            UploadDate = DateTime.MinValue;
+            Description = string.Empty;
+            Publisher = string.Empty;
+            DownloadURL = string.Empty;
+            Tag = string.Empty;
+        }
+
+        public Software(int id, string authors, string uploaderID, DateTime uploadDate,
+                        string description, string publisher, string downloadURL, string tag) {
+            Id = id;
+            Authors = authors;
+            UploaderID = uploaderID;
+            UploadDate = uploadDate;
+            Description = description;
+            Publisher = publisher;
+            DownloadURL = downloadURL;
+            Tag = tag;
+        }
+
         public int Id { get; set; }
 
         public string Authors { get; set; }

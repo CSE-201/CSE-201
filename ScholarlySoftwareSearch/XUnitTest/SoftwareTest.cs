@@ -21,9 +21,15 @@ namespace XUnitTest {
         }
 
         [Fact]
-        public void Get () {
+        public void GetId () {
             Assert.Equal(1, _software.Id);
         }
+
+        [Fact]
+        public void GetAuthors() {
+            Assert.Equal("Jubal Foo", _software.Authors);
+        }
+
 
     }
 }

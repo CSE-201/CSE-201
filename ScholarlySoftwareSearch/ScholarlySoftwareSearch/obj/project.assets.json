@@ -126,6 +126,21 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.dll": {}
         }
       },
+      "Microsoft.AspNetCore.TestHost/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "4.6.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.TestHost.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.TestHost.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CodeAnalysis.Analyzers/2.9.3": {
         "type": "package",
         "build": {
@@ -1629,6 +1644,15 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+      "System.IO.Pipelines/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      },
       "System.Linq/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2830,6 +2854,19 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.xml",
         "microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.razor.runtime.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.TestHost/3.0.0": {
+      "sha512": "nmLrH20GWzq3Jr6QsI9dYpNiIQkWZDh5EVN6eRXskLn9nvH6jrz850C+Eaves4eBYlQiedfMYRZqed52CIsi8g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.testhost/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.TestHost.dll",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.TestHost.xml",
+        "microsoft.aspnetcore.testhost.3.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.testhost.nuspec"
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/2.9.3": {
@@ -5654,6 +5691,29 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
+    "System.IO.Pipelines/4.6.0": {
+      "sha512": "xOqFH7Uiemd/QzUl2Di23cZCrc2CmgijeTDyFKDT8+jjpH+ynf7WoLUExY2AYGyGBjGL5Kn6DZScnqeg91zQOQ==",
+      "type": "package",
+      "path": "system.io.pipelines/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.4.6.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Linq/4.3.0": {
       "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
@@ -8383,6 +8443,7 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.0.0",
+      "Microsoft.AspNetCore.TestHost >= 3.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
       "Microsoft.Extensions.Logging.Debug >= 3.0.0",
@@ -8439,6 +8500,10 @@
             "version": "[3.0.0, )"
           },
           "Microsoft.AspNetCore.Identity.UI": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "Microsoft.AspNetCore.TestHost": {
             "target": "Package",
             "version": "[3.0.0, )"
           },

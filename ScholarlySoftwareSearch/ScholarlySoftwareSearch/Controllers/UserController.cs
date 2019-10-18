@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Controllers {
     public class UserController {
@@ -18,7 +12,7 @@ namespace ScholarlySoftwareSearch.Controllers {
         // Default roles.
         public enum Roles { Admin, Manager, Member };
 
-        public UserController (IServiceProvider serviceProvider) {
+        public UserController(IServiceProvider serviceProvider) {
             // Enforces singleton pattern.
             instance = this;
 
@@ -32,7 +26,7 @@ namespace ScholarlySoftwareSearch.Controllers {
         /// <param name="password">The user's password.</param>
         /// <param name="role">The user's default role. Can be changed later.</param>
         /// <returns></returns>
-        public async Task CreateUser (IdentityUser user, string password, Roles role) {
+        public async Task CreateUser(IdentityUser user, string password, Roles role) {
             UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
             await userManager.CreateAsync(user, password);
             string token = await userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -46,7 +40,7 @@ namespace ScholarlySoftwareSearch.Controllers {
         /// <param name="user">The existing user.</param>
         /// <param name="role">The role the user is being added to.</param>
         /// <returns></returns>
-        public async Task AddUserToRole (IdentityUser user, Roles role) {
+        public async Task AddUserToRole(IdentityUser user, Roles role) {
             UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
             await userManager.AddToRoleAsync(user, role.ToString());
         }

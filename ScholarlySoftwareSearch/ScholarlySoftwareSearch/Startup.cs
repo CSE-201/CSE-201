@@ -9,7 +9,6 @@ using ScholarlySoftwareSearch.Controllers;
 using ScholarlySoftwareSearch.Data;
 using ScholarlySoftwareSearch.Models;
 using System;
-using System.Threading.Tasks;
 
 
 namespace ScholarlySoftwareSearch {
@@ -60,12 +59,14 @@ namespace ScholarlySoftwareSearch {
 
             /* Creates an admin user pulling information from the 
              * appsettings.json file. */
-            UserController userController = new UserController(serviceProvider);
+            //UserController userController = new UserController(serviceProvider);
 
-            IdentityUser admin = new IdentityUser { UserName = Configuration.GetSection("Admin")["Username"], 
-                                                    Email = Configuration.GetSection("Admin")["Email"]};
+            //IdentityUser admin = new IdentityUser {
+            //    UserName = Configuration.GetSection("Admin")["Username"],
+            //    Email = Configuration.GetSection("Admin")["Email"]
+            //};
 
-            userController.CreateUser(admin, Configuration.GetSection("Admin")["Password"], UserController.Roles.Admin).Wait();
+            //userController.CreateUser(admin, Configuration.GetSection("Admin")["Password"], UserController.Roles.Admin).Wait();
         }
 
         //// Creates the default roles.
@@ -73,6 +74,5 @@ namespace ScholarlySoftwareSearch {
 
         //// Creates the default admin.
         //userController.CreateAdmin(serviceProvider).Wait();
-    }
     }
 }
