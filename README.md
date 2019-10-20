@@ -18,7 +18,7 @@ This section is currently empty.
 <a name="tools-used"></a>
 ## Tools Used
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
-- [ASP.net Core[(https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0)
+- [ASP.net Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0)
   
 <a name="attributions"></a>
 ## Attributions
