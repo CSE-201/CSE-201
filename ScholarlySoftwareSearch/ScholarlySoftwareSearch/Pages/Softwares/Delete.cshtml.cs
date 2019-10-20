@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ScholarlySoftwareSearch.Models;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
+    [Authorize(Roles = "Admin")]
     public class DeleteModel : PageModel {
         private readonly ScholarlySoftwareSearch.Models.ModelContext _context;
 

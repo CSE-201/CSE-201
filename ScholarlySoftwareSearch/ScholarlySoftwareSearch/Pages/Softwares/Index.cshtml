@@ -75,20 +75,12 @@
                         <a>|</a>
                         <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
                     }
-                    else
-                    {
-
-                    }
                     @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                     {
                         <a>|</a>
                         <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
                         <a>|</a>
                         <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                    }
-                    else
-                    {
-
                     }
                 </td>
             </tr>
