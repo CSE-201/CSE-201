@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScholarlySoftwareSearch", "ScholarlySoftwareSearch\ScholarlySoftwareSearch.csproj", "{46D04332-E0E8-4D09-95B2-12B66F0A8661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScholarlySoftwareSearch", "ScholarlySoftwareSearch\ScholarlySoftwareSearch.csproj", "{46D04332-E0E8-4D09-95B2-12B66F0A8661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScholarlySoftwareSearchTests", "ScholarlySoftwareSearchTests\ScholarlySoftwareSearchTests.csproj", "{BA9618F1-D112-423B-A23F-BB0135C83E91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{46D04332-E0E8-4D09-95B2-12B66F0A8661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D04332-E0E8-4D09-95B2-12B66F0A8661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D04332-E0E8-4D09-95B2-12B66F0A8661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

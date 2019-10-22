@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using Scholary_Software_Search.Models;
+using ScholarlySoftwareSearch.Models;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
@@ -14,12 +14,12 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
 
         public Software Software { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string id) {
+        public async Task<IActionResult> OnGetAsync(int? id) {
             if (id == null) {
                 return NotFound();
             }
 
-            Software = await _context.Software.FirstOrDefaultAsync(m => m.UrlAddress == id);
+            Software = await _context.Software.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Software == null) {
                 return NotFound();
