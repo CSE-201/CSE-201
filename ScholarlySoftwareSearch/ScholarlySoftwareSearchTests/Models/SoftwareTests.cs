@@ -9,6 +9,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
             Software software = new Software();
 
             Assert.AreEqual(0, software.Id);
+            Assert.AreEqual(string.Empty, software.SoftwareName);
             Assert.AreEqual(string.Empty, software.Authors);
             Assert.AreEqual(string.Empty, software.UploaderID);
             Assert.AreEqual(DateTime.MinValue, software.UploadDate);
@@ -20,10 +21,11 @@ namespace ScholarlySoftwareSearch.Models.Tests {
 
         [TestMethod()]
         public void SoftwareTestParams() {
-            Software software = new Software(1, "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
+            Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                                 "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
             Assert.AreEqual(1, software.Id);
+            Assert.AreEqual("SoftwareName", software.SoftwareName);
             Assert.AreEqual("Jubal Foo", software.Authors);
             Assert.AreEqual("1e56", software.UploaderID);
             Assert.AreEqual(DateTime.Today, software.UploadDate);

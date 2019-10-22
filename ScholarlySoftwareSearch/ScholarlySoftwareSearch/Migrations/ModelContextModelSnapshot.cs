@@ -59,6 +59,9 @@ namespace ScholarlySoftwareSearch.Migrations
                     b.Property<string>("Publisher")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("SoftwareName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Tag")
                         .HasColumnType("nvarchar(max)");
 

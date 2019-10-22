@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ScholarlySoftwareSearch.Migrations
 {
-    public partial class ModexContext_Snapshot : Migration
+    public partial class ModelContext_Snapshot : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -28,6 +28,7 @@ namespace ScholarlySoftwareSearch.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    SoftwareName = table.Column<string>(nullable: true),
                     Authors = table.Column<string>(nullable: true),
                     UploaderID = table.Column<string>(nullable: true),
                     UploadDate = table.Column<DateTime>(nullable: false),

@@ -15,9 +15,24 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<form>
+    <p>
+        <select asp-for="SoftwareTag" asp-items="Model.Tags">
+            <option value="">All</option>
+        </select>
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Software[0].SoftwareName)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Software[0].Authors)
             </th>
@@ -45,45 +60,48 @@
     <tbody>
         @foreach (var item in Model.Software)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Authors)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UploaderID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UploadDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Publisher)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DownloadURL)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Tag)
-                </td>
-                <td>
-                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoftwareName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Authors)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UploaderID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UploadDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Publisher)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DownloadURL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tag)
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
 
-                    @if (SignInManager.IsSignedIn(User) && User.IsInRole("Manager"))
-                    {
-                        <a>|</a>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
-                    }
-                    @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
-                    {
-                        <a>|</a>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
-                        <a>|</a>
-                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                    }
-                </td>
-            </tr>
+                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Manager"))
+                {
+                    <a>|</a>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                }
+                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                {
+                    <a>|</a>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                    <a>|</a>
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                }
+            </td>
+        </tr>
         }
     </tbody>
 </table>

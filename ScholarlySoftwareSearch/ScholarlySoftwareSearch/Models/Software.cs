@@ -11,6 +11,7 @@ namespace ScholarlySoftwareSearch.Models {
         /// </summary>
         public Software() {
             Id = 0;
+            SoftwareName = string.Empty;
             Authors = string.Empty;
             UploaderID = string.Empty;
             UploadDate = DateTime.MinValue;
@@ -20,9 +21,10 @@ namespace ScholarlySoftwareSearch.Models {
             Tag = string.Empty;
         }
 
-        public Software(int id, string authors, string uploaderID, DateTime uploadDate,
+        public Software(int id, string softwareName, string authors, string uploaderID, DateTime uploadDate,
                         string description, string publisher, string downloadURL, string tag) {
             Id = id;
+            SoftwareName = softwareName;
             Authors = authors;
             UploaderID = uploaderID;
             UploadDate = uploadDate;
@@ -33,6 +35,7 @@ namespace ScholarlySoftwareSearch.Models {
         }
 
         public int Id { get; set; }
+        public string SoftwareName { get; set; }
 
         public string Authors { get; set; }
 
