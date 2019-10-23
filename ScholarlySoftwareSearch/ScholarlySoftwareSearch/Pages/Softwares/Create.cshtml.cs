@@ -24,7 +24,7 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             if (!ModelState.IsValid) {
                 return Page();
             }
-
+            
             _context.Software.Add(Software);
             await _context.SaveChangesAsync();
 

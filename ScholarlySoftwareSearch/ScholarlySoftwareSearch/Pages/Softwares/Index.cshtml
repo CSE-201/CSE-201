@@ -93,7 +93,7 @@
                     <a>|</a>
                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
                 }
-                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin") || item.UploaderID == User.Identity.Name))
                 {
                     <a>|</a>
                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
