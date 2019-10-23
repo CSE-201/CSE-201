@@ -6,7 +6,7 @@ using ScholarlySoftwareSearch.Models;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class DeleteModel : PageModel {
         private readonly ScholarlySoftwareSearch.Models.ModelContext _context;
 
@@ -27,6 +27,11 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             if (Software == null) {
                 return NotFound();
             }
+
+            if (Software.UploaderID != User.Identity.Name && !User.IsInRole("Admin")) {
+                return Forbid();
+            }
+
             return Page();
         }
 

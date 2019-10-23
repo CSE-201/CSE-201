@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
-    [Authorize(Roles = "Admin, Manager")]
+    [Authorize]
     public class EditModel : PageModel {
         private readonly ScholarlySoftwareSearch.Models.ModelContext _context;
 
@@ -28,6 +28,11 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             if (Software == null) {
                 return NotFound();
             }
+
+            if (Software.UploaderID != User.Identity.Name && !(User.IsInRole("Manager") || User.IsInRole("Admin"))) {
+                return Forbid();
+            }
+
             return Page();
         }
 

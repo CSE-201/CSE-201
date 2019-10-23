@@ -1,6 +1,10 @@
 ﻿@page
 @model ScholarlySoftwareSearch.Pages.Softwares.DetailsModel
 
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Pages/Shared/_Layout.cshtml";
@@ -13,49 +17,49 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.SoftwareName)
+            Software Name
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.SoftwareName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.Authors)
+            Author(s)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.Authors)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.UploaderID)
+            Uploader Username
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.UploaderID)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.UploadDate)
+            Upload Date
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.UploadDate)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.Description)
+            Description
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.Description)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.Publisher)
+            Publisher
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.Publisher)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.DownloadURL)
+            Download URL
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Software.DownloadURL)
+            <a href=@Model.Software.DownloadURL target="_blank">@Html.DisplayFor(model => model.Software.DownloadURL)</a>
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Software.Tag)
+            Tag
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Software.Tag)
@@ -63,6 +67,12 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Software.Id">Edit</a> |
+
+    @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin") || User.IsInRole("Manager") || Model.Software.UploaderID == User.Identity.Name))
+    {
+        <a asp-page="./Edit" asp-route-id="@Model.Software.Id">Edit</a>
+        <a>|</a>
+}
+
     <a asp-page="./Index">Back to List</a>
 </div>

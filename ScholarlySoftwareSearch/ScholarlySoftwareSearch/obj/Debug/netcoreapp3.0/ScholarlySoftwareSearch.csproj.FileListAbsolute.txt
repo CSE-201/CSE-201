@@ -426,8 +426,6 @@ D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwar
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.csprojAssemblyReference.cache
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\staticwebassets\ScholarlySoftwareSearch.StaticWebAssets.Manifest.cache
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\staticwebassets\ScholarlySoftwareSearch.StaticWebAssets.xml
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cs
-D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cache
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.RazorAssemblyInfo.cache
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.RazorAssemblyInfo.cs
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.AssemblyInfoInputs.cache
@@ -692,3 +690,12 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Details.cshtml.g.cs
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Edit.cshtml.g.cs
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Index.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.Mvc.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.Razor.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.Helpers.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.WebPages.Deployment.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.WebPages.Razor.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.WebPages.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cache

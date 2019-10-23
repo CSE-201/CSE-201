@@ -31,28 +31,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].SoftwareName)
+                Name
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].Authors)
+                Author(s)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].UploaderID)
+                Upload Date
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].UploadDate)
+                Publisher
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Software[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Software[0].Publisher)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Software[0].DownloadURL)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Software[0].Tag)
+                Tag
             </th>
             <th></th>
         </tr>
@@ -61,41 +52,29 @@
         @foreach (var item in Model.Software)
         {
         <tr>
-            <td>
+            <td><a asp-page="./Details" asp-route-id="@item.Id">
                 @Html.DisplayFor(modelItem => item.SoftwareName)
-            </td>
+            </a></td>
             <td>
                 @Html.DisplayFor(modelItem => item.Authors)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UploaderID)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.UploadDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Publisher)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DownloadURL)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Tag)
             </td>
             <td>
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
 
                 @if (SignInManager.IsSignedIn(User) && User.IsInRole("Manager"))
                 {
-                    <a>|</a>
                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
                 }
                 @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin") || item.UploaderID == User.Identity.Name))
                 {
-                    <a>|</a>
                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
                     <a>|</a>
                     <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
