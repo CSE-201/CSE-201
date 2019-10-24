@@ -392,3 +392,12 @@ C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySof
 C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearchTests.csproj.CopyComplete
 C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearchTests.dll
 C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearchTests.pdb
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Web.Mvc.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Web.Razor.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Web.Helpers.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Web.WebPages.Deployment.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Web.WebPages.Razor.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Web.WebPages.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\Castle.Core.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\Moq.dll

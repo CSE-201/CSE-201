@@ -68,11 +68,5 @@ namespace ScholarlySoftwareSearch {
 
             userController.CreateUser(admin, Configuration.GetSection("Admin")["Password"], UserController.Roles.Admin).Wait();
         }
-
-        //// Creates the default roles.
-        //userController.CreateRolesAsync(serviceProvider).Wait();
-
-        //// Creates the default admin.
-        //userController.CreateAdmin(serviceProvider).Wait();
     }
 }
