@@ -68,12 +68,7 @@
                 @Html.DisplayFor(modelItem => item.Tag)
             </td>
             <td>
-
-                @if (SignInManager.IsSignedIn(User) && User.IsInRole("Manager"))
-                {
-                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
-                }
-                @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin") || item.UploaderID == User.Identity.Name))
+                @if (SignInManager.IsSignedIn(User) && ((User.IsInRole("Admin") || (User.IsInRole("Manager"))) || item.UploaderID == User.Identity.Name))
                 {
                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
                     <a>|</a>
