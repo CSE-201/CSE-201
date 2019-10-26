@@ -18,8 +18,4 @@
     <ProjectReference Include="..\ScholarlySoftwareSearch\ScholarlySoftwareSearch.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
 </Project>
