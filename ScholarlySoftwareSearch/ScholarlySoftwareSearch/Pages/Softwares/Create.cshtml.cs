@@ -5,7 +5,7 @@ using ScholarlySoftwareSearch.Models;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
-    [Authorize()]
+    [Authorize]
     public class CreateModel : PageModel {
         private readonly ScholarlySoftwareSearch.Models.ModelContext _context;
 
