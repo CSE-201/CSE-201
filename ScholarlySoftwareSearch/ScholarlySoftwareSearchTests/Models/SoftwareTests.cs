@@ -9,7 +9,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         public void SoftwareTest() {
             Software software = new Software();
 
-            // Should pass.
+            // Checks if software is created with it's default values.
             Assert.AreEqual(0, software.Id);
             Assert.AreEqual(string.Empty, software.SoftwareName);
             Assert.AreEqual(string.Empty, software.Authors);
@@ -26,7 +26,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                                 "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
-            // Tests that should pass -> They are equal.
+            // Tests if the software parameters assigned correctly and are equal to the correct values.
             Assert.AreEqual(1, software.Id);
             Assert.AreEqual("SoftwareName", software.SoftwareName);
             Assert.AreEqual("Jubal Foo", software.Authors);
@@ -37,7 +37,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
             Assert.AreEqual("www.jubalfoo.com", software.DownloadURL);
             Assert.AreEqual("Bioinformatics", software.Tag);
 
-            // Tests that should fail -> They are not equal.
+            // Tests if the software parameters assigned correctly and are not equal to the incorrect values.
             Assert.AreNotEqual(2, software.Id);
             Assert.AreNotEqual("SoftwareCame", software.SoftwareName);
             Assert.AreNotEqual("Jubal Coo", software.Authors);
@@ -54,10 +54,10 @@ namespace ScholarlySoftwareSearch.Models.Tests {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                                 "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
-            // Should pass -> Equal.
+            // Tests if to string output correctly.
             Assert.AreEqual("1 SoftwareName Jubal Foo 1e56 " + DateTime.Today.ToString() + " This is a description. Jubal Foo Inc. www.jubalfoo.com Bioinformatics", software.ToString());
 
-            // Should fail -> Not equal.
+            // Tests if to string outputs incorrectly.
             Assert.AreNotEqual("2    SoftwareName Jubal Foo 1e56 " + DateTime.Today.ToString() + " This is a . Jubal Foo Inc. www.jubalfooatics", software.ToString());
 
         }
