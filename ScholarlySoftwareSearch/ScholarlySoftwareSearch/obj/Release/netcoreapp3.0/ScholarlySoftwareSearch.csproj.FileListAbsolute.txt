@@ -356,3 +356,16 @@ D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwar
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\ScholarlySoftwareSearch.csproj.CopyComplete
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\ScholarlySoftwareSearch.dll
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\ScholarlySoftwareSearch.pdb
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.Mvc.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.Razor.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.Helpers.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.WebPages.Deployment.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.WebPages.Razor.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.WebPages.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.TestHost.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Create.cshtml.g.cs
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Delete.cshtml.g.cs
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Details.cshtml.g.cs
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Edit.cshtml.g.cs
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Index.cshtml.g.cs
