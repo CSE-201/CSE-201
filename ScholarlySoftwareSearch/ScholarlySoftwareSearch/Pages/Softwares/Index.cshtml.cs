@@ -26,12 +26,16 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
 
-        // The tags a user can search by.
-        public SelectList Tags { get; set; }
-        [BindProperty(SupportsGet = true)]
 
-        // The string of the tag that user has selected.
-        public string SoftwareTag { get; set; }
+        // The fields a user can search by.
+        public SelectList SearchBy { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string SearchByString { get; set; }
+        private string[] searchByStrings = { "Software Name", "Author(s)", "Upload Date", "Publisher", "Tag" };
+
+        public SelectList SortBy { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string SortByString { get; set; }
 
         /// <summary>
         /// Called when the user requests the index page.
@@ -46,18 +50,56 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
 
             // Checks whether the search string is empty or not.
             if (!string.IsNullOrEmpty(SearchString)) {
-                // If the string is not empty, find entries that contain the string in the name.
-                softwares = softwares.Where(s => s.SoftwareName.Contains(SearchString));
+                switch (SearchByString) {
+                    case "Software Name":
+                        // If the string is not empty, find entries that contain the string in the name.
+                        softwares = softwares.Where(s => s.SoftwareName.Contains(SearchString));
+                        break;
+                    case "Author(s)":
+                        // If the string is not empty, find entries that contain the string in the name.
+                        softwares = softwares.Where(s => s.Authors.Contains(SearchString));
+                        break;
+                    case "Upload Date":
+                        // If the string is not empty, find entries that contain the string in the name.
+                        softwares = softwares.Where(s => s.UploadDate.ToString().Contains(SearchString));
+                        break;
+                    case "Publisher":
+                        // If the string is not empty, find entries that contain the string in the name.
+                        softwares = softwares.Where(s => s.Publisher.Contains(SearchString));
+                        break;
+                    case "Tag":
+                        // If the string is not empty, find entries that contain the string in the name.
+                        softwares = softwares.Where(s => s.Tag.Contains(SearchString));
+                        break;
+                    default:
+                        break;
+                }
             }
 
-            // Checks whether the search tag is empty or not.
-            if (!string.IsNullOrEmpty(SoftwareTag)) {
-                // If the tag is not empty, grab only entries with that tag.
-                softwares = softwares.Where(s => s.Tag == SoftwareTag);
+            if (!string.IsNullOrEmpty(SortByString)) {
+                switch (SortByString) {
+                    case "Software Name":
+                        softwares = softwares.OrderBy(s => s.SoftwareName);
+                        break;
+                    case "Author(s)":
+                        softwares = softwares.OrderBy(s => s.Authors);
+                        break;
+                    case "Upload Date":
+                        softwares = softwares.OrderBy(s => s.UploadDate);
+
+                        break;
+                    case "Publisher":
+                        softwares = softwares.OrderBy(s => s.Publisher);
+
+                        break;
+                    case "Tag":
+                        softwares = softwares.OrderBy(s => s.Tag);
+
+                        break;
+                }
             }
 
-            // Set the list of tags equal to the distinct tags in the datbase.
-            Tags = new SelectList(await tagQuery.Distinct().ToListAsync());
+            SearchBy = new SelectList(searchByStrings.ToList());
 
             // Set the list of software equal to the list of software found in the query.
             Software = await softwares.ToListAsync();

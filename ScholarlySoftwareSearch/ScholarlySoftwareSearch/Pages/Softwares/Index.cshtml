@@ -18,11 +18,10 @@
 
 <form>
     <p>
-        <select asp-for="SoftwareTag" asp-items="Model.Tags">
-            <option value="">All</option>
-        </select>
-        Title: <input type="text" asp-for="SearchString" />
-        <input type="submit" value="Filter" />
+        <select asp-for="SearchByString" asp-items="Model.SearchBy"></select>: 
+        <input type="text" asp-for="SearchString" /> 
+        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy"></select> 
+        <input type="submit" value="Go" />
     </p>
 </form>
 
