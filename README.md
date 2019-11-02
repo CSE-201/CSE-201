@@ -13,7 +13,7 @@ This is the repository for the development of Scholarly Software Search for [CSE
 
 <a name="media"/></a>
 ## Media
-This section is currently empty.
+![Screenshot of index page.](Misc/Media/Screenshot_2019-11-02 Index.png)
 
 <a name="tools-used"></a>
 ## Tools Used
