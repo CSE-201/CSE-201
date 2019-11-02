@@ -38,7 +38,7 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             if (!ModelState.IsValid) {
                 return Page();
             }
-            
+
             // Adds the software to ModelContext.
             _context.Software.Add(Software);
 

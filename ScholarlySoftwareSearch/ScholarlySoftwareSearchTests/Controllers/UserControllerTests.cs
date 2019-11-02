@@ -1,12 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using ScholarlySoftwareSearch.Controllers;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Identity;
-using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Controllers.Tests {
     [TestClass()]

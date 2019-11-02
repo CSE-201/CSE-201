@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ScholarlySoftwareSearch.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ScholarlySoftwareSearch.Models.Tests {
     [TestClass()]

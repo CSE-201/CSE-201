@@ -18,9 +18,16 @@
 
 <form>
     <p>
-        <select asp-for="SearchByString" asp-items="Model.SearchBy"></select>: 
-        <input type="text" asp-for="SearchString" /> 
-        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy"></select> 
+        <select asp-for="SearchByString" asp-items="Model.SearchBy"></select>:
+        <input type="text" asp-for="SearchString" />
+        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy"></select>:
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <select asp-for="UploaderString">
+                <option value="">All Software</option>
+                <option value=@User.Identity.Name>My Software</option>
+            </select>
+        }
         <input type="submit" value="Go" />
     </p>
 </form>

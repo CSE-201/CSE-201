@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ScholarlySoftwareSearch.Models;
 
 namespace ScholarlySoftwareSearch.Models {
     public class ModelContext : DbContext {

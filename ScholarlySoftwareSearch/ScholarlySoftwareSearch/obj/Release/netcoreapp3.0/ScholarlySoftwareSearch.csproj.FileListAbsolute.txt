@@ -369,3 +369,16 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Details.cshtml.g.cs
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Edit.cshtml.g.cs
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Index.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.Mvc.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.Razor.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.Helpers.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.WebPages.Deployment.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.WebPages.Razor.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\System.Web.WebPages.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.TestHost.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Create.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Delete.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Details.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Edit.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\ClippedSoftwares\Index.cshtml.g.cs
