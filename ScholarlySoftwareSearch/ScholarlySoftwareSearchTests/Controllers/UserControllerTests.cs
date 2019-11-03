@@ -92,20 +92,5 @@ namespace ScholarlySoftwareSearch.Controllers.Tests {
                 Assert.IsTrue(true);
             }
         }
-
-        //[TestMethod()]
-        //public void CreateUserTest() {
-        //    IdentityUser user = new IdentityUser("Test");
-
-        //    var t = new Task<IdentityUser>(() => user);
-
-        //    var mockRole = new Mock<RoleManager<IdentityRole>>();
-        //    var mockUser = new Mock<UserManager<IdentityUser>>();
-        //    mockUser.Setup(x => x.FindByIdAsync("1e56")).Returns(t);
-
-        //    UserController userController = new UserController(mockRole.Object, mockUser.Object);
-
-        //    Assert.Equals(user, userController.GetIdentityUser("1e56"));
-        //}
     }
 }
