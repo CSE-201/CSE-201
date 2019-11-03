@@ -13,7 +13,8 @@ This is the repository for the development of Scholarly Software Search for [CSE
 
 <a name="media"/></a>
 ## Media
-This section is currently empty.
+The main search index page.
+![Screenshot of index page](https://raw.githubusercontent.com/CSE-201/CSE-201-Project/development/Misc/Media/Screenshot_2019-11-02%20Index.png)
 
 <a name="tools-used"></a>
 ## Tools Used
