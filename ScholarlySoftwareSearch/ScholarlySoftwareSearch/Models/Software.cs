@@ -35,6 +35,7 @@ namespace ScholarlySoftwareSearch.Models {
         }
 
         public int Id { get; set; }
+
         public string SoftwareName { get; set; }
 
         public string Authors { get; set; }
@@ -50,6 +51,10 @@ namespace ScholarlySoftwareSearch.Models {
         public string DownloadURL { get; set; }
 
         public string Tag { get; set; }
+
+        public override string ToString() {
+            return Id + " " + SoftwareName + " " + Authors + " " + UploaderID + " " + UploadDate + " " + Description + " " + Publisher + " " + DownloadURL + " " + Tag;
+        }
 
     }
 }

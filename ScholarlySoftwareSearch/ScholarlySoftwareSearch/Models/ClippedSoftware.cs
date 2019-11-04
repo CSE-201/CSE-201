@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Models {
     public class ClippedSoftware {
@@ -32,10 +29,15 @@ namespace ScholarlySoftwareSearch.Models {
         }
 
         public int Id { get; set; }
+
         public string UploaderID { get; set; }
 
         public string SoftwareID { get; set; }
 
         public DateTime ClipDate { get; set; }
+
+        public override string ToString() {
+            return Id + " " + UploaderID + " " + SoftwareID + " " + ClipDate;
+        }
     }
 }
