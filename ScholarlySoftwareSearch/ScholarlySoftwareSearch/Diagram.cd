@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.CreateModel">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.DeleteModel">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.DetailsModel">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.EditModel">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAABAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.Softwares.IndexModel">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Softwares\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Software" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Models.Software">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACABAAAAAgAAAACAAAAAAAAADAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Software.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.ClippedSoftwares.CreateModel">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIAAAAAAAAAAAAAAAAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\ClippedSoftwares\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClippedSoftware" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.ClippedSoftwares.DeleteModel">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIgAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\ClippedSoftwares\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClippedSoftware" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.ClippedSoftwares.DetailsModel">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\ClippedSoftwares\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.ClippedSoftwares.EditModel">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBAIgAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\ClippedSoftwares\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Models.ClippedSoftware">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClippedSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.ClippedSoftwares.IndexModel">
+    <Position X="19.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\ClippedSoftwares\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClippedSoftware" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.IndexModel">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.ErrorModel">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Error.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Pages.PrivacyModel">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Privacy.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScholarlySoftwareSearch.Startup">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="System.Collections.Generic.IList&lt;T&gt;">
+    <Position X="9.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
