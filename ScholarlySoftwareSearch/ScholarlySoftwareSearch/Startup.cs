@@ -32,6 +32,20 @@ namespace ScholarlySoftwareSearch {
 
             services.AddDbContext<ModelContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("ModelContext")));
+
+            services.AddAuthentication()
+        .AddGoogle(options => {
+            IConfigurationSection googleAuthNSection =
+                Configuration.GetSection("Google");
+            options.ClientId = googleAuthNSection["ClientId"];
+            options.ClientSecret = googleAuthNSection["ClientSecret"];
+        });
+
+            services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = Configuration["Facebook:AppId"];
+                facebookOptions.AppSecret = Configuration["Facebook:AppSecret"];
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

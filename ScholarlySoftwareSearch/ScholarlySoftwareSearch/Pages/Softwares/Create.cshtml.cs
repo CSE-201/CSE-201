@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ScholarlySoftwareSearch.Models;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
@@ -37,6 +38,14 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             // Whether the model state is valid or not.
             if (!ModelState.IsValid) {
                 return Page();
+            }
+
+            WebRequest webRequest = WebRequest.Create(Software.DownloadURL);
+            WebResponse webResponse;
+            try {
+                webResponse = webRequest.GetResponse();
+            } catch (System.Exception) {
+                return RedirectToPage("./Error");
             }
 
             // Adds the software to ModelContext.

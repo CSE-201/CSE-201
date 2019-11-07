@@ -492,8 +492,6 @@ D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwar
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.dll
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.pdb
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.TestHost.dll
-C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\soumy\source\repos\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -706,3 +704,4 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\System.Web.WebPages.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.csprojAssemblyReference.cache
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
