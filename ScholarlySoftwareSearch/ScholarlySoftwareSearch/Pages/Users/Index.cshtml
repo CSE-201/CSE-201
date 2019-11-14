@@ -1,0 +1,50 @@
+﻿@page
+@model ScholarlySoftwareSearch.Pages.Users.IndexModel
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Username
+            </th>
+            <th>
+                ID
+            </th>
+            <th>
+                Email
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in UserManager.Users)
+        {
+            <tr>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@item.NormalizedUserName">
+                        @Html.DisplayFor(modelItem => item.NormalizedUserName)
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td><select asp-for="SearchByString" asp-items="Model.Roles">
+                </select></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -705,3 +705,7 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.csprojAssemblyReference.cache
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearch.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Debug\netcoreapp3.0\Razor\Pages\Users\Index.cshtml.g.cs

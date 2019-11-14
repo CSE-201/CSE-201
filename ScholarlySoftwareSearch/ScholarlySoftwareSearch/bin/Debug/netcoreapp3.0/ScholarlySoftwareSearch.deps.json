@@ -25,6 +25,7 @@
       "ScholarlySoftwareSearch/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.Mvc": "5.2.7",
+          "Microsoft.AspNetCore.Authentication.Facebook": "3.0.0",
           "Microsoft.AspNetCore.Authentication.Google": "3.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
@@ -378,6 +379,17 @@
           "lib/net45/System.Web.WebPages.Deployment.dll": {},
           "lib/net45/System.Web.WebPages.Razor.dll": {},
           "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46502"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Google/3.0.0": {
@@ -3909,6 +3921,13 @@
       "sha512": "sha512-2jwZFB7PvY+tbdz0ZP4iEo7gMrJxkCQUzoGLh6swUc6ZXl6DoKyDslmGcC/j9PFmJXCRMVIqtRorlPSMU2DuRA==",
       "path": "microsoft.aspnet.webpages/3.2.7",
       "hashPath": "microsoft.aspnet.webpages.3.2.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MghMzwXlVZHNM/SoaZYSo3Uzur2ludF1wFCZkgegFwihCu1FqiBfJK4c5KbjOs5dM7KLNtr98qVscXv5F0qbw==",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.3.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Google/3.0.0": {
       "type": "package",

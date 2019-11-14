@@ -55,7 +55,7 @@ namespace ScholarlySoftwareSearch.Controllers {
             RoleManager<IdentityRole> roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             string[] roleNames = roles;
             IdentityResult roleResult;
-
+            
             foreach (string roleName in roleNames) {
                 // Creating the roles and adding them to the database.
                 bool roleExist = await roleManager.RoleExistsAsync(roleName);
