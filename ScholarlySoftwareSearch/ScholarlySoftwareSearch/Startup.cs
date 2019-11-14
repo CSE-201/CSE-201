@@ -41,8 +41,7 @@ namespace ScholarlySoftwareSearch {
             options.ClientSecret = googleAuthNSection["ClientSecret"];
         });
 
-            services.AddAuthentication().AddFacebook(facebookOptions =>
-            {
+            services.AddAuthentication().AddFacebook(facebookOptions => {
                 facebookOptions.AppId = Configuration["Facebook:AppId"];
                 facebookOptions.AppSecret = Configuration["Facebook:AppSecret"];
             });

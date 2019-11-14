@@ -26,6 +26,11 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/Softwares/Index">Softwares</a>
                         </li>
+                        @if (User.IsInRole("Admin"))
+                        { <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-page="/Users/Index">User Management</a>
+                        </li>
+                        }
                     </ul>
                 </div>
             </div>

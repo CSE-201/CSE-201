@@ -10,7 +10,15 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>User Manager</h1>
+
+<form method="post">
+    <p>
+        <select asp-for="RoleString" asp-items="Model.Roles"></select>:
+        <input type="text" asp-for="UserString" />
+        <input type="submit" value="Go" />
+    </p>
+</form>
 
 <table class="table">
     <thead>
@@ -24,27 +32,31 @@
             <th>
                 Email
             </th>
+            <th>
+                Current Role
+            </th>
             <th></th>
         </tr>
     </thead>
-    <tbody>
-        @foreach (var item in UserManager.Users)
-        {
-            <tr>
-                <td>
-                    <a asp-page="./Details" asp-route-id="@item.NormalizedUserName">
-                        @Html.DisplayFor(modelItem => item.NormalizedUserName)
-                    </a>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td><select asp-for="SearchByString" asp-items="Model.Roles">
-                </select></td>
-            </tr>
-        }
-    </tbody>
+        <tbody>
+            @foreach (var item in UserManager.Users)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.NormalizedUserName">
+                            @Html.DisplayFor(modelItem => item.NormalizedUserName)
+                        </a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        <p>@Model.dictionary[item]</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
 </table>

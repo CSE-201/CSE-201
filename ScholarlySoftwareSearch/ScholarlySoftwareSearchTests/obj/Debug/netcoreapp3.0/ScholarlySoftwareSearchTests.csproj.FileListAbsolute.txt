@@ -60,7 +60,6 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -607,3 +606,6 @@ D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwar
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearchTests.csproj.CopyComplete
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearchTests.dll
 D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\obj\Debug\netcoreapp3.0\ScholarlySoftwareSearchTests.pdb
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\testhost.exe
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchTests\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
