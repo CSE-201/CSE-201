@@ -10,6 +10,20 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
+<head>
+    <script src="http://code.jquery.com/jquery-1.5.js"></script>
+    <script>
+    function countChar(str) {
+        var len = str.value.length;
+        if (len >= 400) {
+        str.value = str.value.substring(0, 400);
+        } else {
+        $('#charNum').text(400 - len + " characters remaining");
+        }
+    };
+    </script>
+</head>
+
 <h1>Create</h1>
 
 <h4>Software</h4>
@@ -40,7 +54,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="Software.Description" class="control-label"></label>
-                <textarea asp-for="Software.Description" class="form-control" rows="15" required></textarea>
+                <textarea asp-for="Software.Description" class="form-control" rows="15" id="field" onkeyup="countChar(this)"></textarea>
+                <div id="charNum"></div>
                 <span asp-validation-for="Software.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -50,7 +65,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Software.DownloadURL" class="control-label"></label>
-                <input type="url" asp-for="Software.DownloadURL" class="form-control" required/>
+                <input type="url" asp-for="Software.DownloadURL" class="form-control" required />
                 <span asp-validation-for="Software.DownloadURL" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -61,6 +76,7 @@
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
                 <p>Please note, it might take a minute to validate your software entry, please do not refresh your page.</p>
+                <p>ENSURE YOUR DOWNLOAD URL IS A VALID LINK<p>
             </div>
         </form>
     </div>
