@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ScholarlySoftwareSearch</name>
+    </assembly>
+    <members>
+        <member name="M:ScholarlySoftwareSearch.Controllers.UserController.CreateUser(Microsoft.AspNetCore.Identity.IdentityUser,System.String,ScholarlySoftwareSearch.Controllers.UserController.Roles)">
+            <summary>
+            Creates a user and adds them to the database.
+            </summary>
+            <param name="user">The user being added to the database.</param>
+            <param name="password">The user's password.</param>
+            <param name="role">The user's default role. Can be changed later.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Controllers.UserController.AddUserToRole(Microsoft.AspNetCore.Identity.IdentityUser,ScholarlySoftwareSearch.Controllers.UserController.Roles)">
+            <summary>
+            Adds an existing user to a role.
+            </summary>
+            <param name="user">The existing user.</param>
+            <param name="role">The role the user is being added to.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Controllers.UserController.CreateRolesAsync(System.String[])">
+            <summary>
+            Creates new roles for users to be added to into the RoleManager.
+            </summary>
+            <param name="roles">The roles being added to the RoleManager.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Controllers.UserController.GetRole(Microsoft.AspNetCore.Identity.IdentityUser)">
+            <summary>
+            Gets the role of a user.
+            </summary>
+            <param name="user">The existing user.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Controllers.UserController.FindUser(System.String)">
+            <summary>
+            Finds the user based on a username.
+            </summary>
+            <param name="userName">The user's username.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Models.ClippedSoftware.#ctor">
+            <summary>
+            Creates an instance of ClippedSoftware with default values.
+            UploaderID = "1", SoftwareID = "2", and ClipDate = DateTime.MinValue.
+            </summary>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Models.ClippedSoftware.#ctor(System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Creates an instance of ClippedSoftware.
+            </summary>
+            <param name="uploaderID"></param>
+            <param name="softwareID"></param>
+            <param name="clipDate"></param>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Models.Software.#ctor">
+            <summary>
+            Creates an instance of Software with default values.
+            Id = 0, Authors = string.Empty, UploadID = string.Empty, UploadDate = DateTime.MinValue, 
+            Description = string.Empty, Publisher = string.Empty, DownloadURL = string.Empty, and
+            Tag = string.Empty.
+            </summary>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.CreateModel.#ctor(ScholarlySoftwareSearch.Models.ModelContext)">
+            <summary>
+            Creates an instance of CreateModel with ModelContext.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.CreateModel.OnGet">
+            <summary>
+            Called when the user requests the create page.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.CreateModel.OnPostAsync">
+            <summary>
+            Upon getting the user's information about software entry, adds that to the database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.DeleteModel.#ctor(ScholarlySoftwareSearch.Models.ModelContext)">
+            <summary>
+            Creates an instance of DeleteModel with ModelContext.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.DeleteModel.OnGetAsync(System.Nullable{System.Int32})">
+            <summary>
+            Called when the user requests the delete page.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.DeleteModel.OnPostAsync(System.Nullable{System.Int32})">
+            <summary>
+            Called when the user deletes the software entry.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.DetailsModel.#ctor(ScholarlySoftwareSearch.Models.ModelContext)">
+            <summary>
+            Creates an instance of DetailModel with ModelContext.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.DetailsModel.OnGetAsync(System.Nullable{System.Int32})">
+            <summary>
+            Called when the user requests the detail page.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.EditModel.#ctor(ScholarlySoftwareSearch.Models.ModelContext)">
+            <summary>
+            Creates an instance of EditModel with ModelContext.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.EditModel.OnGetAsync(System.Nullable{System.Int32})">
+            <summary>
+            Called when the user requests the edit page for an entry.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.EditModel.SoftwareExists(System.Int32)">
+            <summary>
+            Checks to see if a software entry exists.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.IndexModel.#ctor(ScholarlySoftwareSearch.Models.ModelContext)">
+            <summary>
+            Creates an instance of IndexModel with ModelContext.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ScholarlySoftwareSearch.Pages.Softwares.IndexModel.OnGetAsync">
+            <summary>
+            Called when the user requests the index page.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
