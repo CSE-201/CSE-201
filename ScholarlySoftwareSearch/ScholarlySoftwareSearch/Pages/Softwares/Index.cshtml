@@ -13,14 +13,14 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
 </p>
 
 <form>
     <p>
-        <select asp-for="SearchByString" asp-items="Model.SearchBy" class="py-2 rounded mr-0 pr-3"></select>:
-        <input type="text" asp-for="SearchString" class="py-2 rounded mr-1 pr-5"/>
-        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy" class="py-2 rounded mr-0 pr-3"></select>:
+        Search by <select asp-for="SearchByString" asp-items="Model.SearchBy" class="py-2 rounded mr-0 pr-3"></select> : 
+        <input type="text" asp-for="SearchString" class="py-2 rounded mr-0 pr-3"/>
+        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy" class="py-2 rounded mr-0 pr-3"></select> : 
         @if (SignInManager.IsSignedIn(User))
         {
             <select asp-for="UploaderString" class="py-2 rounded mr-0 pr-3">
@@ -28,7 +28,7 @@
                 <option value=@User.Identity.Name>My Software</option>
             </select>
         }
-        <input type="submit" value="Go" class="btn btn-primary"/>
+        <input type="submit" value="Search" class="btn btn-primary"/>
     </p>
 </form>
 
@@ -43,10 +43,10 @@
                 Description
             </th>
             <th>
-                Tag
+                Publisher
             </th>
             <th>
-                Publisher
+                Tag
             </th>
             <th>
                 Upload Date

@@ -14,11 +14,13 @@
 
 <form method="post">
     <p>
-        <select asp-for="RoleString" asp-items="Model.Roles"></select>:
-        <input type="text" asp-for="UserString" />
-        <input type="submit" value="Go" />
+        Change <input type="text" asp-for="UserString" class="py-2 rounded mr-0 pr-3" /> 
+        to <select asp-for="RoleString" asp-items="Model.Roles" class="py-2 rounded mr-0 pr-3"></select> : 
+        <input type="submit" value="Go" class="btn btn-primary" />
     </p>
 </form>
+
+<p>Please note: Changes will be made next time the user logs in.</p>
 
 <table class="table">
     <thead>
