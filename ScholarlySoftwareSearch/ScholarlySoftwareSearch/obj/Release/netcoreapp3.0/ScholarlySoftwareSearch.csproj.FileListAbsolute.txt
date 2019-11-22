@@ -385,3 +385,7 @@ D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwar
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\Users\Index.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\bin\Release\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\About.cshtml.g.cs
+D:\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearch\obj\Release\netcoreapp3.0\Razor\Pages\Users\Index.cshtml.g.cs
