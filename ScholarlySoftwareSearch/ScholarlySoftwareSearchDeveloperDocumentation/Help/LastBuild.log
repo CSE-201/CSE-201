@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\ScholarlySoftwareSearchDeveloperDocumentation.shfbproj" started="11/19/2019 1:55:33 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\ScholarlySoftwareSearchDeveloperDocumentation.shfbproj" started="11/23/2019 2:10:22 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -13,9 +13,6 @@ Loading and initializing plug-ins...
 Lightweight Website Style Version 2019.11.17.0
 Copyright &#169; 2006-2019, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
-</buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
@@ -52,6 +49,7 @@ References to include:
     Microsoft.EntityFrameworkCore
     Microsoft.EntityFrameworkCore.Abstractions
     Microsoft.EntityFrameworkCore.Design
+    Microsoft.EntityFrameworkCore.InMemory
     Microsoft.EntityFrameworkCore.Relational
     Microsoft.EntityFrameworkCore.SqlServer
     Microsoft.Extensions.Caching.Abstractions
@@ -70,6 +68,9 @@ References to include:
     Microsoft.Extensions.Logging.Debug
     Microsoft.Extensions.Options
     Microsoft.Extensions.Primitives
+    Microsoft.VisualStudio.Threading
+    Microsoft.VisualStudio.Utilities
+    Microsoft.VisualStudio.Validation
     Microsoft.VisualStudio.Web.CodeGeneration
     Microsoft.VisualStudio.Web.CodeGeneration.Contracts
     Microsoft.VisualStudio.Web.CodeGeneration.Core
@@ -77,8 +78,12 @@ References to include:
     Microsoft.VisualStudio.Web.CodeGeneration.Templating
     Microsoft.VisualStudio.Web.CodeGeneration.Utils
     Microsoft.VisualStudio.Web.CodeGenerators.Mvc
+    Microsoft.Win32.Primitives
+    Microsoft.Win32.Registry
+    Nerdbank.Streams
     Newtonsoft.Json
     NuGet.Frameworks
+    StreamJsonRpc
     System.Collections
     System.Collections.Concurrent
     System.Collections.Immutable
@@ -87,13 +92,17 @@ References to include:
     System.Diagnostics.DiagnosticSource
     System.Diagnostics.Tools
     System.Globalization
+    System.Globalization.Calendars
     System.IO
     System.IO.FileSystem
     System.IO.FileSystem.Primitives
     System.IO.Pipelines
     System.Linq
     System.Net.Primitives
+    System.Net.WebSockets
     System.Reflection
+    System.Reflection.Emit
+    System.Reflection.Emit.ILGeneration
     System.Reflection.Extensions
     System.Reflection.Metadata
     System.Reflection.Primitives
@@ -103,7 +112,13 @@ References to include:
     System.Runtime.Extensions
     System.Runtime.Handles
     System.Runtime.InteropServices
+    System.Runtime.Numerics
+    System.Security.AccessControl
+    System.Security.Cryptography.Algorithms
+    System.Security.Cryptography.Encoding
     System.Security.Cryptography.Primitives
+    System.Security.Cryptography.X509Certificates
+    System.Security.Principal.Windows
     System.Text.Encoding
     System.Text.Encoding.CodePages
     System.Text.Encoding.Extensions
@@ -119,7 +134,7 @@ SHFB: Warning BE0062: No documentation source XML comments files found.  The hel
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0170
+</plugIn>    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -128,7 +143,7 @@ Generating API filter for MRefBuilder...
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 11/19/2019 1:55:35 PM.
+Build started 11/23/2019 2:10:23 PM.
 Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -139,8 +154,9 @@ GenerateRefInfo:
   Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
-  Loaded 1 assemblies for reflection and 163 dependency assemblies.
+  Loaded 1 assemblies for reflection and 172 dependency assemblies.
 MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.RazorPages (Microsoft.AspNetCore.Mvc.RazorPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by ScholarlySoftwareSearch [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj]
+  Using automatic redirect &#39;Microsoft.EntityFrameworkCore, Version=3.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60&#39; in place of &#39;Microsoft.EntityFrameworkCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60&#39;
 MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Hosting.Abstractions (Microsoft.AspNetCore.Hosting.Abstractions, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by ScholarlySoftwareSearch [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj]
   Using automatic redirect &#39;System.Diagnostics.Debug, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Diagnostics.Debug, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
 MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Hosting.Abstractions (Microsoft.Extensions.Hosting.Abstractions, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by ScholarlySoftwareSearch [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj]
@@ -162,19 +178,19 @@ MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNet
   Using automatic redirect &#39;System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51&#39; in place of &#39;System.Text.Encodings.Web, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51&#39;
 MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Authorization (Microsoft.AspNetCore.Authorization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by ScholarlySoftwareSearch [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj]
 MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Configuration.UserSecrets (Microsoft.Extensions.Configuration.UserSecrets, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by ScholarlySoftwareSearch [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj]
-  Wrote information on 14 namespaces, 69 types, and 301 members
+  Wrote information on 14 namespaces, 70 types, and 304 members
   Copying file from &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\reflection.org&quot; to &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\reflection.all&quot;.
   XslTransform (v2019.11.17.0)
   Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:04.0858
+    Last step completed in 00:00:05.7008
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 11/19/2019 1:55:39 PM.
+Build started 11/23/2019 2:10:29 PM.
 Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2019.11.17.0)
@@ -191,11 +207,11 @@ TransformManifest:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:00.5535
+    Last step completed in 00:00:00.6126
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.6693
+    Last step completed in 00:00:00.8791
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -227,14 +243,30 @@ Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySo
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.VisualStudio.Web.CodeGeneration.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\dotnet-aspnet-codegenerator-design.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Win32.Primitives.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Net.WebSockets.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Globalization.Calendars.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Security.Cryptography.X509Certificates.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Security.Cryptography.Encoding.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Runtime.Numerics.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Nerdbank.Streams.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\StreamJsonRpc.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.VisualStudio.Validation.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.VisualStudio.Threading.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.VisualStudio.Utilities.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.Logging.Debug.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.EntityFrameworkCore.Design.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Security.Principal.Windows.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Security.AccessControl.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Win32.Registry.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Diagnostics.Tools.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Xml.XDocument.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Reflection.Emit.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.IO.FileSystem.Primitives.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.IO.FileSystem.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Xml.ReaderWriter.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Text.Encoding.Extensions.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Reflection.Emit.ILGeneration.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Collections.Concurrent.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Net.Primitives.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Threading.xml
@@ -253,17 +285,6 @@ Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySo
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Diagnostics.Debug.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Collections.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.EntityFrameworkCore.SqlServer.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.IO.Pipelines.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.TestHost.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Newtonsoft.Json.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.FileProviders.Abstractions.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.FileProviders.Embedded.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Identity.UI.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Cryptography.Internal.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.Identity.Core.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.Identity.Stores.xml
-Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Diagnostics.DiagnosticSource.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.ComponentModel.Annotations.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Collections.Immutable.xml
@@ -280,18 +301,30 @@ Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySo
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.Caching.Memory.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.EntityFrameworkCore.Abstractions.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.EntityFrameworkCore.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.EntityFrameworkCore.InMemory.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.IO.Pipelines.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.TestHost.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Newtonsoft.Json.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.FileProviders.Abstractions.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.FileProviders.Embedded.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Identity.UI.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Cryptography.Internal.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.Identity.Core.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.Extensions.Identity.Stores.xml
+Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.EntityFrameworkCore.Relational.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Authentication.Google.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Microsoft.AspNetCore.Authentication.Facebook.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\System.Web.Mvc.xml
 Indexing C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\_ProjNS_.xml
-Indexed 194062 members in 206 file(s).  79 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 197240 members in 223 file(s).  96 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.5081
+    Last step completed in 00:00:02.5249
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -306,28 +339,28 @@ Generating conceptual topic files
     C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\ddueXml\f9c20b28-dc7a-4589-b706-ac95c30e9bce.xml
     Parsing topic file &#39;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\ddueXml\0831edf6-b35d-44d8-b831-0a1c23947b16.xml
-    Last step completed in 00:00:00.0578
+    Last step completed in 00:00:00.1132
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\icons\Help.png -&gt; C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 11/19/2019 1:55:41 PM.
+Build started 11/23/2019 2:10:33 PM.
 Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2019.11.17.0)
@@ -336,12 +369,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2249
+    Last step completed in 00:00:00.4294
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.5336
+    Last step completed in 00:00:00.8408
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -349,12 +382,12 @@ C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSea
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0180
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 11/19/2019 1:55:42 PM.
+Build started 11/23/2019 2:10:34 PM.
 Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2019.11.17.0)
@@ -650,6 +683,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Area
 BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync] Missing &lt;returns&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.OnPostAsync] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.OnPostAsync] Missing &lt;returns&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.Role] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.StatusMessage] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.Username] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.InputModel] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
@@ -827,6 +861,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Mode
 BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Models.Software.UploadDate] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Models.Software.UploaderID] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:ScholarlySoftwareSearch.Pages] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ScholarlySoftwareSearch.Pages.AboutModel] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Pages.AboutModel.OnGet] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:ScholarlySoftwareSearch.Pages.ErrorModel] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Pages.ErrorModel.#ctor(Microsoft.Extensions.Logging.ILogger{ScholarlySoftwareSearch.Pages.ErrorModel})] Missing &lt;param name=&quot;logger&quot;/&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ScholarlySoftwareSearch.Pages.ErrorModel.OnGet] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
@@ -930,18 +966,18 @@ BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Page
 BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Pages.Users.IndexModel.RoleString] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:ScholarlySoftwareSearch.Pages.Users.IndexModel.users] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:ScholarlySoftwareSearch.Pages.Users.IndexModel.UserString] Missing &lt;summary&gt; documentation [C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj]
-  Processed 512 topic(s)
-  568 warning(s)
+  Processed 517 topic(s)
+  571 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:12.6456
+    Last step completed in 00:00:14.2815
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -953,11 +989,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Output\Website
-Processed 512 HTML files
+Processed 517 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.6483
+    Last step completed in 00:00:00.8068
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -1039,7 +1075,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; C:\Users\Ktlie\Desktop\Development\Software\CSE-201-Project\ScholarlySoftwareSearch\ScholarlySoftwareSearchDeveloperDocumentation\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:01.2157
+    Last step completed in 00:00:00.7551
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -1050,22 +1086,22 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:01.1060
+</plugIn>    Last step completed in 00:00:01.0562
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 809 files for the website content
-    Last step completed in 00:00:02.4584
+Copied 816 files for the website content
+    Last step completed in 00:00:01.6811
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2683
+    Last step completed in 00:00:00.2847
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 11/19/2019 1:56:00 PM.  Total time: 00:00:27.2862
+Build completed successfully at 11/23/2019 2:10:53 PM.  Total time: 00:00:31.4678
 
 </buildStep>
 </shfbBuild>
