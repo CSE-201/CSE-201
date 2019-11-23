@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="ScholarlySoftwareSearch" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\obj\\Release\\netcoreapp3\.0\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftwareSearch\\obj\\Release\\netcoreapp3\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

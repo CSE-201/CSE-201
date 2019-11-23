@@ -36,7 +36,7 @@
                 </div>
                 <div class="form-group">
                     <!-- For the time being this are commented out until email support is added / if added. -->
-                    <!--<p>
+                    <p>
                         <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
                     </p>
                     <p>
@@ -44,36 +44,37 @@
                     </p>
                     <p>
                         <button type="submit" asp-page-handler="SendVerificationEmail" class="btn-link" style="padding:0px;margin:0px;border:0px">Resend email confirmation</button>
-                    </p>-->
+                    </p>
                 </div>
             </form>
         </section>
     </div>
+    <!-- For the time being this is commented out until external authentication is added / if it is added. -->
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h4>Login through...</h4>
+            <h4>Use another service to log in.</h4>
             <hr />
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)
                 {
-                <div>
-                    <p>
-                Please note: there are no external authentication services configured.
-                    </p>
-                </div>
+                    <div>
+                        <p>
+                            There are no external authentication services configured.
+                        </p>
+                    </div>
                 }
                 else
                 {
-                <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                    <div>
-                        <p>
-                            @foreach (var provider in Model.ExternalLogins)
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins)
                                 {
-                            <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
                                 }
-                        </p>
-                    </div>
-                </form>
+                            </p>
+                        </div>
+                    </form>
                 }
             }
         </section>
