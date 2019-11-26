@@ -5,17 +5,13 @@ using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Controllers {
     public class UserController {
-        public static UserController instance;
 
-        private IServiceProvider serviceProvider;
+        public IServiceProvider serviceProvider;
 
         // Default roles.
         public enum Roles { Admin, Manager, Member };
 
         public UserController(IServiceProvider serviceProvider) {
-            // Enforces singleton pattern.
-            instance = this;
-
             this.serviceProvider = serviceProvider;
         }
 
@@ -42,6 +38,13 @@ namespace ScholarlySoftwareSearch.Controllers {
         /// <returns></returns>
         public async Task AddUserToRole(IdentityUser user, Roles role) {
             UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+            Roles currentRole = await GetRole(user);
+
+            if (currentRole != Roles.Member) {
+                await userManager.RemoveFromRoleAsync(user, currentRole.ToString());
+            }
+
             await userManager.AddToRoleAsync(user, role.ToString());
         }
 
@@ -63,6 +66,31 @@ namespace ScholarlySoftwareSearch.Controllers {
                     roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
                 }
             }
+        }
+
+        /// <summary>
+        /// Gets the role of a user.
+        /// </summary>
+        /// <param name="user">The existing user.</param>
+        /// <returns></returns>
+        public async Task<Roles> GetRole(IdentityUser user) {
+            UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            foreach (Roles r in Enum.GetValues(typeof(Roles))) {
+                if (await userManager.IsInRoleAsync(user, r.ToString())) {
+                    return r;
+                }
+            }
+            return Roles.Member;
+        }
+
+        /// <summary>
+        /// Finds the user based on a username.
+        /// </summary>
+        /// <param name="userName">The user's username.</param>
+        /// <returns></returns>
+        public async Task<IdentityUser> FindUser(string userName) {
+            UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            return await userManager.FindByNameAsync(userName);
         }
 
     }

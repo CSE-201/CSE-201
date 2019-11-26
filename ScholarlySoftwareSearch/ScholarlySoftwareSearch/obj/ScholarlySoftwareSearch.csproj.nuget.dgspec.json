@@ -47,6 +47,14 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -63,6 +71,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -74,6 +86,10 @@
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[16.3.29318.209, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

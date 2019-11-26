@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AboutModel class">
+    <HelpKINode Title="AboutModel Class" Url="html/5e733d67-d803-5e33-b35c-12e86bb964d7.htm" />
+    <HelpKINode Title="constructor" Url="html/1b8e84aa-a9ae-f06d-155e-79d3fefce174.htm" />
+    <HelpKINode Title="methods" Url="html/5b8bf638-f0a0-16ec-0b9c-0f66dd60cd36.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AboutModel.AboutModel constructor" Url="html/1b8e84aa-a9ae-f06d-155e-79d3fefce174.htm" />
+  <HelpKINode Title="AboutModel.OnGet method" Url="html/e12b19e4-392f-eeb2-f2b6-10c37e81b63a.htm" />
+  <HelpKINode Title="AccessDeniedModel class">
+    <HelpKINode Title="AccessDeniedModel Class" Url="html/a65a3423-aa3a-5093-8b81-18196a41ed06.htm" />
+    <HelpKINode Title="constructor" Url="html/19ca85a8-86a5-c3b4-a5a2-2eafa986f0b8.htm" />
+    <HelpKINode Title="methods" Url="html/b4fc6fd5-edad-9a2f-ff81-013a00d9c265.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessDeniedModel.AccessDeniedModel constructor" Url="html/19ca85a8-86a5-c3b4-a5a2-2eafa986f0b8.htm" />
+  <HelpKINode Title="AccessDeniedModel.OnGet method" Url="html/611126f9-a042-ea1b-ef7b-bb2c6222c14c.htm" />
+  <HelpKINode Title="AddUserToRole method" Url="html/2db301b8-4341-e6c6-eae1-2ffbcf344b2c.htm" />
+  <HelpKINode Title="Admin enumeration member" Url="html/08abb09d-ce95-0545-8739-e105f45f5bfc.htm" />
+  <HelpKINode Title="ApplicationDbContext class">
+    <HelpKINode Title="ApplicationDbContext Class" Url="html/8540cdb1-fc24-c472-5da1-d44e07e02376.htm" />
+    <HelpKINode Title="constructor" Url="html/10b08521-5243-e689-7266-bae09786cda7.htm" />
+    <HelpKINode Title="methods" Url="html/b3e08db5-2597-aa4a-9641-3d8fcf626b96.htm" />
+    <HelpKINode Title="properties" Url="html/b136a58c-f2d9-ae77-f7b6-f1049694ca82.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApplicationDbContext.ApplicationDbContext constructor" Url="html/10b08521-5243-e689-7266-bae09786cda7.htm" />
+  <HelpKINode Title="ApplicationDbContext_Snapshot class">
+    <HelpKINode Title="ApplicationDbContext_Snapshot Class" Url="html/3c92a8b6-5a04-4011-090e-675cbd25ebe5.htm" />
+    <HelpKINode Title="constructor" Url="html/541d15e2-04e9-6c6c-f9ec-9e6a1b0b1238.htm" />
+    <HelpKINode Title="methods" Url="html/4b8fbeff-9865-58be-fcc5-bcf8a533d2f4.htm" />
+    <HelpKINode Title="properties" Url="html/68448ac7-0865-77fa-88da-4f9752360033.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApplicationDbContext_Snapshot.ApplicationDbContext_Snapshot constructor" Url="html/541d15e2-04e9-6c6c-f9ec-9e6a1b0b1238.htm" />
+  <HelpKINode Title="ApplicationDbContext_Snapshot.BuildTargetModel method" Url="html/b5dca431-c85d-111e-b1c0-9cf36b55011e.htm" />
+  <HelpKINode Title="ApplicationDbContext_Snapshot.Down method" Url="html/7b8cfa08-49cc-3879-f2e7-bf7eb8d0e6f3.htm" />
+  <HelpKINode Title="ApplicationDbContext_Snapshot.Up method" Url="html/e21da58d-8197-a923-4d6c-7c989c252780.htm" />
+  <HelpKINode Title="AuthenticatorUri property" Url="html/58232188-0bc9-adb5-4ed0-5f8b80b3f8cd.htm" />
+  <HelpKINode Title="Authors property" Url="html/f458a74a-44b4-904b-4abe-5013b0dcb96a.htm" />
+  <HelpKINode Title="BuildTargetModel method">
+    <HelpKINode Title="ApplicationDbContext_Snapshot.BuildTargetModel Method " Url="html/b5dca431-c85d-111e-b1c0-9cf36b55011e.htm" />
+    <HelpKINode Title="ModelContext_Snapshot.BuildTargetModel Method " Url="html/7c574fbc-ece0-45e0-b9b6-763628c4bb19.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangePassword property" Url="html/3bccf89b-a8a4-5be5-b511-7a4cab88e3cd.htm" />
+  <HelpKINode Title="ChangePasswordModel class">
+    <HelpKINode Title="ChangePasswordModel Class" Url="html/85b2c151-6bab-b9a7-e5d1-fd88fc0ba359.htm" />
+    <HelpKINode Title="constructor" Url="html/3e0cfa86-9395-dcda-65e5-aabe0b691f2a.htm" />
+    <HelpKINode Title="methods" Url="html/9c132e11-e222-c1f7-c9c1-d5c3114621f5.htm" />
+    <HelpKINode Title="properties" Url="html/e285fb47-5224-8d6f-cb89-d85e658bfd4e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangePasswordModel.ChangePasswordModel constructor" Url="html/3e0cfa86-9395-dcda-65e5-aabe0b691f2a.htm" />
+  <HelpKINode Title="ChangePasswordModel.Input property" Url="html/d9147cdc-6ad8-4aa0-faa0-96b99f42bf37.htm" />
+  <HelpKINode Title="ChangePasswordModel.InputModel class">
+    <HelpKINode Title="ChangePasswordModel.InputModel Class" Url="html/ad8508ec-2009-55e1-aae5-68ca18637c7f.htm" />
+    <HelpKINode Title="constructor" Url="html/6b64864f-d020-0eea-5b50-5e68ee2b89c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChangePasswordModel.InputModel.ConfirmPassword property" Url="html/2fdb53d9-71e3-a468-9cb7-40ea34377267.htm" />
+  <HelpKINode Title="ChangePasswordModel.InputModel.InputModel constructor" Url="html/6b64864f-d020-0eea-5b50-5e68ee2b89c6.htm" />
+  <HelpKINode Title="ChangePasswordModel.InputModel.NewPassword property" Url="html/cd55efa0-2402-7e9d-1255-23be53296d37.htm" />
+  <HelpKINode Title="ChangePasswordModel.InputModel.OldPassword property" Url="html/b23067f4-de72-94a2-973a-10199edb48fa.htm" />
+  <HelpKINode Title="ChangePasswordModel.OnGetAsync method" Url="html/df011f5b-e00b-bce1-4f8e-7ab4f046ea74.htm" />
+  <HelpKINode Title="ChangePasswordModel.OnPostAsync method" Url="html/33cfe2ec-aac3-1a3a-041e-82879999020f.htm" />
+  <HelpKINode Title="ChangePasswordModel.StatusMessage property" Url="html/f5712a89-4fe8-7e92-420a-22b0c908eda7.htm" />
+  <HelpKINode Title="ChangePasswordNavClass method" Url="html/a34fc5dc-4a51-21d1-aedf-5fbacb662c9e.htm" />
+  <HelpKINode Title="ClipDate property" Url="html/cfd0a856-596c-03d4-aee2-28d6e798ff77.htm" />
+  <HelpKINode Title="ClippedSoftware class">
+    <HelpKINode Title="ClippedSoftware Class" Url="html/51445977-0308-686c-6e45-f75ab4d7d511.htm" />
+    <HelpKINode Title="constructor" Url="html/5be96d04-cd72-36ce-2467-695c3846b793.htm" />
+    <HelpKINode Title="methods" Url="html/56b6af07-2e23-bcf1-c2fe-561c4c99a488.htm" />
+    <HelpKINode Title="properties" Url="html/f00d6f15-c8e3-2aa6-2b73-91fe4a383060.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClippedSoftware property">
+    <HelpKINode Title="CreateModel.ClippedSoftware Property " Url="html/d0d6a304-4b3e-d97e-54b3-56ca01672eed.htm" />
+    <HelpKINode Title="DeleteModel.ClippedSoftware Property " Url="html/d4ac9114-b0e7-2792-72bb-512d4b1876b9.htm" />
+    <HelpKINode Title="DetailsModel.ClippedSoftware Property " Url="html/e6bdc940-f999-7c50-79a9-f38c4d0ea6a4.htm" />
+    <HelpKINode Title="EditModel.ClippedSoftware Property " Url="html/e719679c-bc5d-57e5-49e6-86c49a04c737.htm" />
+    <HelpKINode Title="IndexModel.ClippedSoftware Property " Url="html/354ed14d-ac2c-daea-a504-ee8bd7bbac72.htm" />
+    <HelpKINode Title="ModelContext.ClippedSoftware Property " Url="html/be47cb37-0bd6-311a-7737-813c2b3df90a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClippedSoftware.ClipDate property" Url="html/cfd0a856-596c-03d4-aee2-28d6e798ff77.htm" />
+  <HelpKINode Title="ClippedSoftware.ClippedSoftware constructor" Url="html/5be96d04-cd72-36ce-2467-695c3846b793.htm" />
+  <HelpKINode Title="ClippedSoftware.Id property" Url="html/a3fca6f4-dc25-3094-969b-c88af2ad7fff.htm" />
+  <HelpKINode Title="ClippedSoftware.SoftwareID property" Url="html/18a6cd13-ca2a-5b61-e5dd-ee05d2a6a37f.htm" />
+  <HelpKINode Title="ClippedSoftware.ToString method" Url="html/d5ba947d-1bfc-4658-11cd-d3c9b5ced974.htm" />
+  <HelpKINode Title="ClippedSoftware.UploaderID property" Url="html/30f6285f-0573-d22e-92ec-196b0e48ffc8.htm" />
+  <HelpKINode Title="Code property">
+    <HelpKINode Title="EnableAuthenticatorModel.InputModel.Code Property " Url="html/aedc0616-dfbd-1d23-0600-4b86a3e73f49.htm" />
+    <HelpKINode Title="ResetPasswordModel.InputModel.Code Property " Url="html/8b59652b-82a7-f11e-6396-a5eb83a3371c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Configuration property" Url="html/795f171b-9eca-bb79-27d0-f9a6eaf43f7e.htm" />
+  <HelpKINode Title="Configure method">
+    <HelpKINode Title="IdentityHostingStartup.Configure Method " Url="html/95832a46-18e3-fdf1-be90-be72377892a3.htm" />
+    <HelpKINode Title="Startup.Configure Method " Url="html/61e39144-c548-9548-7c06-89e04f6584c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfigureServices method" Url="html/727b734a-a298-8884-c6f5-6b727ec0a4e0.htm" />
+  <HelpKINode Title="ConfirmEmailChangeModel class">
+    <HelpKINode Title="ConfirmEmailChangeModel Class" Url="html/d7cc2adf-cb12-e2c9-d240-ff52b53bcc93.htm" />
+    <HelpKINode Title="constructor" Url="html/0102a379-0697-6dee-f68c-b27fd58edeff.htm" />
+    <HelpKINode Title="methods" Url="html/5c6c834e-19ef-795b-9099-1ec3997a46b4.htm" />
+    <HelpKINode Title="properties" Url="html/aa8694ab-610d-cb4b-935c-72d54e972a7d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfirmEmailChangeModel.ConfirmEmailChangeModel constructor" Url="html/0102a379-0697-6dee-f68c-b27fd58edeff.htm" />
+  <HelpKINode Title="ConfirmEmailChangeModel.OnGetAsync method" Url="html/c391dfb2-e975-d47d-f31a-069aa6b3c739.htm" />
+  <HelpKINode Title="ConfirmEmailChangeModel.StatusMessage property" Url="html/dfdfaba4-9e2f-ca56-b634-201001138af0.htm" />
+  <HelpKINode Title="ConfirmEmailModel class">
+    <HelpKINode Title="ConfirmEmailModel Class" Url="html/4652dc15-9a6e-a68a-9468-28946385274b.htm" />
+    <HelpKINode Title="constructor" Url="html/eec6fcf1-107c-9789-fcba-6b4a5169bf89.htm" />
+    <HelpKINode Title="methods" Url="html/71e3a3c8-b925-57bb-ce68-fec8989e4b2d.htm" />
+    <HelpKINode Title="properties" Url="html/a0a12a8c-899e-b5e6-0c8a-690304bd8b47.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfirmEmailModel.ConfirmEmailModel constructor" Url="html/eec6fcf1-107c-9789-fcba-6b4a5169bf89.htm" />
+  <HelpKINode Title="ConfirmEmailModel.OnGetAsync method" Url="html/ba7f170f-c087-6b60-1db1-1a35c30a1c80.htm" />
+  <HelpKINode Title="ConfirmEmailModel.StatusMessage property" Url="html/0b746121-84ec-a9ec-1b48-15666ed1ae31.htm" />
+  <HelpKINode Title="ConfirmPassword property">
+    <HelpKINode Title="ChangePasswordModel.InputModel.ConfirmPassword Property " Url="html/2fdb53d9-71e3-a468-9cb7-40ea34377267.htm" />
+    <HelpKINode Title="RegisterModel.InputModel.ConfirmPassword Property " Url="html/50b23ce4-c664-0032-6377-3bd8c1490669.htm" />
+    <HelpKINode Title="ResetPasswordModel.InputModel.ConfirmPassword Property " Url="html/d2a69727-39e3-5d7d-5c0a-0877d8787000.htm" />
+    <HelpKINode Title="SetPasswordModel.InputModel.ConfirmPassword Property " Url="html/cbd16451-cf48-5d65-66a6-d9bdadebd61c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateHostBuilder method" Url="html/27c8fe71-cd9a-37b8-3808-b0ae6ac6c853.htm" />
+  <HelpKINode Title="CreateModel class">
+    <HelpKINode Title="CreateModel Class" Url="html/7490636b-69bc-8ecc-b43c-a383fedcd736.htm" />
+    <HelpKINode Title="CreateModel Class" Url="html/fad06846-0aa5-15df-8353-be00c228d3a5.htm" />
+    <HelpKINode Title="constructor" Url="html/b3cad363-6d19-4b4b-8064-45d473377f97.htm" />
+    <HelpKINode Title="constructor" Url="html/6d1eff67-fe08-ef60-3e8d-a95cd8d9effe.htm" />
+    <HelpKINode Title="methods" Url="html/c1545d1e-8e03-d089-ce36-e26b45228560.htm" />
+    <HelpKINode Title="methods" Url="html/e6567a67-78a9-3458-11e1-45491aa8cbca.htm" />
+    <HelpKINode Title="properties" Url="html/1aa2989e-bdb7-4288-59c2-64d74bf83548.htm" />
+    <HelpKINode Title="properties" Url="html/98ee127a-6f80-f975-4bab-1adccf1c11e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateModel.ClippedSoftware property" Url="html/d0d6a304-4b3e-d97e-54b3-56ca01672eed.htm" />
+  <HelpKINode Title="CreateModel.CreateModel constructor">
+    <HelpKINode Title="CreateModel Constructor " Url="html/b3cad363-6d19-4b4b-8064-45d473377f97.htm" />
+    <HelpKINode Title="CreateModel Constructor " Url="html/6d1eff67-fe08-ef60-3e8d-a95cd8d9effe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateModel.OnGet method">
+    <HelpKINode Title="CreateModel.OnGet Method " Url="html/717cef2b-9ed0-4ecd-f075-2421009b690d.htm" />
+    <HelpKINode Title="CreateModel.OnGet Method " Url="html/65ba00dd-8a09-9d12-82c5-1347ee227978.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateModel.OnPostAsync method">
+    <HelpKINode Title="CreateModel.OnPostAsync Method " Url="html/68d1d738-053d-0929-bc0a-c5de5b551410.htm" />
+    <HelpKINode Title="CreateModel.OnPostAsync Method " Url="html/45e335a8-3f17-e3db-63c1-a4b3107c07cd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateModel.Software property" Url="html/55c5a028-a971-b34a-b7d3-c364a5770fe6.htm" />
+  <HelpKINode Title="CreateRolesAsync method" Url="html/5454ebee-5444-9457-6134-befae6dd363f.htm" />
+  <HelpKINode Title="CreateUser method" Url="html/fc90f1a9-d29b-4aea-0e2d-3b758be68752.htm" />
+  <HelpKINode Title="CurrentLogins property" Url="html/ac3d036b-0ec0-4635-05b5-d4dfed149dc8.htm" />
+  <HelpKINode Title="DeleteModel class">
+    <HelpKINode Title="DeleteModel Class" Url="html/1fba17f1-9e5a-6057-5163-cfd02fd0ae39.htm" />
+    <HelpKINode Title="DeleteModel Class" Url="html/f55301bb-d3e2-8648-5a6e-21ca32f0a839.htm" />
+    <HelpKINode Title="constructor" Url="html/fcf488de-2158-a755-ce01-9f8c3a47700c.htm" />
+    <HelpKINode Title="constructor" Url="html/de1a0521-20a4-a329-bdf9-97ee9757f768.htm" />
+    <HelpKINode Title="methods" Url="html/badd7d2d-d819-0701-e286-602c6fb5bc4c.htm" />
+    <HelpKINode Title="methods" Url="html/035eb98c-ea42-0d22-bdd3-99d804e448f8.htm" />
+    <HelpKINode Title="properties" Url="html/c46605da-7453-db44-096d-ce9b185d6334.htm" />
+    <HelpKINode Title="properties" Url="html/b8790a1f-df03-3615-fa1e-bb209fed517d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteModel.ClippedSoftware property" Url="html/d4ac9114-b0e7-2792-72bb-512d4b1876b9.htm" />
+  <HelpKINode Title="DeleteModel.DeleteModel constructor">
+    <HelpKINode Title="DeleteModel Constructor " Url="html/fcf488de-2158-a755-ce01-9f8c3a47700c.htm" />
+    <HelpKINode Title="DeleteModel Constructor " Url="html/de1a0521-20a4-a329-bdf9-97ee9757f768.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteModel.OnGetAsync method">
+    <HelpKINode Title="DeleteModel.OnGetAsync Method " Url="html/9b671277-3691-0c8e-2847-cb1a8bf959d3.htm" />
+    <HelpKINode Title="DeleteModel.OnGetAsync Method " Url="html/5f3fd38f-7e41-0486-2675-a8f7cb5382cd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteModel.OnPostAsync method">
+    <HelpKINode Title="DeleteModel.OnPostAsync Method " Url="html/ca4e841b-b2b4-ec05-8d8e-31b9ed8b55e7.htm" />
+    <HelpKINode Title="DeleteModel.OnPostAsync Method " Url="html/a217818f-ae73-204b-a5d6-f46789fde9e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteModel.Software property" Url="html/830c1143-356d-407f-1bbf-f9962441fc50.htm" />
+  <HelpKINode Title="DeletePersonalDataModel class">
+    <HelpKINode Title="DeletePersonalDataModel Class" Url="html/4e51d201-e9ec-f0ec-cc46-83aa2b5e023a.htm" />
+    <HelpKINode Title="constructor" Url="html/5293570b-6b3b-48d3-cbe2-32793de7ede3.htm" />
+    <HelpKINode Title="methods" Url="html/d1759fb9-40b8-dc72-27b5-69eef1a0f9a0.htm" />
+    <HelpKINode Title="properties" Url="html/dc0d581c-d180-774c-d5ea-3986ee0c0f4b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeletePersonalDataModel.DeletePersonalDataModel constructor" Url="html/5293570b-6b3b-48d3-cbe2-32793de7ede3.htm" />
+  <HelpKINode Title="DeletePersonalDataModel.Input property" Url="html/c437fca0-0bc0-7de9-cab0-70a0b1ba1658.htm" />
+  <HelpKINode Title="DeletePersonalDataModel.InputModel class">
+    <HelpKINode Title="DeletePersonalDataModel.InputModel Class" Url="html/e50e7a9a-271b-a0e0-7fea-f955a70cec05.htm" />
+    <HelpKINode Title="constructor" Url="html/fc3a3d97-b412-3f62-ed89-f486d37cecee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeletePersonalDataModel.InputModel.InputModel constructor" Url="html/fc3a3d97-b412-3f62-ed89-f486d37cecee.htm" />
+  <HelpKINode Title="DeletePersonalDataModel.InputModel.Password property" Url="html/307f1503-bbd1-09f1-1260-6ff47b17d600.htm" />
+  <HelpKINode Title="DeletePersonalDataModel.OnGet method" Url="html/b5d00ce5-bca5-2946-765a-51c31d512e8e.htm" />
+  <HelpKINode Title="DeletePersonalDataModel.OnPostAsync method" Url="html/9c433f48-5427-3854-972d-0f6f605ae643.htm" />
+  <HelpKINode Title="DeletePersonalDataModel.RequirePassword property" Url="html/357bf677-fe6f-f7b9-a174-27fb6bb43564.htm" />
+  <HelpKINode Title="Description property" Url="html/23512928-4246-8d4c-d402-1a8a89405eea.htm" />
+  <HelpKINode Title="DetailsModel class">
+    <HelpKINode Title="DetailsModel Class" Url="html/f94ccbcf-9247-d0eb-a8ca-75f8eba75df8.htm" />
+    <HelpKINode Title="DetailsModel Class" Url="html/de64107b-4244-8b26-a469-3091b6c2d1ce.htm" />
+    <HelpKINode Title="constructor" Url="html/5dc94257-932b-7c1f-fd50-5efe2c71a7d7.htm" />
+    <HelpKINode Title="constructor" Url="html/7f90fbd7-706f-bdb4-02e0-db299a489e00.htm" />
+    <HelpKINode Title="methods" Url="html/245c0b6d-c82f-5179-aaea-dadc0ade49f2.htm" />
+    <HelpKINode Title="methods" Url="html/48988085-2d9b-80c4-3e22-80f8b31cacd4.htm" />
+    <HelpKINode Title="properties" Url="html/cb40c7f6-8756-2460-4a65-1be81afbb773.htm" />
+    <HelpKINode Title="properties" Url="html/2a7d58be-6ccf-8790-314c-e45846575691.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailsModel.ClippedSoftware property" Url="html/e6bdc940-f999-7c50-79a9-f38c4d0ea6a4.htm" />
+  <HelpKINode Title="DetailsModel.DetailsModel constructor">
+    <HelpKINode Title="DetailsModel Constructor " Url="html/7f90fbd7-706f-bdb4-02e0-db299a489e00.htm" />
+    <HelpKINode Title="DetailsModel Constructor " Url="html/5dc94257-932b-7c1f-fd50-5efe2c71a7d7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailsModel.OnGetAsync method">
+    <HelpKINode Title="DetailsModel.OnGetAsync Method " Url="html/dfeb4352-5756-166d-b025-e497a25195e1.htm" />
+    <HelpKINode Title="DetailsModel.OnGetAsync Method " Url="html/1cb20cec-9d9f-e393-5669-d2f722735ce8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DetailsModel.Software property" Url="html/21ba99a5-fe50-e102-de01-b5db7fe6733b.htm" />
+  <HelpKINode Title="dictionary field" Url="html/804ae1be-f845-7ea7-a470-65bd791df218.htm" />
+  <HelpKINode Title="Disable2faModel class">
+    <HelpKINode Title="Disable2faModel Class" Url="html/068338f2-b4db-e7b7-4a83-7e987de7753c.htm" />
+    <HelpKINode Title="constructor" Url="html/a057d125-a3a1-5133-91c3-2128a3b88fa1.htm" />
+    <HelpKINode Title="methods" Url="html/da7e0a57-98a9-49bc-9a5a-939ca8cd7be1.htm" />
+    <HelpKINode Title="properties" Url="html/9a8609db-5d81-645a-cfc4-a8da72da12ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Disable2faModel.Disable2faModel constructor" Url="html/a057d125-a3a1-5133-91c3-2128a3b88fa1.htm" />
+  <HelpKINode Title="Disable2faModel.OnGet method" Url="html/404ca579-4d75-757c-e69a-25717a7ece72.htm" />
+  <HelpKINode Title="Disable2faModel.OnPostAsync method" Url="html/976c6e87-88a4-71f5-9cbb-efb967defef3.htm" />
+  <HelpKINode Title="Disable2faModel.StatusMessage property" Url="html/4a3a8ceb-67bb-81b8-4925-3a30fd7c82d5.htm" />
+  <HelpKINode Title="DisplayConfirmAccountLink property" Url="html/30186c6e-fbb3-ef5b-f5b3-95985b59d7c0.htm" />
+  <HelpKINode Title="Down method">
+    <HelpKINode Title="ApplicationDbContext_Snapshot.Down Method " Url="html/7b8cfa08-49cc-3879-f2e7-bf7eb8d0e6f3.htm" />
+    <HelpKINode Title="ModelContext_Snapshot.Down Method " Url="html/7d12815f-25c8-257d-e17f-36f5f860b034.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DownloadPersonalDataModel class">
+    <HelpKINode Title="DownloadPersonalDataModel Class" Url="html/819d9cbc-9034-ce4e-c1a5-1971ccdfc105.htm" />
+    <HelpKINode Title="constructor" Url="html/c49cc341-edd0-8cd6-207b-ac0dc8996ec1.htm" />
+    <HelpKINode Title="methods" Url="html/6bb6e1e1-a06e-c0ab-e149-68f5b8f31e18.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DownloadPersonalDataModel.DownloadPersonalDataModel constructor" Url="html/c49cc341-edd0-8cd6-207b-ac0dc8996ec1.htm" />
+  <HelpKINode Title="DownloadPersonalDataModel.OnPostAsync method" Url="html/344f49da-540a-f082-6abc-1b01b22ce836.htm" />
+  <HelpKINode Title="DownloadURL property" Url="html/a9c1f9d8-c27b-5c04-cb81-48fc3ed8a2d4.htm" />
+  <HelpKINode Title="EditModel class">
+    <HelpKINode Title="EditModel Class" Url="html/f18e57bb-1062-7282-b0e3-9af1a9834d83.htm" />
+    <HelpKINode Title="EditModel Class" Url="html/c4b93eb6-20c8-2d59-eaa2-a01ac8ec2c09.htm" />
+    <HelpKINode Title="constructor" Url="html/55b6b227-b2fa-e608-3526-d55243d7dc35.htm" />
+    <HelpKINode Title="constructor" Url="html/fadd08e0-67e7-e64c-e24b-d8789f9ff4cd.htm" />
+    <HelpKINode Title="methods" Url="html/06af4df4-b3cd-925e-4cdf-f6c5fb5ff34d.htm" />
+    <HelpKINode Title="methods" Url="html/91dc38c7-9b8f-a1d2-a41d-aea40a7e5330.htm" />
+    <HelpKINode Title="properties" Url="html/75435553-98c7-7882-c971-98a32460d3ad.htm" />
+    <HelpKINode Title="properties" Url="html/56f8ea8b-9188-e822-1212-abea732884dd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditModel.ClippedSoftware property" Url="html/e719679c-bc5d-57e5-49e6-86c49a04c737.htm" />
+  <HelpKINode Title="EditModel.EditModel constructor">
+    <HelpKINode Title="EditModel Constructor " Url="html/fadd08e0-67e7-e64c-e24b-d8789f9ff4cd.htm" />
+    <HelpKINode Title="EditModel Constructor " Url="html/55b6b227-b2fa-e608-3526-d55243d7dc35.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditModel.OnGetAsync method">
+    <HelpKINode Title="EditModel.OnGetAsync Method " Url="html/4cb0f26a-fcf1-2924-5b9b-47448ed9e6b6.htm" />
+    <HelpKINode Title="EditModel.OnGetAsync Method " Url="html/de76b80b-b2d4-1b42-a26e-2e36da73f334.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditModel.OnPostAsync method">
+    <HelpKINode Title="EditModel.OnPostAsync Method " Url="html/e04f4d7c-0f1a-29ce-1cc2-cc2857f17268.htm" />
+    <HelpKINode Title="EditModel.OnPostAsync Method " Url="html/22c0b275-8d03-7aa9-e01c-eda76f3a23dc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditModel.Software property" Url="html/84919b2c-153d-e787-f654-73c60211e488.htm" />
+  <HelpKINode Title="Email property">
+    <HelpKINode Title="EmailModel.Email Property " Url="html/c7e21ee1-5220-71ff-196f-39a3fc0bd682.htm" />
+    <HelpKINode Title="ExternalLoginModel.InputModel.Email Property " Url="html/e6709c09-429f-063b-fe99-80aa349e56b5.htm" />
+    <HelpKINode Title="ForgotPasswordModel.InputModel.Email Property " Url="html/b1161884-e044-edda-e20f-28194a94ef78.htm" />
+    <HelpKINode Title="LoginModel.InputModel.Email Property " Url="html/d21c4c6c-b3d9-d162-50b7-49451564eb3f.htm" />
+    <HelpKINode Title="ManageNavPages.Email Property " Url="html/003d514c-efce-8f64-0761-4cbcbbdb1ec7.htm" />
+    <HelpKINode Title="RegisterConfirmationModel.Email Property " Url="html/f427b2dd-6090-da8a-784e-9f0b3b4c0916.htm" />
+    <HelpKINode Title="RegisterModel.InputModel.Email Property " Url="html/6aa0c954-498e-32ae-04e2-9237450d3889.htm" />
+    <HelpKINode Title="ResetPasswordModel.InputModel.Email Property " Url="html/4be2a6f5-f1cd-682e-90a1-0f896d1c5f8f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmailConfirmationUrl property" Url="html/eb096037-2764-5e27-adaf-200d4a488160.htm" />
+  <HelpKINode Title="EmailModel class">
+    <HelpKINode Title="EmailModel Class" Url="html/4f47de74-31be-4c87-2a01-59e70c8e3db9.htm" />
+    <HelpKINode Title="constructor" Url="html/dab1e766-6869-583b-4385-bae4c66b31ec.htm" />
+    <HelpKINode Title="methods" Url="html/eda63203-4caa-3031-a03e-c90d8cfb7dbf.htm" />
+    <HelpKINode Title="properties" Url="html/9597ed8c-1629-03b1-09f4-10b9d47d0b82.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmailModel.Email property" Url="html/c7e21ee1-5220-71ff-196f-39a3fc0bd682.htm" />
+  <HelpKINode Title="EmailModel.EmailModel constructor" Url="html/dab1e766-6869-583b-4385-bae4c66b31ec.htm" />
+  <HelpKINode Title="EmailModel.Input property" Url="html/2449d698-9ce5-e2ef-015d-4690432cb109.htm" />
+  <HelpKINode Title="EmailModel.InputModel class">
+    <HelpKINode Title="EmailModel.InputModel Class" Url="html/2966d7f7-546e-2f5d-ec16-4399003154f3.htm" />
+    <HelpKINode Title="constructor" Url="html/40c64d49-4a6f-59f3-6266-a71552182d27.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmailModel.InputModel.InputModel constructor" Url="html/40c64d49-4a6f-59f3-6266-a71552182d27.htm" />
+  <HelpKINode Title="EmailModel.InputModel.NewEmail property" Url="html/4e44e41b-d3fe-5480-39d6-85131d578e79.htm" />
+  <HelpKINode Title="EmailModel.IsEmailConfirmed property" Url="html/8920dd03-e4ee-1de9-a408-a03b0106dbf7.htm" />
+  <HelpKINode Title="EmailModel.OnGetAsync method" Url="html/1af851a0-5e9c-92e3-0489-46205c0da679.htm" />
+  <HelpKINode Title="EmailModel.OnPostChangeEmailAsync method" Url="html/d491097e-c56c-0068-641c-2ecaa0832529.htm" />
+  <HelpKINode Title="EmailModel.OnPostSendVerificationEmailAsync method" Url="html/767dfd8b-84e9-aba6-4077-28de9f0ed3b5.htm" />
+  <HelpKINode Title="EmailModel.StatusMessage property" Url="html/bfb8b59b-4ad2-57f5-1c62-bfda051d36c2.htm" />
+  <HelpKINode Title="EmailModel.Username property" Url="html/b11fbaff-beea-f9b3-df77-aad5f97249db.htm" />
+  <HelpKINode Title="EmailNavClass method" Url="html/36726e1e-d104-e43f-069e-f0f87fb86b4d.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel class">
+    <HelpKINode Title="EnableAuthenticatorModel Class" Url="html/be9a084a-0dd6-a408-3c52-04f01c2f359f.htm" />
+    <HelpKINode Title="constructor" Url="html/90b60c6c-bc29-00af-1a72-aeea5d05ce77.htm" />
+    <HelpKINode Title="methods" Url="html/d4f5c2f2-63f3-ed63-be48-f78a6aa4625c.htm" />
+    <HelpKINode Title="properties" Url="html/1a4b4ab1-8b69-5f4e-ba99-56264bb0e0d4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnableAuthenticatorModel.AuthenticatorUri property" Url="html/58232188-0bc9-adb5-4ed0-5f8b80b3f8cd.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.EnableAuthenticatorModel constructor" Url="html/90b60c6c-bc29-00af-1a72-aeea5d05ce77.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.Input property" Url="html/ba259aaf-8e24-24da-4820-2152432ba81a.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.InputModel class">
+    <HelpKINode Title="EnableAuthenticatorModel.InputModel Class" Url="html/a5626a91-bc20-e3ca-206a-ec780ac0c08e.htm" />
+    <HelpKINode Title="constructor" Url="html/b9631ee6-326a-4e90-a84a-937af68b0a4e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnableAuthenticatorModel.InputModel.Code property" Url="html/aedc0616-dfbd-1d23-0600-4b86a3e73f49.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.InputModel.InputModel constructor" Url="html/b9631ee6-326a-4e90-a84a-937af68b0a4e.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.OnGetAsync method" Url="html/0616929f-634c-380a-482c-eae6e6137826.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.OnPostAsync method" Url="html/7f74f90c-7491-92c1-ac15-4d3d96693ae6.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.RecoveryCodes property" Url="html/b8077c8e-36d5-b9ac-3c8b-328f37e4a9b6.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.SharedKey property" Url="html/70fa381a-c513-62ef-f27c-f85a371aa511.htm" />
+  <HelpKINode Title="EnableAuthenticatorModel.StatusMessage property" Url="html/d1fa72d3-8b0b-2849-726d-bf14c56ab22a.htm" />
+  <HelpKINode Title="ErrorMessage property">
+    <HelpKINode Title="ExternalLoginModel.ErrorMessage Property " Url="html/043ab44a-2b20-bfec-e7d2-a94183db3550.htm" />
+    <HelpKINode Title="LoginModel.ErrorMessage Property " Url="html/d05efce9-87e0-0b1c-1099-a79eb9b2bba6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorModel class">
+    <HelpKINode Title="ErrorModel Class" Url="html/15b51416-c914-bdc8-fcbd-df11e320ed34.htm" />
+    <HelpKINode Title="ErrorModel Class" Url="html/7bec9c8f-e379-a63a-fdf4-74522ef63111.htm" />
+    <HelpKINode Title="constructor" Url="html/6c3bd706-33b0-7f85-ad1c-11a748a7971c.htm" />
+    <HelpKINode Title="constructor" Url="html/c8a17572-6d71-9681-5fa1-1d86ac780b48.htm" />
+    <HelpKINode Title="methods" Url="html/5b975b78-7539-d036-b230-dd2ef946c7b2.htm" />
+    <HelpKINode Title="methods" Url="html/232221fa-f4d4-c5b0-7956-840c446ba045.htm" />
+    <HelpKINode Title="properties" Url="html/c3d5f3ac-903e-575b-8191-308e2800cc0e.htm" />
+    <HelpKINode Title="properties" Url="html/ba812923-4ff1-4a21-9ede-5b99df6f9878.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorModel.ErrorModel constructor">
+    <HelpKINode Title="ErrorModel Constructor " Url="html/6c3bd706-33b0-7f85-ad1c-11a748a7971c.htm" />
+    <HelpKINode Title="ErrorModel Constructor " Url="html/c8a17572-6d71-9681-5fa1-1d86ac780b48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorModel.OnGet method">
+    <HelpKINode Title="ErrorModel.OnGet Method " Url="html/3041b56c-6c1a-da0e-1960-5c9dcdb2c27f.htm" />
+    <HelpKINode Title="ErrorModel.OnGet Method " Url="html/c04b8f25-43b0-a830-7c5d-4dfa27744b73.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorModel.RequestId property">
+    <HelpKINode Title="ErrorModel.RequestId Property " Url="html/4e981b4f-dcbf-7f58-9ae5-114f61b57bff.htm" />
+    <HelpKINode Title="ErrorModel.RequestId Property " Url="html/cda27003-0700-3fdc-409f-99fb492b1339.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorModel.ShowRequestId property">
+    <HelpKINode Title="ErrorModel.ShowRequestId Property " Url="html/e1afe088-056d-b909-0b9a-f567866052ee.htm" />
+    <HelpKINode Title="ErrorModel.ShowRequestId Property " Url="html/45e283ef-4e93-8e75-2ede-709a0bb3be98.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalLoginModel class">
+    <HelpKINode Title="ExternalLoginModel Class" Url="html/56e357a4-4673-cb22-3ed5-45ce89a0dc9f.htm" />
+    <HelpKINode Title="constructor" Url="html/5058d591-a1fa-1400-a8ee-cf598a240dee.htm" />
+    <HelpKINode Title="methods" Url="html/5897b8d0-28a9-5f87-4f42-11c84836851e.htm" />
+    <HelpKINode Title="properties" Url="html/042fb0d4-0c10-fc00-22ae-a91c656f1647.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalLoginModel.ErrorMessage property" Url="html/043ab44a-2b20-bfec-e7d2-a94183db3550.htm" />
+  <HelpKINode Title="ExternalLoginModel.ExternalLoginModel constructor" Url="html/5058d591-a1fa-1400-a8ee-cf598a240dee.htm" />
+  <HelpKINode Title="ExternalLoginModel.Input property" Url="html/fc672fb9-ab62-cdb8-9761-21a11d891a90.htm" />
+  <HelpKINode Title="ExternalLoginModel.InputModel class">
+    <HelpKINode Title="ExternalLoginModel.InputModel Class" Url="html/d10a0fe3-8c45-e469-2f3f-6162d99561b6.htm" />
+    <HelpKINode Title="constructor" Url="html/c801777c-f437-a848-f6df-df994267285b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalLoginModel.InputModel.Email property" Url="html/e6709c09-429f-063b-fe99-80aa349e56b5.htm" />
+  <HelpKINode Title="ExternalLoginModel.InputModel.InputModel constructor" Url="html/c801777c-f437-a848-f6df-df994267285b.htm" />
+  <HelpKINode Title="ExternalLoginModel.LoginProvider property" Url="html/c6273ab4-0bb8-9df3-622a-c469d7c08b9a.htm" />
+  <HelpKINode Title="ExternalLoginModel.OnGetAsync method" Url="html/64d113e2-32e5-71ae-cc51-db1bf426f682.htm" />
+  <HelpKINode Title="ExternalLoginModel.OnGetCallbackAsync method" Url="html/23b9ea11-3768-183f-8ff4-91e29920994f.htm" />
+  <HelpKINode Title="ExternalLoginModel.OnPost method" Url="html/aa0f258d-abbd-90ff-5bcd-d99a9df2032f.htm" />
+  <HelpKINode Title="ExternalLoginModel.OnPostConfirmationAsync method" Url="html/542507a6-8ec4-d508-343f-9655c809b495.htm" />
+  <HelpKINode Title="ExternalLoginModel.ReturnUrl property" Url="html/42377d26-fd65-af8e-857c-28e3099c370d.htm" />
+  <HelpKINode Title="ExternalLogins property">
+    <HelpKINode Title="LoginModel.ExternalLogins Property " Url="html/49a18380-6709-f26f-d394-078d69614cf1.htm" />
+    <HelpKINode Title="ManageNavPages.ExternalLogins Property " Url="html/4342002b-2ff1-af39-0a0e-eea012c6051a.htm" />
+    <HelpKINode Title="RegisterModel.ExternalLogins Property " Url="html/1ca68599-6a3e-5e94-c57e-240446858900.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalLoginsModel class">
+    <HelpKINode Title="ExternalLoginsModel Class" Url="html/cca976bf-8007-8eb0-b6bf-eae31a2721d3.htm" />
+    <HelpKINode Title="constructor" Url="html/57e28de5-fc75-6def-7623-a75af64fe83c.htm" />
+    <HelpKINode Title="methods" Url="html/48a276e4-0a40-f94f-5400-282f1ec800bc.htm" />
+    <HelpKINode Title="properties" Url="html/24571e66-c193-7fb4-8af9-a8f67610444e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalLoginsModel.CurrentLogins property" Url="html/ac3d036b-0ec0-4635-05b5-d4dfed149dc8.htm" />
+  <HelpKINode Title="ExternalLoginsModel.ExternalLoginsModel constructor" Url="html/57e28de5-fc75-6def-7623-a75af64fe83c.htm" />
+  <HelpKINode Title="ExternalLoginsModel.OnGetAsync method" Url="html/d99f1261-ef26-09f8-d4c5-7d70b1200c0b.htm" />
+  <HelpKINode Title="ExternalLoginsModel.OnGetLinkLoginCallbackAsync method" Url="html/33137d01-a68f-b238-6687-3697cf2ba29d.htm" />
+  <HelpKINode Title="ExternalLoginsModel.OnPostLinkLoginAsync method" Url="html/edcb4691-1fc7-36e4-1e8e-68456cc9bfa1.htm" />
+  <HelpKINode Title="ExternalLoginsModel.OnPostRemoveLoginAsync method" Url="html/cf2e84d2-841f-1490-793e-024e77dc1be4.htm" />
+  <HelpKINode Title="ExternalLoginsModel.OtherLogins property" Url="html/82085c17-7514-2200-4101-1d5bcd5c1016.htm" />
+  <HelpKINode Title="ExternalLoginsModel.ShowRemoveButton property" Url="html/d3fc1c11-a786-11c5-2e2f-198fc98cd0ff.htm" />
+  <HelpKINode Title="ExternalLoginsModel.StatusMessage property" Url="html/f7504bb4-171d-87b3-0d18-0a858ec56def.htm" />
+  <HelpKINode Title="ExternalLoginsNavClass method" Url="html/43d398eb-9eac-63e7-d21c-466eea037259.htm" />
+  <HelpKINode Title="FindUser method" Url="html/70dbd41e-d91f-d0fc-34a0-4a0a9ed5e2b5.htm" />
+  <HelpKINode Title="ForgotPasswordConfirmation class">
+    <HelpKINode Title="ForgotPasswordConfirmation Class" Url="html/9f9dcf62-afe0-b619-82d5-c91f23e85e85.htm" />
+    <HelpKINode Title="constructor" Url="html/9b9215b7-4118-0871-7041-81243750a8d6.htm" />
+    <HelpKINode Title="methods" Url="html/d6ad292c-8ba4-a5d0-11bb-f9da4835c97b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForgotPasswordConfirmation.ForgotPasswordConfirmation constructor" Url="html/9b9215b7-4118-0871-7041-81243750a8d6.htm" />
+  <HelpKINode Title="ForgotPasswordConfirmation.OnGet method" Url="html/ef756604-a691-d501-7018-9403d9621ba8.htm" />
+  <HelpKINode Title="ForgotPasswordModel class">
+    <HelpKINode Title="ForgotPasswordModel Class" Url="html/a74234f2-1b9f-df2f-1925-291325d4d772.htm" />
+    <HelpKINode Title="constructor" Url="html/a03967ab-1909-9e56-ce1c-155198f122f8.htm" />
+    <HelpKINode Title="methods" Url="html/f9e542c8-0f57-ae92-03fe-aa3b16798e37.htm" />
+    <HelpKINode Title="properties" Url="html/c847e5e9-3017-b30f-0bce-100ce71e566c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForgotPasswordModel.ForgotPasswordModel constructor" Url="html/a03967ab-1909-9e56-ce1c-155198f122f8.htm" />
+  <HelpKINode Title="ForgotPasswordModel.Input property" Url="html/2c938f5a-5bc8-1d83-1508-07edf851e557.htm" />
+  <HelpKINode Title="ForgotPasswordModel.InputModel class">
+    <HelpKINode Title="ForgotPasswordModel.InputModel Class" Url="html/06f46b70-458c-8ef7-91af-3d071d0e2552.htm" />
+    <HelpKINode Title="constructor" Url="html/754a75a8-d96d-a728-bcdb-04d24fc2e1a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ForgotPasswordModel.InputModel.Email property" Url="html/b1161884-e044-edda-e20f-28194a94ef78.htm" />
+  <HelpKINode Title="ForgotPasswordModel.InputModel.InputModel constructor" Url="html/754a75a8-d96d-a728-bcdb-04d24fc2e1a0.htm" />
+  <HelpKINode Title="ForgotPasswordModel.OnPostAsync method" Url="html/1f1b08d9-ec39-54f9-7938-6683e867111a.htm" />
+  <HelpKINode Title="GenerateRecoveryCodesModel class">
+    <HelpKINode Title="GenerateRecoveryCodesModel Class" Url="html/424bcaac-bc5a-6ec4-6a4b-6cca19949527.htm" />
+    <HelpKINode Title="constructor" Url="html/36400f40-0403-87b2-b52f-fdee5fb03900.htm" />
+    <HelpKINode Title="methods" Url="html/58dec41c-fd47-5938-fe0b-f9f9e44f6b47.htm" />
+    <HelpKINode Title="properties" Url="html/8eb1e208-3191-f8aa-5335-14c4c6d1b2f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenerateRecoveryCodesModel.GenerateRecoveryCodesModel constructor" Url="html/36400f40-0403-87b2-b52f-fdee5fb03900.htm" />
+  <HelpKINode Title="GenerateRecoveryCodesModel.OnGetAsync method" Url="html/83a1edaf-150c-b408-2ad1-399271ed0ab2.htm" />
+  <HelpKINode Title="GenerateRecoveryCodesModel.OnPostAsync method" Url="html/98989525-ddad-9e5a-0f98-59329b05aac4.htm" />
+  <HelpKINode Title="GenerateRecoveryCodesModel.RecoveryCodes property" Url="html/902a9eee-41e9-0c0e-2409-f79379401a49.htm" />
+  <HelpKINode Title="GenerateRecoveryCodesModel.StatusMessage property" Url="html/4b069308-9231-9ce0-3f59-3624255fb6d5.htm" />
+  <HelpKINode Title="GetRole method" Url="html/fb5af174-8c59-fc1d-fe27-7af2cfb5b65b.htm" />
+  <HelpKINode Title="HasAuthenticator property" Url="html/2ac76f88-e664-de2a-40f9-c1714c2eaa68.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="ClippedSoftware.Id Property " Url="html/a3fca6f4-dc25-3094-969b-c88af2ad7fff.htm" />
+    <HelpKINode Title="Software.Id Property " Url="html/10a0df86-e279-9215-1de4-a062706b57f1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IdentityHostingStartup class">
+    <HelpKINode Title="IdentityHostingStartup Class" Url="html/079983f5-2f9a-b70f-911f-bcf09bb94e4c.htm" />
+    <HelpKINode Title="constructor" Url="html/b13c645a-a633-90e4-2d17-ef4152bbf36e.htm" />
+    <HelpKINode Title="methods" Url="html/b9134681-9962-d5f9-dffc-fb225dac309b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IdentityHostingStartup.Configure method" Url="html/95832a46-18e3-fdf1-be90-be72377892a3.htm" />
+  <HelpKINode Title="IdentityHostingStartup.IdentityHostingStartup constructor" Url="html/b13c645a-a633-90e4-2d17-ef4152bbf36e.htm" />
+  <HelpKINode Title="Index property" Url="html/d3846209-e6c9-cec2-41ce-64fcdf53cac6.htm" />
+  <HelpKINode Title="IndexModel class">
+    <HelpKINode Title="IndexModel Class" Url="html/b14dcc2e-0464-27dc-4cfa-52583a12969d.htm" />
+    <HelpKINode Title="IndexModel Class" Url="html/3251a210-08d9-d656-4922-6cf26a7e88fa.htm" />
+    <HelpKINode Title="IndexModel Class" Url="html/8420087a-83b1-bf3b-539a-a7dd23c195be.htm" />
+    <HelpKINode Title="IndexModel Class" Url="html/267afd42-c59f-97a4-bcd0-f984a39c3ece.htm" />
+    <HelpKINode Title="IndexModel Class" Url="html/8b20c708-1c24-6c99-4975-a3cd32dac713.htm" />
+    <HelpKINode Title="constructor" Url="html/2d18b25e-3076-6088-d9de-5a8e32339136.htm" />
+    <HelpKINode Title="constructor" Url="html/0523f101-5d15-7cee-eef3-b95bfc978b19.htm" />
+    <HelpKINode Title="constructor" Url="html/89ddb6bc-23ad-7323-8662-269bf6c298cb.htm" />
+    <HelpKINode Title="constructor" Url="html/57b893a7-7412-6951-3fb6-5de11dbc6e74.htm" />
+    <HelpKINode Title="constructor" Url="html/5bd6b112-2ae1-df9e-68fd-ba36aef766a5.htm" />
+    <HelpKINode Title="fields" Url="html/31252dec-3795-a725-daca-32b541db2e74.htm" />
+    <HelpKINode Title="methods" Url="html/eead6831-6d7b-b5ba-09a4-84c82bc89e04.htm" />
+    <HelpKINode Title="methods" Url="html/801721d7-3334-02d3-c7cd-cb88901cdb3e.htm" />
+    <HelpKINode Title="methods" Url="html/bfe949af-f50d-6cc6-dee7-c49b5d02dcf5.htm" />
+    <HelpKINode Title="methods" Url="html/653d9dbf-c5fb-8285-9b6e-e876f86c263a.htm" />
+    <HelpKINode Title="methods" Url="html/da209039-19e3-4960-7faf-1ff39b2f1220.htm" />
+    <HelpKINode Title="properties" Url="html/4d787d2b-1309-fdf7-ce8f-59d329ad345d.htm" />
+    <HelpKINode Title="properties" Url="html/e06dba7e-8599-45ce-9c83-32acf6e47738.htm" />
+    <HelpKINode Title="properties" Url="html/3d2b5df3-cc53-cf3e-46c8-b7630cd7e2d9.htm" />
+    <HelpKINode Title="properties" Url="html/84c6fc10-e581-443a-915c-d941cb0d8c23.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexModel.ClippedSoftware property" Url="html/354ed14d-ac2c-daea-a504-ee8bd7bbac72.htm" />
+  <HelpKINode Title="IndexModel.dictionary field" Url="html/804ae1be-f845-7ea7-a470-65bd791df218.htm" />
+  <HelpKINode Title="IndexModel.IndexModel constructor">
+    <HelpKINode Title="IndexModel Constructor " Url="html/5bd6b112-2ae1-df9e-68fd-ba36aef766a5.htm" />
+    <HelpKINode Title="IndexModel Constructor " Url="html/0523f101-5d15-7cee-eef3-b95bfc978b19.htm" />
+    <HelpKINode Title="IndexModel Constructor " Url="html/2d18b25e-3076-6088-d9de-5a8e32339136.htm" />
+    <HelpKINode Title="IndexModel Constructor " Url="html/89ddb6bc-23ad-7323-8662-269bf6c298cb.htm" />
+    <HelpKINode Title="IndexModel Constructor " Url="html/57b893a7-7412-6951-3fb6-5de11dbc6e74.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexModel.Input property" Url="html/cd19e11a-1e05-76bd-328e-152c103dd391.htm" />
+  <HelpKINode Title="IndexModel.InputModel class">
+    <HelpKINode Title="IndexModel.InputModel Class" Url="html/00502307-f77f-5f24-5482-f90f8d041364.htm" />
+    <HelpKINode Title="constructor" Url="html/14459fbe-e1e2-d847-d2ed-5ada1a2d52ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexModel.InputModel.InputModel constructor" Url="html/14459fbe-e1e2-d847-d2ed-5ada1a2d52ab.htm" />
+  <HelpKINode Title="IndexModel.InputModel.PhoneNumber property" Url="html/e8f14cd5-6d68-b21f-5f06-6574c30a3497.htm" />
+  <HelpKINode Title="IndexModel.OnGet method" Url="html/1fa21022-bfe9-b72a-15b3-f4cf2f4ecc75.htm" />
+  <HelpKINode Title="IndexModel.OnGetAsync method">
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/50c00de0-d89b-c12f-25fe-172e607a4563.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/7bc87eb3-2c77-ba29-ac08-446b5bb49a42.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/be544d2e-45cd-9399-2b12-9edd2c2232bc.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/2ebbe5f0-d9c9-1dfe-b6d8-619ea4e4de33.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexModel.OnPostAsync method">
+    <HelpKINode Title="IndexModel.OnPostAsync Method " Url="html/030df2e4-0133-c42b-a14b-de550bf3f513.htm" />
+    <HelpKINode Title="IndexModel.OnPostAsync Method " Url="html/85e5c13e-804f-9c4d-04f6-a0d0d07edf8b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexModel.Role property" Url="html/3168c66d-9d87-02ef-36a2-ae2133f70cde.htm" />
+  <HelpKINode Title="IndexModel.roles field" Url="html/c4a4d45c-820b-232e-a99b-7de18590c1b9.htm" />
+  <HelpKINode Title="IndexModel.Roles property" Url="html/7cf3fc94-9b3e-a60c-8465-b0c97b60235a.htm" />
+  <HelpKINode Title="IndexModel.RoleString property" Url="html/4f356784-d8fe-e130-d70f-acec38ce58fb.htm" />
+  <HelpKINode Title="IndexModel.SearchBy property" Url="html/7d4f8dc3-4d84-39ae-d14b-ca70b3fd8c6f.htm" />
+  <HelpKINode Title="IndexModel.SearchByString property" Url="html/38921dc6-58be-c72d-31cc-1b69524ad3aa.htm" />
+  <HelpKINode Title="IndexModel.SearchString property" Url="html/a5c7c74d-a106-4954-9cd3-2a1b3d6fd81e.htm" />
+  <HelpKINode Title="IndexModel.Software property" Url="html/0e52be43-5d8a-9844-b901-d38e0a2d0198.htm" />
+  <HelpKINode Title="IndexModel.SortBy property" Url="html/104b580d-73f9-0489-f4ca-08134fa9a021.htm" />
+  <HelpKINode Title="IndexModel.SortByString property" Url="html/352f8348-66bb-158c-04fd-2d598b86f90d.htm" />
+  <HelpKINode Title="IndexModel.StatusMessage property" Url="html/3f279b6d-bab8-62fa-357b-10fb9e74d014.htm" />
+  <HelpKINode Title="IndexModel.UploaderString property" Url="html/8f2c5d7f-bbaf-40ea-a16e-35fc8507dc13.htm" />
+  <HelpKINode Title="IndexModel.Username property" Url="html/0dd710c5-55cd-bf96-1907-b869afae9212.htm" />
+  <HelpKINode Title="IndexModel.users field" Url="html/a06e6800-9df8-d6d8-8574-370f1b71869e.htm" />
+  <HelpKINode Title="IndexModel.UserString property" Url="html/70157667-3997-3227-bcbc-57a1bcdb3120.htm" />
+  <HelpKINode Title="IndexNavClass method" Url="html/632c078e-2450-8fed-fe72-5e57d374ee48.htm" />
+  <HelpKINode Title="Input property">
+    <HelpKINode Title="ChangePasswordModel.Input Property " Url="html/d9147cdc-6ad8-4aa0-faa0-96b99f42bf37.htm" />
+    <HelpKINode Title="DeletePersonalDataModel.Input Property " Url="html/c437fca0-0bc0-7de9-cab0-70a0b1ba1658.htm" />
+    <HelpKINode Title="EmailModel.Input Property " Url="html/2449d698-9ce5-e2ef-015d-4690432cb109.htm" />
+    <HelpKINode Title="EnableAuthenticatorModel.Input Property " Url="html/ba259aaf-8e24-24da-4820-2152432ba81a.htm" />
+    <HelpKINode Title="ExternalLoginModel.Input Property " Url="html/fc672fb9-ab62-cdb8-9761-21a11d891a90.htm" />
+    <HelpKINode Title="ForgotPasswordModel.Input Property " Url="html/2c938f5a-5bc8-1d83-1508-07edf851e557.htm" />
+    <HelpKINode Title="IndexModel.Input Property " Url="html/cd19e11a-1e05-76bd-328e-152c103dd391.htm" />
+    <HelpKINode Title="LoginModel.Input Property " Url="html/991b6358-e772-885f-ad93-326f531ed6e2.htm" />
+    <HelpKINode Title="LoginWith2faModel.Input Property " Url="html/89e07a9e-5a5c-05ab-0223-c92cecba2e75.htm" />
+    <HelpKINode Title="LoginWithRecoveryCodeModel.Input Property " Url="html/aa757412-cd1a-8387-1a8f-6737a975ffe6.htm" />
+    <HelpKINode Title="RegisterModel.Input Property " Url="html/1c33be42-e60d-8a33-cc19-3e596e1e6c08.htm" />
+    <HelpKINode Title="ResetPasswordModel.Input Property " Url="html/aeee5d95-a983-d5d4-ae9b-16b26daf6ea4.htm" />
+    <HelpKINode Title="SetPasswordModel.Input Property " Url="html/84f6d05e-7d18-1e58-97db-2e2fb777f342.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputModel class">
+    <HelpKINode Title="methods" Url="html/401ccc87-00a8-9c70-0ec6-bd5aa6ef75e5.htm" />
+    <HelpKINode Title="methods" Url="html/19dede1c-1894-5dd9-3672-e47cc6ba25f5.htm" />
+    <HelpKINode Title="methods" Url="html/1577980b-03c4-5d89-3a30-449cb4b49d8b.htm" />
+    <HelpKINode Title="methods" Url="html/9d506425-d107-9b2d-8960-9a82da2261c9.htm" />
+    <HelpKINode Title="methods" Url="html/45bedaec-5684-662f-b5e8-99c7818d5a7a.htm" />
+    <HelpKINode Title="methods" Url="html/a098f051-0b01-657d-ccc8-ca8816ea7034.htm" />
+    <HelpKINode Title="methods" Url="html/04890275-195d-72d6-469b-b0fdc454a3b3.htm" />
+    <HelpKINode Title="methods" Url="html/f889cff5-c45e-b1f9-1e66-6d8f4c7e66e5.htm" />
+    <HelpKINode Title="methods" Url="html/d2a3ade6-4b54-5013-cb69-39f7479ff2b1.htm" />
+    <HelpKINode Title="methods" Url="html/17390161-afd2-dce7-a6d1-7a703a2a57c0.htm" />
+    <HelpKINode Title="methods" Url="html/ce4c434e-37ec-ea65-6002-e7b29653396d.htm" />
+    <HelpKINode Title="methods" Url="html/0c25d113-aca0-aa8e-3f7d-10a7bb7d6894.htm" />
+    <HelpKINode Title="methods" Url="html/62125dac-707a-d7f4-f31c-564d02ff234e.htm" />
+    <HelpKINode Title="properties" Url="html/f690c973-f833-b8e8-6c5d-227897243244.htm" />
+    <HelpKINode Title="properties" Url="html/95eefc7b-f691-67fa-e2b7-0ada4e4876e5.htm" />
+    <HelpKINode Title="properties" Url="html/a0ef2440-208f-eb12-3826-a161006ce857.htm" />
+    <HelpKINode Title="properties" Url="html/27fa0dd4-8ae9-93f9-d299-c57e90ac4595.htm" />
+    <HelpKINode Title="properties" Url="html/b9f24dc1-0d11-046d-9dc9-7842992cde15.htm" />
+    <HelpKINode Title="properties" Url="html/c24cafa7-f8f2-6f55-dd30-4f64c2fdc279.htm" />
+    <HelpKINode Title="properties" Url="html/51608443-d252-3d11-7be9-5d2f100d2d0a.htm" />
+    <HelpKINode Title="properties" Url="html/1f45cacc-40c3-37f6-c30b-cbdb9a619eef.htm" />
+    <HelpKINode Title="properties" Url="html/edad7945-63f7-f623-449a-ff46b132378b.htm" />
+    <HelpKINode Title="properties" Url="html/fc3e32b0-212f-fc32-e223-e071beeeb192.htm" />
+    <HelpKINode Title="properties" Url="html/2af87620-daf8-3cb0-c372-37a84e625c21.htm" />
+    <HelpKINode Title="properties" Url="html/9f62f175-897e-ac76-e4bb-8334f197e922.htm" />
+    <HelpKINode Title="properties" Url="html/9dde76c9-1852-3a1e-2f52-7999d83294f7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Is2faEnabled property" Url="html/50f986a7-081a-706f-d6cc-ef3b2b87a9bc.htm" />
+  <HelpKINode Title="IsEmailConfirmed property" Url="html/8920dd03-e4ee-1de9-a408-a03b0106dbf7.htm" />
+  <HelpKINode Title="IsMachineRemembered property" Url="html/a3b219f0-24e2-a52e-bddf-35c51cfed339.htm" />
+  <HelpKINode Title="LockoutModel class">
+    <HelpKINode Title="LockoutModel Class" Url="html/14d55775-bc91-7301-802d-40f1bc03b8ae.htm" />
+    <HelpKINode Title="constructor" Url="html/af6f7ddb-ff78-e86c-9c54-32754f464f1e.htm" />
+    <HelpKINode Title="methods" Url="html/c12c7406-1dea-9f31-d71a-e95e8f7cbb11.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LockoutModel.LockoutModel constructor" Url="html/af6f7ddb-ff78-e86c-9c54-32754f464f1e.htm" />
+  <HelpKINode Title="LockoutModel.OnGet method" Url="html/0c138e88-7237-7c1a-c683-5381478951fe.htm" />
+  <HelpKINode Title="LoginModel class">
+    <HelpKINode Title="LoginModel Class" Url="html/3397d854-7d58-a401-5ae8-399c675ad4f0.htm" />
+    <HelpKINode Title="constructor" Url="html/ac9310e7-3c30-b352-d2ab-bd995b23cf46.htm" />
+    <HelpKINode Title="methods" Url="html/16635cca-c42a-413c-7422-18aadabc6e2b.htm" />
+    <HelpKINode Title="properties" Url="html/9babcc9f-189d-909a-b2e1-058d08e94846.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginModel.ErrorMessage property" Url="html/d05efce9-87e0-0b1c-1099-a79eb9b2bba6.htm" />
+  <HelpKINode Title="LoginModel.ExternalLogins property" Url="html/49a18380-6709-f26f-d394-078d69614cf1.htm" />
+  <HelpKINode Title="LoginModel.Input property" Url="html/991b6358-e772-885f-ad93-326f531ed6e2.htm" />
+  <HelpKINode Title="LoginModel.InputModel class">
+    <HelpKINode Title="LoginModel.InputModel Class" Url="html/9b07b3b3-adc1-40e4-f083-778f3456d994.htm" />
+    <HelpKINode Title="constructor" Url="html/eb32682a-76a8-2868-cd42-ebc3e7678b00.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginModel.InputModel.Email property" Url="html/d21c4c6c-b3d9-d162-50b7-49451564eb3f.htm" />
+  <HelpKINode Title="LoginModel.InputModel.InputModel constructor" Url="html/eb32682a-76a8-2868-cd42-ebc3e7678b00.htm" />
+  <HelpKINode Title="LoginModel.InputModel.Password property" Url="html/87376e3a-14a1-9991-d51d-56b69e20dc29.htm" />
+  <HelpKINode Title="LoginModel.InputModel.RememberMe property" Url="html/3957cda7-8e65-0c5e-8eaf-86529d85c9e4.htm" />
+  <HelpKINode Title="LoginModel.LoginModel constructor" Url="html/ac9310e7-3c30-b352-d2ab-bd995b23cf46.htm" />
+  <HelpKINode Title="LoginModel.OnGetAsync method" Url="html/78ffb57d-ff3c-8fd1-90a2-5c0c103bf5ba.htm" />
+  <HelpKINode Title="LoginModel.OnPostAsync method" Url="html/7779aa2d-9d95-ecb0-99b9-fc42e1aae1f2.htm" />
+  <HelpKINode Title="LoginModel.OnPostSendVerificationEmailAsync method" Url="html/771d1d1d-3f3c-0f7a-1739-120e1e6b5aeb.htm" />
+  <HelpKINode Title="LoginModel.ReturnUrl property" Url="html/eddfd28c-6ca5-e422-d859-5365e53657ec.htm" />
+  <HelpKINode Title="LoginProvider property" Url="html/c6273ab4-0bb8-9df3-622a-c469d7c08b9a.htm" />
+  <HelpKINode Title="LoginWith2faModel class">
+    <HelpKINode Title="LoginWith2faModel Class" Url="html/1b86fb4b-81bd-dc75-5b38-c1524232d527.htm" />
+    <HelpKINode Title="constructor" Url="html/f09ac9da-1294-2498-ee3a-cf6740846ebe.htm" />
+    <HelpKINode Title="methods" Url="html/0d858673-b380-5df3-603b-0b9c8a326980.htm" />
+    <HelpKINode Title="properties" Url="html/977f6a72-1570-7c30-491d-03590caabbdd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginWith2faModel.Input property" Url="html/89e07a9e-5a5c-05ab-0223-c92cecba2e75.htm" />
+  <HelpKINode Title="LoginWith2faModel.InputModel class">
+    <HelpKINode Title="LoginWith2faModel.InputModel Class" Url="html/16b5ebbc-10ad-0819-ac7f-2c338b604630.htm" />
+    <HelpKINode Title="constructor" Url="html/33a194ac-bd36-a29a-fbc3-ba4c840d02bb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginWith2faModel.InputModel.InputModel constructor" Url="html/33a194ac-bd36-a29a-fbc3-ba4c840d02bb.htm" />
+  <HelpKINode Title="LoginWith2faModel.InputModel.RememberMachine property" Url="html/736bf3c2-f4b3-4a38-8dc9-7627531740d2.htm" />
+  <HelpKINode Title="LoginWith2faModel.InputModel.TwoFactorCode property" Url="html/cd9e8a5e-166a-2d35-c2cc-4c0ad0c301a8.htm" />
+  <HelpKINode Title="LoginWith2faModel.LoginWith2faModel constructor" Url="html/f09ac9da-1294-2498-ee3a-cf6740846ebe.htm" />
+  <HelpKINode Title="LoginWith2faModel.OnGetAsync method" Url="html/5cae2fcf-ecc4-fd25-b94f-ad9becef9d0c.htm" />
+  <HelpKINode Title="LoginWith2faModel.OnPostAsync method" Url="html/56dab936-e960-529d-37d9-3c5b51a3eaa0.htm" />
+  <HelpKINode Title="LoginWith2faModel.RememberMe property" Url="html/6288380c-43c7-a9ce-1943-41abd66314f4.htm" />
+  <HelpKINode Title="LoginWith2faModel.ReturnUrl property" Url="html/30db5140-e2dc-1f02-4d9d-079ffa962ddd.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel class">
+    <HelpKINode Title="LoginWithRecoveryCodeModel Class" Url="html/f618791b-035d-a72c-4c23-cc0e9a934658.htm" />
+    <HelpKINode Title="constructor" Url="html/154fd6c6-3257-11f5-fe52-777be39be920.htm" />
+    <HelpKINode Title="methods" Url="html/58cfd598-e849-d23a-99f7-b75a253f6008.htm" />
+    <HelpKINode Title="properties" Url="html/8147095c-716a-1435-8c7c-0a293aa44099.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginWithRecoveryCodeModel.Input property" Url="html/aa757412-cd1a-8387-1a8f-6737a975ffe6.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel.InputModel class">
+    <HelpKINode Title="LoginWithRecoveryCodeModel.InputModel Class" Url="html/a525e72c-564e-ac74-046f-55498d62ded6.htm" />
+    <HelpKINode Title="constructor" Url="html/06c7e8e6-2ba9-c22a-fac0-82968cb09028.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginWithRecoveryCodeModel.InputModel.InputModel constructor" Url="html/06c7e8e6-2ba9-c22a-fac0-82968cb09028.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel.InputModel.RecoveryCode property" Url="html/f66a8a36-2359-c5dd-5f28-a0a19425e446.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel.LoginWithRecoveryCodeModel constructor" Url="html/154fd6c6-3257-11f5-fe52-777be39be920.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel.OnGetAsync method" Url="html/c98110ec-6e10-beaa-cc97-6519e77ec90d.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel.OnPostAsync method" Url="html/36ff47f2-4b5d-db26-615a-d8aecb9af1fc.htm" />
+  <HelpKINode Title="LoginWithRecoveryCodeModel.ReturnUrl property" Url="html/31738229-faff-2fb2-2b39-bc3f6756f84c.htm" />
+  <HelpKINode Title="LogoutModel class">
+    <HelpKINode Title="LogoutModel Class" Url="html/4ecf855f-212f-2385-d116-24667aca6a90.htm" />
+    <HelpKINode Title="constructor" Url="html/e4e6e69d-f3b6-9e94-1682-3f80b673bcf3.htm" />
+    <HelpKINode Title="methods" Url="html/e72db338-cd21-2e25-e9be-c8d8de7d031f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogoutModel.LogoutModel constructor" Url="html/e4e6e69d-f3b6-9e94-1682-3f80b673bcf3.htm" />
+  <HelpKINode Title="LogoutModel.OnGet method" Url="html/3c3fed22-f013-fb30-bca3-a9abe3b1fa10.htm" />
+  <HelpKINode Title="LogoutModel.OnPost method" Url="html/6279d825-f67c-aa9f-dc4a-357efd889a71.htm" />
+  <HelpKINode Title="Main method" Url="html/4d3b6817-34a0-79b0-25ec-e8ad64bc975c.htm" />
+  <HelpKINode Title="ManageNavPages class">
+    <HelpKINode Title="ManageNavPages Class" Url="html/8b5c8268-3d7e-4d55-8fe0-50e7841e74a2.htm" />
+    <HelpKINode Title="methods" Url="html/78e52e84-1f00-11f8-6d7e-ca4698ce8870.htm" />
+    <HelpKINode Title="properties" Url="html/3d3351e2-6750-2007-240e-552d37ccd496.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ManageNavPages.ChangePassword property" Url="html/3bccf89b-a8a4-5be5-b511-7a4cab88e3cd.htm" />
+  <HelpKINode Title="ManageNavPages.ChangePasswordNavClass method" Url="html/a34fc5dc-4a51-21d1-aedf-5fbacb662c9e.htm" />
+  <HelpKINode Title="ManageNavPages.Email property" Url="html/003d514c-efce-8f64-0761-4cbcbbdb1ec7.htm" />
+  <HelpKINode Title="ManageNavPages.EmailNavClass method" Url="html/36726e1e-d104-e43f-069e-f0f87fb86b4d.htm" />
+  <HelpKINode Title="ManageNavPages.ExternalLogins property" Url="html/4342002b-2ff1-af39-0a0e-eea012c6051a.htm" />
+  <HelpKINode Title="ManageNavPages.ExternalLoginsNavClass method" Url="html/43d398eb-9eac-63e7-d21c-466eea037259.htm" />
+  <HelpKINode Title="ManageNavPages.Index property" Url="html/d3846209-e6c9-cec2-41ce-64fcdf53cac6.htm" />
+  <HelpKINode Title="ManageNavPages.IndexNavClass method" Url="html/632c078e-2450-8fed-fe72-5e57d374ee48.htm" />
+  <HelpKINode Title="ManageNavPages.PersonalData property" Url="html/219de3f6-e61b-b3ce-7028-6aaad4b6aecf.htm" />
+  <HelpKINode Title="ManageNavPages.PersonalDataNavClass method" Url="html/bce012aa-4403-c783-a98e-82afac409845.htm" />
+  <HelpKINode Title="ManageNavPages.TwoFactorAuthentication property" Url="html/1fa75b48-362b-1684-e3f6-580a1d5c00ac.htm" />
+  <HelpKINode Title="ManageNavPages.TwoFactorAuthenticationNavClass method" Url="html/c589daf5-6e43-d66c-1e77-7c5ecba0d3da.htm" />
+  <HelpKINode Title="Manager enumeration member" Url="html/08abb09d-ce95-0545-8739-e105f45f5bfc.htm" />
+  <HelpKINode Title="Member enumeration member" Url="html/08abb09d-ce95-0545-8739-e105f45f5bfc.htm" />
+  <HelpKINode Title="ModelContext class">
+    <HelpKINode Title="ModelContext Class" Url="html/e94e422a-de48-72e0-9036-c8b21728120a.htm" />
+    <HelpKINode Title="constructor" Url="html/a1388077-7053-a217-3181-3a6ef5d61d75.htm" />
+    <HelpKINode Title="methods" Url="html/2746b0ad-d686-4d71-07ac-d9d4d141f054.htm" />
+    <HelpKINode Title="properties" Url="html/7651e927-807d-30f5-0b59-fd6fccf16969.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModelContext.ClippedSoftware property" Url="html/be47cb37-0bd6-311a-7737-813c2b3df90a.htm" />
+  <HelpKINode Title="ModelContext.ModelContext constructor" Url="html/a1388077-7053-a217-3181-3a6ef5d61d75.htm" />
+  <HelpKINode Title="ModelContext.Software property" Url="html/ba599e22-e30e-9564-c0a2-d07942cf4b2f.htm" />
+  <HelpKINode Title="ModelContext_Snapshot class">
+    <HelpKINode Title="ModelContext_Snapshot Class" Url="html/4390d6ed-5a92-721c-ceb9-23f5b5aac2be.htm" />
+    <HelpKINode Title="constructor" Url="html/8188bb84-35bf-08d2-4ee2-5fab2c807cb1.htm" />
+    <HelpKINode Title="methods" Url="html/14ede64a-d1ca-ee59-ef8c-bc808e27509c.htm" />
+    <HelpKINode Title="properties" Url="html/43d04053-ff1c-321c-ed97-bffcf3dbd940.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModelContext_Snapshot.BuildTargetModel method" Url="html/7c574fbc-ece0-45e0-b9b6-763628c4bb19.htm" />
+  <HelpKINode Title="ModelContext_Snapshot.Down method" Url="html/7d12815f-25c8-257d-e17f-36f5f860b034.htm" />
+  <HelpKINode Title="ModelContext_Snapshot.ModelContext_Snapshot constructor" Url="html/8188bb84-35bf-08d2-4ee2-5fab2c807cb1.htm" />
+  <HelpKINode Title="ModelContext_Snapshot.Up method" Url="html/707c96e6-f00f-04d4-a3a2-2c81eb60d3b6.htm" />
+  <HelpKINode Title="NewEmail property" Url="html/4e44e41b-d3fe-5480-39d6-85131d578e79.htm" />
+  <HelpKINode Title="NewPassword property">
+    <HelpKINode Title="ChangePasswordModel.InputModel.NewPassword Property " Url="html/cd55efa0-2402-7e9d-1255-23be53296d37.htm" />
+    <HelpKINode Title="SetPasswordModel.InputModel.NewPassword Property " Url="html/dc50f2ba-a067-49d5-cb99-8773458e3491.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OldPassword property" Url="html/b23067f4-de72-94a2-973a-10199edb48fa.htm" />
+  <HelpKINode Title="OnGet method">
+    <HelpKINode Title="AboutModel.OnGet Method " Url="html/e12b19e4-392f-eeb2-f2b6-10c37e81b63a.htm" />
+    <HelpKINode Title="AccessDeniedModel.OnGet Method " Url="html/611126f9-a042-ea1b-ef7b-bb2c6222c14c.htm" />
+    <HelpKINode Title="CreateModel.OnGet Method " Url="html/717cef2b-9ed0-4ecd-f075-2421009b690d.htm" />
+    <HelpKINode Title="CreateModel.OnGet Method " Url="html/65ba00dd-8a09-9d12-82c5-1347ee227978.htm" />
+    <HelpKINode Title="DeletePersonalDataModel.OnGet Method " Url="html/b5d00ce5-bca5-2946-765a-51c31d512e8e.htm" />
+    <HelpKINode Title="Disable2faModel.OnGet Method " Url="html/404ca579-4d75-757c-e69a-25717a7ece72.htm" />
+    <HelpKINode Title="ErrorModel.OnGet Method " Url="html/3041b56c-6c1a-da0e-1960-5c9dcdb2c27f.htm" />
+    <HelpKINode Title="ErrorModel.OnGet Method " Url="html/c04b8f25-43b0-a830-7c5d-4dfa27744b73.htm" />
+    <HelpKINode Title="ForgotPasswordConfirmation.OnGet Method " Url="html/ef756604-a691-d501-7018-9403d9621ba8.htm" />
+    <HelpKINode Title="IndexModel.OnGet Method " Url="html/1fa21022-bfe9-b72a-15b3-f4cf2f4ecc75.htm" />
+    <HelpKINode Title="LockoutModel.OnGet Method " Url="html/0c138e88-7237-7c1a-c683-5381478951fe.htm" />
+    <HelpKINode Title="LogoutModel.OnGet Method " Url="html/3c3fed22-f013-fb30-bca3-a9abe3b1fa10.htm" />
+    <HelpKINode Title="PersonalDataModel.OnGet Method " Url="html/969d831d-a016-ad9c-ffc4-fe763361daab.htm" />
+    <HelpKINode Title="PrivacyModel.OnGet Method " Url="html/233abcf8-b9a2-9d30-512d-84c888df3f4f.htm" />
+    <HelpKINode Title="ResetAuthenticatorModel.OnGet Method " Url="html/ac7c34e3-6047-996b-f319-87acc23bd533.htm" />
+    <HelpKINode Title="ResetPasswordConfirmationModel.OnGet Method " Url="html/690e854e-4443-8c72-a08d-e2cddc9c8e94.htm" />
+    <HelpKINode Title="ResetPasswordModel.OnGet Method " Url="html/e56c7b50-ae24-fea8-bf17-9c5348aa75a5.htm" />
+    <HelpKINode Title="ShowRecoveryCodesModel.OnGet Method " Url="html/80818c2d-0886-0cef-310f-dc11001c97dd.htm" />
+    <HelpKINode Title="TwoFactorAuthenticationModel.OnGet Method " Url="html/79bb0c01-db61-fd56-d0d2-26b7dfbddb5b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnGetAsync method">
+    <HelpKINode Title="ChangePasswordModel.OnGetAsync Method " Url="html/df011f5b-e00b-bce1-4f8e-7ab4f046ea74.htm" />
+    <HelpKINode Title="ConfirmEmailChangeModel.OnGetAsync Method " Url="html/c391dfb2-e975-d47d-f31a-069aa6b3c739.htm" />
+    <HelpKINode Title="ConfirmEmailModel.OnGetAsync Method " Url="html/ba7f170f-c087-6b60-1db1-1a35c30a1c80.htm" />
+    <HelpKINode Title="DeleteModel.OnGetAsync Method " Url="html/5f3fd38f-7e41-0486-2675-a8f7cb5382cd.htm" />
+    <HelpKINode Title="DeleteModel.OnGetAsync Method " Url="html/9b671277-3691-0c8e-2847-cb1a8bf959d3.htm" />
+    <HelpKINode Title="DetailsModel.OnGetAsync Method " Url="html/1cb20cec-9d9f-e393-5669-d2f722735ce8.htm" />
+    <HelpKINode Title="DetailsModel.OnGetAsync Method " Url="html/dfeb4352-5756-166d-b025-e497a25195e1.htm" />
+    <HelpKINode Title="EditModel.OnGetAsync Method " Url="html/4cb0f26a-fcf1-2924-5b9b-47448ed9e6b6.htm" />
+    <HelpKINode Title="EditModel.OnGetAsync Method " Url="html/de76b80b-b2d4-1b42-a26e-2e36da73f334.htm" />
+    <HelpKINode Title="EmailModel.OnGetAsync Method " Url="html/1af851a0-5e9c-92e3-0489-46205c0da679.htm" />
+    <HelpKINode Title="EnableAuthenticatorModel.OnGetAsync Method " Url="html/0616929f-634c-380a-482c-eae6e6137826.htm" />
+    <HelpKINode Title="ExternalLoginModel.OnGetAsync Method " Url="html/64d113e2-32e5-71ae-cc51-db1bf426f682.htm" />
+    <HelpKINode Title="ExternalLoginsModel.OnGetAsync Method " Url="html/d99f1261-ef26-09f8-d4c5-7d70b1200c0b.htm" />
+    <HelpKINode Title="GenerateRecoveryCodesModel.OnGetAsync Method " Url="html/83a1edaf-150c-b408-2ad1-399271ed0ab2.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/50c00de0-d89b-c12f-25fe-172e607a4563.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/7bc87eb3-2c77-ba29-ac08-446b5bb49a42.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/be544d2e-45cd-9399-2b12-9edd2c2232bc.htm" />
+    <HelpKINode Title="IndexModel.OnGetAsync Method " Url="html/2ebbe5f0-d9c9-1dfe-b6d8-619ea4e4de33.htm" />
+    <HelpKINode Title="LoginModel.OnGetAsync Method " Url="html/78ffb57d-ff3c-8fd1-90a2-5c0c103bf5ba.htm" />
+    <HelpKINode Title="LoginWith2faModel.OnGetAsync Method " Url="html/5cae2fcf-ecc4-fd25-b94f-ad9becef9d0c.htm" />
+    <HelpKINode Title="LoginWithRecoveryCodeModel.OnGetAsync Method " Url="html/c98110ec-6e10-beaa-cc97-6519e77ec90d.htm" />
+    <HelpKINode Title="RegisterConfirmationModel.OnGetAsync Method " Url="html/4dd24c41-9257-23f2-fca7-fcef6f7df561.htm" />
+    <HelpKINode Title="RegisterModel.OnGetAsync Method " Url="html/7ae44f74-7168-34b9-c93a-6e63926151ca.htm" />
+    <HelpKINode Title="SetPasswordModel.OnGetAsync Method " Url="html/03e60d20-f12e-8eb0-2523-841d0cf531c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnGetCallbackAsync method" Url="html/23b9ea11-3768-183f-8ff4-91e29920994f.htm" />
+  <HelpKINode Title="OnGetLinkLoginCallbackAsync method" Url="html/33137d01-a68f-b238-6687-3697cf2ba29d.htm" />
+  <HelpKINode Title="OnPost method">
+    <HelpKINode Title="ExternalLoginModel.OnPost Method " Url="html/aa0f258d-abbd-90ff-5bcd-d99a9df2032f.htm" />
+    <HelpKINode Title="LogoutModel.OnPost Method " Url="html/6279d825-f67c-aa9f-dc4a-357efd889a71.htm" />
+    <HelpKINode Title="TwoFactorAuthenticationModel.OnPost Method " Url="html/ea8ace42-c304-9278-73db-d5590afc37c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPostAsync method">
+    <HelpKINode Title="ChangePasswordModel.OnPostAsync Method " Url="html/33cfe2ec-aac3-1a3a-041e-82879999020f.htm" />
+    <HelpKINode Title="CreateModel.OnPostAsync Method " Url="html/68d1d738-053d-0929-bc0a-c5de5b551410.htm" />
+    <HelpKINode Title="CreateModel.OnPostAsync Method " Url="html/45e335a8-3f17-e3db-63c1-a4b3107c07cd.htm" />
+    <HelpKINode Title="DeleteModel.OnPostAsync Method " Url="html/a217818f-ae73-204b-a5d6-f46789fde9e4.htm" />
+    <HelpKINode Title="DeleteModel.OnPostAsync Method " Url="html/ca4e841b-b2b4-ec05-8d8e-31b9ed8b55e7.htm" />
+    <HelpKINode Title="DeletePersonalDataModel.OnPostAsync Method " Url="html/9c433f48-5427-3854-972d-0f6f605ae643.htm" />
+    <HelpKINode Title="Disable2faModel.OnPostAsync Method " Url="html/976c6e87-88a4-71f5-9cbb-efb967defef3.htm" />
+    <HelpKINode Title="DownloadPersonalDataModel.OnPostAsync Method " Url="html/344f49da-540a-f082-6abc-1b01b22ce836.htm" />
+    <HelpKINode Title="EditModel.OnPostAsync Method " Url="html/e04f4d7c-0f1a-29ce-1cc2-cc2857f17268.htm" />
+    <HelpKINode Title="EditModel.OnPostAsync Method " Url="html/22c0b275-8d03-7aa9-e01c-eda76f3a23dc.htm" />
+    <HelpKINode Title="EnableAuthenticatorModel.OnPostAsync Method " Url="html/7f74f90c-7491-92c1-ac15-4d3d96693ae6.htm" />
+    <HelpKINode Title="ForgotPasswordModel.OnPostAsync Method " Url="html/1f1b08d9-ec39-54f9-7938-6683e867111a.htm" />
+    <HelpKINode Title="GenerateRecoveryCodesModel.OnPostAsync Method " Url="html/98989525-ddad-9e5a-0f98-59329b05aac4.htm" />
+    <HelpKINode Title="IndexModel.OnPostAsync Method " Url="html/030df2e4-0133-c42b-a14b-de550bf3f513.htm" />
+    <HelpKINode Title="IndexModel.OnPostAsync Method " Url="html/85e5c13e-804f-9c4d-04f6-a0d0d07edf8b.htm" />
+    <HelpKINode Title="LoginModel.OnPostAsync Method " Url="html/7779aa2d-9d95-ecb0-99b9-fc42e1aae1f2.htm" />
+    <HelpKINode Title="LoginWith2faModel.OnPostAsync Method " Url="html/56dab936-e960-529d-37d9-3c5b51a3eaa0.htm" />
+    <HelpKINode Title="LoginWithRecoveryCodeModel.OnPostAsync Method " Url="html/36ff47f2-4b5d-db26-615a-d8aecb9af1fc.htm" />
+    <HelpKINode Title="RegisterModel.OnPostAsync Method " Url="html/29e6dea5-00cc-26e3-5612-7bc25447d81e.htm" />
+    <HelpKINode Title="ResetAuthenticatorModel.OnPostAsync Method " Url="html/7c9b95f0-9827-b7c4-ae4b-5d4eee597a95.htm" />
+    <HelpKINode Title="ResetPasswordModel.OnPostAsync Method " Url="html/8f1e0690-3d32-1b9c-ae7c-2edc39cf843e.htm" />
+    <HelpKINode Title="SetPasswordModel.OnPostAsync Method " Url="html/141581b8-11aa-bf38-0a97-8ff23f21ef55.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPostChangeEmailAsync method" Url="html/d491097e-c56c-0068-641c-2ecaa0832529.htm" />
+  <HelpKINode Title="OnPostConfirmationAsync method" Url="html/542507a6-8ec4-d508-343f-9655c809b495.htm" />
+  <HelpKINode Title="OnPostLinkLoginAsync method" Url="html/edcb4691-1fc7-36e4-1e8e-68456cc9bfa1.htm" />
+  <HelpKINode Title="OnPostRemoveLoginAsync method" Url="html/cf2e84d2-841f-1490-793e-024e77dc1be4.htm" />
+  <HelpKINode Title="OnPostSendVerificationEmailAsync method">
+    <HelpKINode Title="EmailModel.OnPostSendVerificationEmailAsync Method " Url="html/767dfd8b-84e9-aba6-4077-28de9f0ed3b5.htm" />
+    <HelpKINode Title="LoginModel.OnPostSendVerificationEmailAsync Method " Url="html/771d1d1d-3f3c-0f7a-1739-120e1e6b5aeb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OtherLogins property" Url="html/82085c17-7514-2200-4101-1d5bcd5c1016.htm" />
+  <HelpKINode Title="Password property">
+    <HelpKINode Title="DeletePersonalDataModel.InputModel.Password Property " Url="html/307f1503-bbd1-09f1-1260-6ff47b17d600.htm" />
+    <HelpKINode Title="LoginModel.InputModel.Password Property " Url="html/87376e3a-14a1-9991-d51d-56b69e20dc29.htm" />
+    <HelpKINode Title="RegisterModel.InputModel.Password Property " Url="html/c1c1f5c2-aebd-1b41-d914-5d88f991e535.htm" />
+    <HelpKINode Title="ResetPasswordModel.InputModel.Password Property " Url="html/f5420b3f-69d1-c65a-c932-fcbab70e93f1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PersonalData property" Url="html/219de3f6-e61b-b3ce-7028-6aaad4b6aecf.htm" />
+  <HelpKINode Title="PersonalDataModel class">
+    <HelpKINode Title="PersonalDataModel Class" Url="html/42607997-00eb-b544-960d-2628da60831c.htm" />
+    <HelpKINode Title="constructor" Url="html/451829d0-c022-cad3-7e8e-57fea5f3fac7.htm" />
+    <HelpKINode Title="methods" Url="html/b2c6035e-2c4b-520e-9cd8-671856876351.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PersonalDataModel.OnGet method" Url="html/969d831d-a016-ad9c-ffc4-fe763361daab.htm" />
+  <HelpKINode Title="PersonalDataModel.PersonalDataModel constructor" Url="html/451829d0-c022-cad3-7e8e-57fea5f3fac7.htm" />
+  <HelpKINode Title="PersonalDataNavClass method" Url="html/bce012aa-4403-c783-a98e-82afac409845.htm" />
+  <HelpKINode Title="PhoneNumber property" Url="html/e8f14cd5-6d68-b21f-5f06-6574c30a3497.htm" />
+  <HelpKINode Title="PrivacyModel class">
+    <HelpKINode Title="PrivacyModel Class" Url="html/a425d24e-0381-29c5-d145-0c1da0b96d99.htm" />
+    <HelpKINode Title="constructor" Url="html/d3bbae9c-c155-fe12-82f6-5f074f16e76b.htm" />
+    <HelpKINode Title="methods" Url="html/f1f60954-168f-e786-ae9f-1a3c29458957.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrivacyModel.OnGet method" Url="html/233abcf8-b9a2-9d30-512d-84c888df3f4f.htm" />
+  <HelpKINode Title="PrivacyModel.PrivacyModel constructor" Url="html/d3bbae9c-c155-fe12-82f6-5f074f16e76b.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/847af5a3-dcd7-2304-3bbd-f017cc2e3bae.htm" />
+    <HelpKINode Title="constructor" Url="html/2f24c1cb-c698-a11a-efc0-51feecc3aa6b.htm" />
+    <HelpKINode Title="methods" Url="html/e24c6342-5859-86ae-274f-597105f233bd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.CreateHostBuilder method" Url="html/27c8fe71-cd9a-37b8-3808-b0ae6ac6c853.htm" />
+  <HelpKINode Title="Program.Main method" Url="html/4d3b6817-34a0-79b0-25ec-e8ad64bc975c.htm" />
+  <HelpKINode Title="Program.Program constructor" Url="html/2f24c1cb-c698-a11a-efc0-51feecc3aa6b.htm" />
+  <HelpKINode Title="Publisher property" Url="html/86bff553-3887-abd9-bf92-1b70654e8757.htm" />
+  <HelpKINode Title="RecoveryCode property" Url="html/f66a8a36-2359-c5dd-5f28-a0a19425e446.htm" />
+  <HelpKINode Title="RecoveryCodes property">
+    <HelpKINode Title="EnableAuthenticatorModel.RecoveryCodes Property " Url="html/b8077c8e-36d5-b9ac-3c8b-328f37e4a9b6.htm" />
+    <HelpKINode Title="GenerateRecoveryCodesModel.RecoveryCodes Property " Url="html/902a9eee-41e9-0c0e-2409-f79379401a49.htm" />
+    <HelpKINode Title="ShowRecoveryCodesModel.RecoveryCodes Property " Url="html/6d57e39b-80e8-1052-5238-3b9200ff0b12.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RecoveryCodesLeft property" Url="html/ce0b4c0d-f2d4-7235-4cea-b63a856dea08.htm" />
+  <HelpKINode Title="RegisterConfirmationModel class">
+    <HelpKINode Title="RegisterConfirmationModel Class" Url="html/85e2157b-a306-87dd-54ef-a754af631a48.htm" />
+    <HelpKINode Title="constructor" Url="html/9c0ef387-496f-8e46-6e17-e2ed6b40f203.htm" />
+    <HelpKINode Title="methods" Url="html/00d27d93-20bb-0e9e-25a7-6007bf2565d1.htm" />
+    <HelpKINode Title="properties" Url="html/fe0f0caf-3650-e9f2-abe2-c59290754c4f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegisterConfirmationModel.DisplayConfirmAccountLink property" Url="html/30186c6e-fbb3-ef5b-f5b3-95985b59d7c0.htm" />
+  <HelpKINode Title="RegisterConfirmationModel.Email property" Url="html/f427b2dd-6090-da8a-784e-9f0b3b4c0916.htm" />
+  <HelpKINode Title="RegisterConfirmationModel.EmailConfirmationUrl property" Url="html/eb096037-2764-5e27-adaf-200d4a488160.htm" />
+  <HelpKINode Title="RegisterConfirmationModel.OnGetAsync method" Url="html/4dd24c41-9257-23f2-fca7-fcef6f7df561.htm" />
+  <HelpKINode Title="RegisterConfirmationModel.RegisterConfirmationModel constructor" Url="html/9c0ef387-496f-8e46-6e17-e2ed6b40f203.htm" />
+  <HelpKINode Title="RegisterModel class">
+    <HelpKINode Title="RegisterModel Class" Url="html/d66f6101-3c5e-1357-23c2-aecbb3501dea.htm" />
+    <HelpKINode Title="constructor" Url="html/e2038434-8f68-1aaf-c82c-3a953d661133.htm" />
+    <HelpKINode Title="methods" Url="html/728b113d-22b2-0843-aeaa-8e4ce1b05127.htm" />
+    <HelpKINode Title="properties" Url="html/786020db-884c-f41f-ea6e-fa17f80439a4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegisterModel.ExternalLogins property" Url="html/1ca68599-6a3e-5e94-c57e-240446858900.htm" />
+  <HelpKINode Title="RegisterModel.Input property" Url="html/1c33be42-e60d-8a33-cc19-3e596e1e6c08.htm" />
+  <HelpKINode Title="RegisterModel.InputModel class">
+    <HelpKINode Title="RegisterModel.InputModel Class" Url="html/d0886671-5ec7-c79f-85d4-5159b8a8ab51.htm" />
+    <HelpKINode Title="constructor" Url="html/16b6c938-d70b-4b7f-d147-c7f17ab5df0a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegisterModel.InputModel.ConfirmPassword property" Url="html/50b23ce4-c664-0032-6377-3bd8c1490669.htm" />
+  <HelpKINode Title="RegisterModel.InputModel.Email property" Url="html/6aa0c954-498e-32ae-04e2-9237450d3889.htm" />
+  <HelpKINode Title="RegisterModel.InputModel.InputModel constructor" Url="html/16b6c938-d70b-4b7f-d147-c7f17ab5df0a.htm" />
+  <HelpKINode Title="RegisterModel.InputModel.Password property" Url="html/c1c1f5c2-aebd-1b41-d914-5d88f991e535.htm" />
+  <HelpKINode Title="RegisterModel.OnGetAsync method" Url="html/7ae44f74-7168-34b9-c93a-6e63926151ca.htm" />
+  <HelpKINode Title="RegisterModel.OnPostAsync method" Url="html/29e6dea5-00cc-26e3-5612-7bc25447d81e.htm" />
+  <HelpKINode Title="RegisterModel.RegisterModel constructor" Url="html/e2038434-8f68-1aaf-c82c-3a953d661133.htm" />
+  <HelpKINode Title="RegisterModel.ReturnUrl property" Url="html/edec4c80-0609-cb2d-1834-e0228c534528.htm" />
+  <HelpKINode Title="RememberMachine property" Url="html/736bf3c2-f4b3-4a38-8dc9-7627531740d2.htm" />
+  <HelpKINode Title="RememberMe property">
+    <HelpKINode Title="LoginModel.InputModel.RememberMe Property " Url="html/3957cda7-8e65-0c5e-8eaf-86529d85c9e4.htm" />
+    <HelpKINode Title="LoginWith2faModel.RememberMe Property " Url="html/6288380c-43c7-a9ce-1943-41abd66314f4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestId property">
+    <HelpKINode Title="ErrorModel.RequestId Property " Url="html/4e981b4f-dcbf-7f58-9ae5-114f61b57bff.htm" />
+    <HelpKINode Title="ErrorModel.RequestId Property " Url="html/cda27003-0700-3fdc-409f-99fb492b1339.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequirePassword property" Url="html/357bf677-fe6f-f7b9-a174-27fb6bb43564.htm" />
+  <HelpKINode Title="ResetAuthenticatorModel class">
+    <HelpKINode Title="ResetAuthenticatorModel Class" Url="html/2cf98ae6-a7c0-e2ad-3ff3-0c3d55a0eda0.htm" />
+    <HelpKINode Title="constructor" Url="html/d3ef175a-14c2-a680-0ce6-3ff74112d511.htm" />
+    <HelpKINode Title="methods" Url="html/cc8ea912-813d-ffe6-84b5-f78e2d6b9f0b.htm" />
+    <HelpKINode Title="properties" Url="html/cd79cf61-f0a9-7954-af14-48f8e71b3d1d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResetAuthenticatorModel.OnGet method" Url="html/ac7c34e3-6047-996b-f319-87acc23bd533.htm" />
+  <HelpKINode Title="ResetAuthenticatorModel.OnPostAsync method" Url="html/7c9b95f0-9827-b7c4-ae4b-5d4eee597a95.htm" />
+  <HelpKINode Title="ResetAuthenticatorModel.ResetAuthenticatorModel constructor" Url="html/d3ef175a-14c2-a680-0ce6-3ff74112d511.htm" />
+  <HelpKINode Title="ResetAuthenticatorModel.StatusMessage property" Url="html/f6562dfc-389f-14ff-b87f-0d5888956182.htm" />
+  <HelpKINode Title="ResetPasswordConfirmationModel class">
+    <HelpKINode Title="ResetPasswordConfirmationModel Class" Url="html/88254024-b516-f948-5c8a-82aa28bca23a.htm" />
+    <HelpKINode Title="constructor" Url="html/71682113-4f1e-d15b-3da0-3ca4bfb3164a.htm" />
+    <HelpKINode Title="methods" Url="html/52968025-60bb-7a60-836d-0c33c416c4e3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResetPasswordConfirmationModel.OnGet method" Url="html/690e854e-4443-8c72-a08d-e2cddc9c8e94.htm" />
+  <HelpKINode Title="ResetPasswordConfirmationModel.ResetPasswordConfirmationModel constructor" Url="html/71682113-4f1e-d15b-3da0-3ca4bfb3164a.htm" />
+  <HelpKINode Title="ResetPasswordModel class">
+    <HelpKINode Title="ResetPasswordModel Class" Url="html/aeb2d36d-144e-765a-0198-f70a8ffcd48b.htm" />
+    <HelpKINode Title="constructor" Url="html/0f81db85-6ed2-28ca-f600-30790989a308.htm" />
+    <HelpKINode Title="methods" Url="html/c2bced27-5830-dd22-cf6c-e819f30ca9c6.htm" />
+    <HelpKINode Title="properties" Url="html/c1348620-268f-572a-2f68-15a3966404f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResetPasswordModel.Input property" Url="html/aeee5d95-a983-d5d4-ae9b-16b26daf6ea4.htm" />
+  <HelpKINode Title="ResetPasswordModel.InputModel class">
+    <HelpKINode Title="ResetPasswordModel.InputModel Class" Url="html/0cb0ca50-f104-6709-8325-0b3dfca0dd04.htm" />
+    <HelpKINode Title="constructor" Url="html/38cb5d17-e216-68c6-d4d8-379394356d6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResetPasswordModel.InputModel.Code property" Url="html/8b59652b-82a7-f11e-6396-a5eb83a3371c.htm" />
+  <HelpKINode Title="ResetPasswordModel.InputModel.ConfirmPassword property" Url="html/d2a69727-39e3-5d7d-5c0a-0877d8787000.htm" />
+  <HelpKINode Title="ResetPasswordModel.InputModel.Email property" Url="html/4be2a6f5-f1cd-682e-90a1-0f896d1c5f8f.htm" />
+  <HelpKINode Title="ResetPasswordModel.InputModel.InputModel constructor" Url="html/38cb5d17-e216-68c6-d4d8-379394356d6f.htm" />
+  <HelpKINode Title="ResetPasswordModel.InputModel.Password property" Url="html/f5420b3f-69d1-c65a-c932-fcbab70e93f1.htm" />
+  <HelpKINode Title="ResetPasswordModel.OnGet method" Url="html/e56c7b50-ae24-fea8-bf17-9c5348aa75a5.htm" />
+  <HelpKINode Title="ResetPasswordModel.OnPostAsync method" Url="html/8f1e0690-3d32-1b9c-ae7c-2edc39cf843e.htm" />
+  <HelpKINode Title="ResetPasswordModel.ResetPasswordModel constructor" Url="html/0f81db85-6ed2-28ca-f600-30790989a308.htm" />
+  <HelpKINode Title="ReturnUrl property">
+    <HelpKINode Title="ExternalLoginModel.ReturnUrl Property " Url="html/42377d26-fd65-af8e-857c-28e3099c370d.htm" />
+    <HelpKINode Title="LoginModel.ReturnUrl Property " Url="html/eddfd28c-6ca5-e422-d859-5365e53657ec.htm" />
+    <HelpKINode Title="LoginWith2faModel.ReturnUrl Property " Url="html/30db5140-e2dc-1f02-4d9d-079ffa962ddd.htm" />
+    <HelpKINode Title="LoginWithRecoveryCodeModel.ReturnUrl Property " Url="html/31738229-faff-2fb2-2b39-bc3f6756f84c.htm" />
+    <HelpKINode Title="RegisterModel.ReturnUrl Property " Url="html/edec4c80-0609-cb2d-1834-e0228c534528.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Role property" Url="html/3168c66d-9d87-02ef-36a2-ae2133f70cde.htm" />
+  <HelpKINode Title="roles field" Url="html/c4a4d45c-820b-232e-a99b-7de18590c1b9.htm" />
+  <HelpKINode Title="Roles property" Url="html/7cf3fc94-9b3e-a60c-8465-b0c97b60235a.htm" />
+  <HelpKINode Title="RoleString property" Url="html/4f356784-d8fe-e130-d70f-acec38ce58fb.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch namespace" Url="html/1fcef9d6-adc5-f4e8-1081-e11178436573.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity namespace" Url="html/51950a8c-f4c1-2af6-4987-e84d028a41d5.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.IdentityHostingStartup class" Url="html/079983f5-2f9a-b70f-911f-bcf09bb94e4c.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages namespace" Url="html/d5ffeeac-ff84-93de-ab91-c128d9b76c62.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account namespace" Url="html/34e45b05-1fc1-e896-f13c-0c5708f825ad.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.AccessDeniedModel class" Url="html/a65a3423-aa3a-5093-8b81-18196a41ed06.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ConfirmEmailChangeModel class" Url="html/d7cc2adf-cb12-e2c9-d240-ff52b53bcc93.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ConfirmEmailModel class" Url="html/4652dc15-9a6e-a68a-9468-28946385274b.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ExternalLoginModel class" Url="html/56e357a4-4673-cb22-3ed5-45ce89a0dc9f.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ExternalLoginModel.InputModel class" Url="html/d10a0fe3-8c45-e469-2f3f-6162d99561b6.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ForgotPasswordConfirmation class" Url="html/9f9dcf62-afe0-b619-82d5-c91f23e85e85.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ForgotPasswordModel class" Url="html/a74234f2-1b9f-df2f-1925-291325d4d772.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ForgotPasswordModel.InputModel class" Url="html/06f46b70-458c-8ef7-91af-3d071d0e2552.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LockoutModel class" Url="html/14d55775-bc91-7301-802d-40f1bc03b8ae.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LoginModel class" Url="html/3397d854-7d58-a401-5ae8-399c675ad4f0.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LoginModel.InputModel class" Url="html/9b07b3b3-adc1-40e4-f083-778f3456d994.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LoginWith2faModel class" Url="html/1b86fb4b-81bd-dc75-5b38-c1524232d527.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LoginWith2faModel.InputModel class" Url="html/16b5ebbc-10ad-0819-ac7f-2c338b604630.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel class" Url="html/f618791b-035d-a72c-4c23-cc0e9a934658.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel.InputModel class" Url="html/a525e72c-564e-ac74-046f-55498d62ded6.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.LogoutModel class" Url="html/4ecf855f-212f-2385-d116-24667aca6a90.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage namespace" Url="html/2a950a05-652d-d5f9-8290-10296ed2f368.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.ChangePasswordModel class" Url="html/85b2c151-6bab-b9a7-e5d1-fd88fc0ba359.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.InputModel class" Url="html/ad8508ec-2009-55e1-aae5-68ca18637c7f.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel class" Url="html/4e51d201-e9ec-f0ec-cc46-83aa2b5e023a.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.InputModel class" Url="html/e50e7a9a-271b-a0e0-7fea-f955a70cec05.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.Disable2faModel class" Url="html/068338f2-b4db-e7b7-4a83-7e987de7753c.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.DownloadPersonalDataModel class" Url="html/819d9cbc-9034-ce4e-c1a5-1971ccdfc105.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.EmailModel class" Url="html/4f47de74-31be-4c87-2a01-59e70c8e3db9.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.EmailModel.InputModel class" Url="html/2966d7f7-546e-2f5d-ec16-4399003154f3.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel class" Url="html/be9a084a-0dd6-a408-3c52-04f01c2f359f.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.InputModel class" Url="html/a5626a91-bc20-e3ca-206a-ec780ac0c08e.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel class" Url="html/cca976bf-8007-8eb0-b6bf-eae31a2721d3.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel class" Url="html/424bcaac-bc5a-6ec4-6a4b-6cca19949527.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel class" Url="html/8420087a-83b1-bf3b-539a-a7dd23c195be.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.IndexModel.InputModel class" Url="html/00502307-f77f-5f24-5482-f90f8d041364.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.ManageNavPages class" Url="html/8b5c8268-3d7e-4d55-8fe0-50e7841e74a2.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.PersonalDataModel class" Url="html/42607997-00eb-b544-960d-2628da60831c.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel class" Url="html/2cf98ae6-a7c0-e2ad-3ff3-0c3d55a0eda0.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.SetPasswordModel class" Url="html/24f3232e-defd-0d63-38ff-3ac70a97c105.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel class" Url="html/21afb308-5835-b04d-0026-74388b64ef54.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel class" Url="html/3c5389e0-1a07-d71d-f202-bdd1e401be76.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel class" Url="html/5dc66fad-8926-aa88-af55-1e09fb2869f6.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.RegisterConfirmationModel class" Url="html/85e2157b-a306-87dd-54ef-a754af631a48.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.RegisterModel class" Url="html/d66f6101-3c5e-1357-23c2-aecbb3501dea.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.RegisterModel.InputModel class" Url="html/d0886671-5ec7-c79f-85d4-5159b8a8ab51.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ResetPasswordConfirmationModel class" Url="html/88254024-b516-f948-5c8a-82aa28bca23a.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ResetPasswordModel class" Url="html/aeb2d36d-144e-765a-0198-f70a8ffcd48b.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel class" Url="html/0cb0ca50-f104-6709-8325-0b3dfca0dd04.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Areas.Identity.Pages.ErrorModel class" Url="html/15b51416-c914-bdc8-fcbd-df11e320ed34.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Controllers namespace" Url="html/ccfb6cb1-a1ca-c6a5-07da-d40056c0f956.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Controllers.UserController class" Url="html/41964fb4-4bc2-4bdb-3675-86aaa89135a7.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Controllers.UserController.Roles enumeration" Url="html/08abb09d-ce95-0545-8739-e105f45f5bfc.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Data namespace" Url="html/c9177b42-50a2-c534-5476-264d1bd40083.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Data.ApplicationDbContext class" Url="html/8540cdb1-fc24-c472-5da1-d44e07e02376.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Data.Migrations namespace" Url="html/5fd81902-9ef1-7e0d-bb2a-b332120ff572.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Data.Migrations.ApplicationDbContext_Snapshot class" Url="html/3c92a8b6-5a04-4011-090e-675cbd25ebe5.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Migrations namespace" Url="html/e796cf60-5b58-13c6-d3d8-ef1087a5158e.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Migrations.ModelContext_Snapshot class" Url="html/4390d6ed-5a92-721c-ceb9-23f5b5aac2be.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Models namespace" Url="html/50024ada-0072-a641-43fe-98ed4eac16d9.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Models.ClippedSoftware class" Url="html/51445977-0308-686c-6e45-f75ab4d7d511.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Models.ModelContext class" Url="html/e94e422a-de48-72e0-9036-c8b21728120a.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Models.Software class" Url="html/dc10732b-7373-d80b-d34b-16efbf27f20b.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages namespace" Url="html/72d2b278-3345-83f0-a714-f257f66bc813.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.AboutModel class" Url="html/5e733d67-d803-5e33-b35c-12e86bb964d7.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ClippedSoftwares namespace" Url="html/3303b8b8-9c4e-a19e-95d6-7c73e94e72c4.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ClippedSoftwares.CreateModel class" Url="html/7490636b-69bc-8ecc-b43c-a383fedcd736.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ClippedSoftwares.DeleteModel class" Url="html/1fba17f1-9e5a-6057-5163-cfd02fd0ae39.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ClippedSoftwares.DetailsModel class" Url="html/de64107b-4244-8b26-a469-3091b6c2d1ce.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ClippedSoftwares.EditModel class" Url="html/c4b93eb6-20c8-2d59-eaa2-a01ac8ec2c09.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ClippedSoftwares.IndexModel class" Url="html/b14dcc2e-0464-27dc-4cfa-52583a12969d.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.ErrorModel class" Url="html/7bec9c8f-e379-a63a-fdf4-74522ef63111.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.IndexModel class" Url="html/267afd42-c59f-97a4-bcd0-f984a39c3ece.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.PrivacyModel class" Url="html/a425d24e-0381-29c5-d145-0c1da0b96d99.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Softwares namespace" Url="html/aa344df6-66ee-d707-795e-e4d779728ba3.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Softwares.CreateModel class" Url="html/fad06846-0aa5-15df-8353-be00c228d3a5.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Softwares.DeleteModel class" Url="html/f55301bb-d3e2-8648-5a6e-21ca32f0a839.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Softwares.DetailsModel class" Url="html/f94ccbcf-9247-d0eb-a8ca-75f8eba75df8.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Softwares.EditModel class" Url="html/f18e57bb-1062-7282-b0e3-9af1a9834d83.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Softwares.IndexModel class" Url="html/3251a210-08d9-d656-4922-6cf26a7e88fa.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Users namespace" Url="html/6c78b345-a503-6d75-8a4e-a24caf2a1331.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Pages.Users.IndexModel class" Url="html/8b20c708-1c24-6c99-4975-a3cd32dac713.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Program class" Url="html/847af5a3-dcd7-2304-3bbd-f017cc2e3bae.htm" />
+  <HelpKINode Title="ScholarlySoftwareSearch.Startup class" Url="html/47fe87ba-1f8c-1236-2383-8c9bec6f2438.htm" />
+  <HelpKINode Title="SearchBy property" Url="html/7d4f8dc3-4d84-39ae-d14b-ca70b3fd8c6f.htm" />
+  <HelpKINode Title="SearchByString property" Url="html/38921dc6-58be-c72d-31cc-1b69524ad3aa.htm" />
+  <HelpKINode Title="SearchString property" Url="html/a5c7c74d-a106-4954-9cd3-2a1b3d6fd81e.htm" />
+  <HelpKINode Title="serviceProvider field" Url="html/56789e81-2833-345b-b0df-c84509b62ebc.htm" />
+  <HelpKINode Title="SetPasswordModel class">
+    <HelpKINode Title="SetPasswordModel Class" Url="html/24f3232e-defd-0d63-38ff-3ac70a97c105.htm" />
+    <HelpKINode Title="constructor" Url="html/9d1772d7-6814-e358-99c0-6b67bc231079.htm" />
+    <HelpKINode Title="methods" Url="html/ce971500-7c97-ca2e-26aa-59a97a0ad22d.htm" />
+    <HelpKINode Title="properties" Url="html/e894da7c-5d67-547a-a519-c40f47f2d981.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetPasswordModel.Input property" Url="html/84f6d05e-7d18-1e58-97db-2e2fb777f342.htm" />
+  <HelpKINode Title="SetPasswordModel.InputModel class">
+    <HelpKINode Title="SetPasswordModel.InputModel Class" Url="html/21afb308-5835-b04d-0026-74388b64ef54.htm" />
+    <HelpKINode Title="constructor" Url="html/9c740a73-4403-adf8-9669-11611fd5a6c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetPasswordModel.InputModel.ConfirmPassword property" Url="html/cbd16451-cf48-5d65-66a6-d9bdadebd61c.htm" />
+  <HelpKINode Title="SetPasswordModel.InputModel.InputModel constructor" Url="html/9c740a73-4403-adf8-9669-11611fd5a6c7.htm" />
+  <HelpKINode Title="SetPasswordModel.InputModel.NewPassword property" Url="html/dc50f2ba-a067-49d5-cb99-8773458e3491.htm" />
+  <HelpKINode Title="SetPasswordModel.OnGetAsync method" Url="html/03e60d20-f12e-8eb0-2523-841d0cf531c3.htm" />
+  <HelpKINode Title="SetPasswordModel.OnPostAsync method" Url="html/141581b8-11aa-bf38-0a97-8ff23f21ef55.htm" />
+  <HelpKINode Title="SetPasswordModel.SetPasswordModel constructor" Url="html/9d1772d7-6814-e358-99c0-6b67bc231079.htm" />
+  <HelpKINode Title="SetPasswordModel.StatusMessage property" Url="html/992405e1-ee81-b320-5b72-a45e49d44d81.htm" />
+  <HelpKINode Title="SharedKey property" Url="html/70fa381a-c513-62ef-f27c-f85a371aa511.htm" />
+  <HelpKINode Title="ShowRecoveryCodesModel class">
+    <HelpKINode Title="ShowRecoveryCodesModel Class" Url="html/3c5389e0-1a07-d71d-f202-bdd1e401be76.htm" />
+    <HelpKINode Title="constructor" Url="html/e6d71493-ed1f-aba6-70a1-6f5c625f9971.htm" />
+    <HelpKINode Title="methods" Url="html/dcee7e32-39d6-bbcf-b978-d0a76da8a12b.htm" />
+    <HelpKINode Title="properties" Url="html/0ee80c49-dfb9-293c-078c-4da4c9c5f3ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowRecoveryCodesModel.OnGet method" Url="html/80818c2d-0886-0cef-310f-dc11001c97dd.htm" />
+  <HelpKINode Title="ShowRecoveryCodesModel.RecoveryCodes property" Url="html/6d57e39b-80e8-1052-5238-3b9200ff0b12.htm" />
+  <HelpKINode Title="ShowRecoveryCodesModel.ShowRecoveryCodesModel constructor" Url="html/e6d71493-ed1f-aba6-70a1-6f5c625f9971.htm" />
+  <HelpKINode Title="ShowRecoveryCodesModel.StatusMessage property" Url="html/fd46d920-5e21-c5f4-ae71-18e21ad83258.htm" />
+  <HelpKINode Title="ShowRemoveButton property" Url="html/d3fc1c11-a786-11c5-2e2f-198fc98cd0ff.htm" />
+  <HelpKINode Title="ShowRequestId property">
+    <HelpKINode Title="ErrorModel.ShowRequestId Property " Url="html/45e283ef-4e93-8e75-2ede-709a0bb3be98.htm" />
+    <HelpKINode Title="ErrorModel.ShowRequestId Property " Url="html/e1afe088-056d-b909-0b9a-f567866052ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Software class">
+    <HelpKINode Title="Software Class" Url="html/dc10732b-7373-d80b-d34b-16efbf27f20b.htm" />
+    <HelpKINode Title="constructor" Url="html/e6738dd2-018b-5821-6d7e-1269216bfa67.htm" />
+    <HelpKINode Title="methods" Url="html/7b946da7-f35f-7b29-d7bd-7a082f7e52e9.htm" />
+    <HelpKINode Title="properties" Url="html/5cc661b0-2ef5-2df1-7cea-088b626a93c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Software property">
+    <HelpKINode Title="CreateModel.Software Property " Url="html/55c5a028-a971-b34a-b7d3-c364a5770fe6.htm" />
+    <HelpKINode Title="DeleteModel.Software Property " Url="html/830c1143-356d-407f-1bbf-f9962441fc50.htm" />
+    <HelpKINode Title="DetailsModel.Software Property " Url="html/21ba99a5-fe50-e102-de01-b5db7fe6733b.htm" />
+    <HelpKINode Title="EditModel.Software Property " Url="html/84919b2c-153d-e787-f654-73c60211e488.htm" />
+    <HelpKINode Title="IndexModel.Software Property " Url="html/0e52be43-5d8a-9844-b901-d38e0a2d0198.htm" />
+    <HelpKINode Title="ModelContext.Software Property " Url="html/ba599e22-e30e-9564-c0a2-d07942cf4b2f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Software.Authors property" Url="html/f458a74a-44b4-904b-4abe-5013b0dcb96a.htm" />
+  <HelpKINode Title="Software.Description property" Url="html/23512928-4246-8d4c-d402-1a8a89405eea.htm" />
+  <HelpKINode Title="Software.DownloadURL property" Url="html/a9c1f9d8-c27b-5c04-cb81-48fc3ed8a2d4.htm" />
+  <HelpKINode Title="Software.Id property" Url="html/10a0df86-e279-9215-1de4-a062706b57f1.htm" />
+  <HelpKINode Title="Software.Publisher property" Url="html/86bff553-3887-abd9-bf92-1b70654e8757.htm" />
+  <HelpKINode Title="Software.Software constructor" Url="html/e6738dd2-018b-5821-6d7e-1269216bfa67.htm" />
+  <HelpKINode Title="Software.SoftwareName property" Url="html/238f4bf4-ca5c-8ab4-dbdb-6695dfa85f70.htm" />
+  <HelpKINode Title="Software.Tag property" Url="html/4f093909-eb4d-b8be-d16a-7e15f1f6265f.htm" />
+  <HelpKINode Title="Software.ToString method" Url="html/050bb03e-bbc0-c0b1-6e5b-c74d5a472c05.htm" />
+  <HelpKINode Title="Software.UploadDate property" Url="html/e341851f-46da-e904-cfa6-b6dcdd43f5f5.htm" />
+  <HelpKINode Title="Software.UploaderID property" Url="html/c3338143-8d65-b8b3-97b5-44ed415e4212.htm" />
+  <HelpKINode Title="SoftwareID property" Url="html/18a6cd13-ca2a-5b61-e5dd-ee05d2a6a37f.htm" />
+  <HelpKINode Title="SoftwareName property" Url="html/238f4bf4-ca5c-8ab4-dbdb-6695dfa85f70.htm" />
+  <HelpKINode Title="SortBy property" Url="html/104b580d-73f9-0489-f4ca-08134fa9a021.htm" />
+  <HelpKINode Title="SortByString property" Url="html/352f8348-66bb-158c-04fd-2d598b86f90d.htm" />
+  <HelpKINode Title="Startup class">
+    <HelpKINode Title="Startup Class" Url="html/47fe87ba-1f8c-1236-2383-8c9bec6f2438.htm" />
+    <HelpKINode Title="constructor" Url="html/13d08ecf-870b-0a6c-7f3d-92126d6d1e09.htm" />
+    <HelpKINode Title="methods" Url="html/29d74892-4848-c959-2ed3-ae6ffedb2edb.htm" />
+    <HelpKINode Title="properties" Url="html/01b45e30-4f01-faff-345a-5916cf3fe1c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup.Configuration property" Url="html/795f171b-9eca-bb79-27d0-f9a6eaf43f7e.htm" />
+  <HelpKINode Title="Startup.Configure method" Url="html/61e39144-c548-9548-7c06-89e04f6584c2.htm" />
+  <HelpKINode Title="Startup.ConfigureServices method" Url="html/727b734a-a298-8884-c6f5-6b727ec0a4e0.htm" />
+  <HelpKINode Title="Startup.Startup constructor" Url="html/13d08ecf-870b-0a6c-7f3d-92126d6d1e09.htm" />
+  <HelpKINode Title="StatusMessage property">
+    <HelpKINode Title="ChangePasswordModel.StatusMessage Property " Url="html/f5712a89-4fe8-7e92-420a-22b0c908eda7.htm" />
+    <HelpKINode Title="ConfirmEmailChangeModel.StatusMessage Property " Url="html/dfdfaba4-9e2f-ca56-b634-201001138af0.htm" />
+    <HelpKINode Title="ConfirmEmailModel.StatusMessage Property " Url="html/0b746121-84ec-a9ec-1b48-15666ed1ae31.htm" />
+    <HelpKINode Title="Disable2faModel.StatusMessage Property " Url="html/4a3a8ceb-67bb-81b8-4925-3a30fd7c82d5.htm" />
+    <HelpKINode Title="EmailModel.StatusMessage Property " Url="html/bfb8b59b-4ad2-57f5-1c62-bfda051d36c2.htm" />
+    <HelpKINode Title="EnableAuthenticatorModel.StatusMessage Property " Url="html/d1fa72d3-8b0b-2849-726d-bf14c56ab22a.htm" />
+    <HelpKINode Title="ExternalLoginsModel.StatusMessage Property " Url="html/f7504bb4-171d-87b3-0d18-0a858ec56def.htm" />
+    <HelpKINode Title="GenerateRecoveryCodesModel.StatusMessage Property " Url="html/4b069308-9231-9ce0-3f59-3624255fb6d5.htm" />
+    <HelpKINode Title="IndexModel.StatusMessage Property " Url="html/3f279b6d-bab8-62fa-357b-10fb9e74d014.htm" />
+    <HelpKINode Title="ResetAuthenticatorModel.StatusMessage Property " Url="html/f6562dfc-389f-14ff-b87f-0d5888956182.htm" />
+    <HelpKINode Title="SetPasswordModel.StatusMessage Property " Url="html/992405e1-ee81-b320-5b72-a45e49d44d81.htm" />
+    <HelpKINode Title="ShowRecoveryCodesModel.StatusMessage Property " Url="html/fd46d920-5e21-c5f4-ae71-18e21ad83258.htm" />
+    <HelpKINode Title="TwoFactorAuthenticationModel.StatusMessage Property " Url="html/f3832002-482d-5a15-e456-3d25e4923c10.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tag property" Url="html/4f093909-eb4d-b8be-d16a-7e15f1f6265f.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="ClippedSoftware.ToString Method " Url="html/d5ba947d-1bfc-4658-11cd-d3c9b5ced974.htm" />
+    <HelpKINode Title="Software.ToString Method " Url="html/050bb03e-bbc0-c0b1-6e5b-c74d5a472c05.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwoFactorAuthentication property" Url="html/1fa75b48-362b-1684-e3f6-580a1d5c00ac.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel class">
+    <HelpKINode Title="TwoFactorAuthenticationModel Class" Url="html/5dc66fad-8926-aa88-af55-1e09fb2869f6.htm" />
+    <HelpKINode Title="constructor" Url="html/f64118af-9636-ce5b-5c40-16dc570da5f2.htm" />
+    <HelpKINode Title="methods" Url="html/efca779e-80c3-ec2c-0485-41240ab0cfbc.htm" />
+    <HelpKINode Title="properties" Url="html/0a805c9f-6b30-4ee2-51d3-a9c539f25c74.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwoFactorAuthenticationModel.HasAuthenticator property" Url="html/2ac76f88-e664-de2a-40f9-c1714c2eaa68.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.Is2faEnabled property" Url="html/50f986a7-081a-706f-d6cc-ef3b2b87a9bc.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.IsMachineRemembered property" Url="html/a3b219f0-24e2-a52e-bddf-35c51cfed339.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.OnGet method" Url="html/79bb0c01-db61-fd56-d0d2-26b7dfbddb5b.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.OnPost method" Url="html/ea8ace42-c304-9278-73db-d5590afc37c6.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.RecoveryCodesLeft property" Url="html/ce0b4c0d-f2d4-7235-4cea-b63a856dea08.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.StatusMessage property" Url="html/f3832002-482d-5a15-e456-3d25e4923c10.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationModel.TwoFactorAuthenticationModel constructor" Url="html/f64118af-9636-ce5b-5c40-16dc570da5f2.htm" />
+  <HelpKINode Title="TwoFactorAuthenticationNavClass method" Url="html/c589daf5-6e43-d66c-1e77-7c5ecba0d3da.htm" />
+  <HelpKINode Title="TwoFactorCode property" Url="html/cd9e8a5e-166a-2d35-c2cc-4c0ad0c301a8.htm" />
+  <HelpKINode Title="Up method">
+    <HelpKINode Title="ApplicationDbContext_Snapshot.Up Method " Url="html/e21da58d-8197-a923-4d6c-7c989c252780.htm" />
+    <HelpKINode Title="ModelContext_Snapshot.Up Method " Url="html/707c96e6-f00f-04d4-a3a2-2c81eb60d3b6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UploadDate property" Url="html/e341851f-46da-e904-cfa6-b6dcdd43f5f5.htm" />
+  <HelpKINode Title="UploaderID property">
+    <HelpKINode Title="ClippedSoftware.UploaderID Property " Url="html/30f6285f-0573-d22e-92ec-196b0e48ffc8.htm" />
+    <HelpKINode Title="Software.UploaderID Property " Url="html/c3338143-8d65-b8b3-97b5-44ed415e4212.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UploaderString property" Url="html/8f2c5d7f-bbaf-40ea-a16e-35fc8507dc13.htm" />
+  <HelpKINode Title="UserController class">
+    <HelpKINode Title="UserController Class" Url="html/41964fb4-4bc2-4bdb-3675-86aaa89135a7.htm" />
+    <HelpKINode Title="constructor" Url="html/a82839b9-2f8c-5d0f-20d2-b18f283200eb.htm" />
+    <HelpKINode Title="fields" Url="html/bc10937a-cf8c-43a3-be5f-7d456365566c.htm" />
+    <HelpKINode Title="methods" Url="html/81d18a4c-4a0e-82a6-fafc-1c8e486894ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserController.AddUserToRole method" Url="html/2db301b8-4341-e6c6-eae1-2ffbcf344b2c.htm" />
+  <HelpKINode Title="UserController.CreateRolesAsync method" Url="html/5454ebee-5444-9457-6134-befae6dd363f.htm" />
+  <HelpKINode Title="UserController.CreateUser method" Url="html/fc90f1a9-d29b-4aea-0e2d-3b758be68752.htm" />
+  <HelpKINode Title="UserController.FindUser method" Url="html/70dbd41e-d91f-d0fc-34a0-4a0a9ed5e2b5.htm" />
+  <HelpKINode Title="UserController.GetRole method" Url="html/fb5af174-8c59-fc1d-fe27-7af2cfb5b65b.htm" />
+  <HelpKINode Title="UserController.Roles enumeration" Url="html/08abb09d-ce95-0545-8739-e105f45f5bfc.htm" />
+  <HelpKINode Title="UserController.serviceProvider field" Url="html/56789e81-2833-345b-b0df-c84509b62ebc.htm" />
+  <HelpKINode Title="UserController.UserController constructor" Url="html/a82839b9-2f8c-5d0f-20d2-b18f283200eb.htm" />
+  <HelpKINode Title="Username property">
+    <HelpKINode Title="EmailModel.Username Property " Url="html/b11fbaff-beea-f9b3-df77-aad5f97249db.htm" />
+    <HelpKINode Title="IndexModel.Username Property " Url="html/0dd710c5-55cd-bf96-1907-b869afae9212.htm" />
+  </HelpKINode>
+  <HelpKINode Title="users field" Url="html/a06e6800-9df8-d6d8-8574-370f1b71869e.htm" />
+  <HelpKINode Title="UserString property" Url="html/70157667-3997-3227-bcbc-57a1bcdb3120.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/0831edf6-b35d-44d8-b831-0a1c23947b16.htm" />
+    <HelpKINode Title="history" Url="html/f9c20b28-dc7a-4589-b706-ac95c30e9bce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/9b0fb635-5385-4880-ab6b-31275983cfc8.htm" />
+</HelpKI>
