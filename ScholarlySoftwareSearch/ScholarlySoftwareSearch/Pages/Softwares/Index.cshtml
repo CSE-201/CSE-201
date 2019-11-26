@@ -13,22 +13,22 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
 </p>
 
 <form>
     <p>
-        <select asp-for="SearchByString" asp-items="Model.SearchBy"></select>:
-        <input type="text" asp-for="SearchString" />
-        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy"></select>:
+        Search by <select asp-for="SearchByString" asp-items="Model.SearchBy" class="py-2 rounded mr-0 pr-3"></select> : 
+        <input type="text" asp-for="SearchString" class="py-2 rounded mr-0 pr-3"/>
+        Sort by <select asp-for="SortByString" asp-items="Model.SearchBy" class="py-2 rounded mr-0 pr-3"></select> : 
         @if (SignInManager.IsSignedIn(User))
         {
-            <select asp-for="UploaderString">
+            <select asp-for="UploaderString" class="py-2 rounded mr-0 pr-3">
                 <option value="">All Software</option>
                 <option value=@User.Identity.Name>My Software</option>
             </select>
         }
-        <input type="submit" value="Go" />
+        <input type="submit" value="Search" class="btn btn-primary"/>
     </p>
 </form>
 
@@ -40,16 +40,16 @@
                 Name
             </th>
             <th>
-                Author(s)
-            </th>
-            <th>
-                Upload Date
+                Description
             </th>
             <th>
                 Publisher
             </th>
             <th>
                 Tag
+            </th>
+            <th>
+                Upload Date
             </th>
             <th></th>
         </tr>
@@ -58,14 +58,13 @@
         @foreach (var item in Model.Software)
         {
         <tr>
-            <td><a asp-page="./Details" asp-route-id="@item.Id">
-                @Html.DisplayFor(modelItem => item.SoftwareName)
-            </a></td>
             <td>
-                @Html.DisplayFor(modelItem => item.Authors)
+                <a asp-page="./Details" asp-route-id="@item.Id">
+                    @Html.DisplayFor(modelItem => item.SoftwareName)
+                </a>
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UploadDate)
+                @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Publisher)
@@ -74,12 +73,7 @@
                 @Html.DisplayFor(modelItem => item.Tag)
             </td>
             <td>
-                @if (SignInManager.IsSignedIn(User) && ((User.IsInRole("Admin") || (User.IsInRole("Manager"))) || item.UploaderID == User.Identity.Name))
-                {
-                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
-                    <a>|</a>
-                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                }
+                @Html.DisplayFor(modelItem => item.UploadDate.Year)
             </td>
         </tr>
         }

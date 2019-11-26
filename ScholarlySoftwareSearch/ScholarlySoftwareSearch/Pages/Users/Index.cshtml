@@ -1,0 +1,64 @@
+﻿@page
+@model ScholarlySoftwareSearch.Pages.Users.IndexModel
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>User Manager</h1>
+
+<form method="post">
+    <p>
+        Change <input type="text" asp-for="UserString" class="py-2 rounded mr-0 pr-3" /> 
+        to <select asp-for="RoleString" asp-items="Model.Roles" class="py-2 rounded mr-0 pr-3"></select> : 
+        <input type="submit" value="Go" class="btn btn-primary" />
+    </p>
+</form>
+
+<p>Please note: Changes will be made next time the user logs in.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Username
+            </th>
+            <th>
+                ID
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Current Role
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+        <tbody>
+            @foreach (var item in UserManager.Users)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.NormalizedUserName">
+                            @Html.DisplayFor(modelItem => item.NormalizedUserName)
+                        </a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        <p>@Model.dictionary[item]</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+</table>

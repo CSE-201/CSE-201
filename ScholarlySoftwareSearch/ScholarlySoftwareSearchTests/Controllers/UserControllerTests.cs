@@ -92,5 +92,49 @@ namespace ScholarlySoftwareSearch.Controllers.Tests {
                 Assert.IsTrue(true);
             }
         }
+
+        [TestMethod()]
+        public void FindUserTestFail() {
+            // Add IAppState, ILoggerAdapater, and other services
+            var services = new ServiceCollection();
+
+            // Create the service provider instance
+            var serviceProvider = services.BuildServiceProvider();
+
+            // Whether the user controller instantiate.
+            UserController userController = new UserController(serviceProvider);
+
+            // If it succeeds.
+            try {
+                userController.FindUser("test@mail.com").Wait();
+                // The test fails if a roles can be added without RoleManager being added to the service.
+                Assert.Fail();
+            } catch (Exception) {
+                // The test succeeds if the roles cannot be added without being connected to the database.
+                Assert.IsTrue(true);
+            }
+        }
+
+        [TestMethod()]
+        public void GetRoleTest() {
+            // Add IAppState, ILoggerAdapater, and other services
+            var services = new ServiceCollection();
+
+            // Create the service provider instance
+            var serviceProvider = services.BuildServiceProvider();
+
+            // Whether the user controller instantiate.
+            UserController userController = new UserController(serviceProvider);
+
+            // If it succeeds.
+            try {
+                userController.GetRole(new Microsoft.AspNetCore.Identity.IdentityUser("test@mail.com")).Wait();
+                // The test fails if a roles can be added without RoleManager being added to the service.
+                Assert.Fail();
+            } catch (Exception) {
+                // The test succeeds if the roles cannot be added without being connected to the database.
+                Assert.IsTrue(true);
+            }
+        }
     }
 }

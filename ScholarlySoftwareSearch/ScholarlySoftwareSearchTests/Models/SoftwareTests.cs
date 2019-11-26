@@ -54,7 +54,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void SoftwareTestConfirmFail () {
+        public void SoftwareTestConfirmFail() {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                     "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
@@ -80,7 +80,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void ToStringTestFail () {
+        public void ToStringTestFail() {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                     "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 

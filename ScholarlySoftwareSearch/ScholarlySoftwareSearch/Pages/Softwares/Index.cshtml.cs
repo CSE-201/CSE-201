@@ -111,7 +111,6 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             // Returns to the user the search by strings.
             SearchBy = new SelectList(searchByStrings.ToList());
 
-
             // Set the list of software equal to the list of software found in the query.
             Software = await softwares.ToListAsync();
         }

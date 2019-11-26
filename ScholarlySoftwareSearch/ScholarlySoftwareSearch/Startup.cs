@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +23,7 @@ namespace ScholarlySoftwareSearch {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
+            // Add database context for default and mode.
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -29,9 +31,24 @@ namespace ScholarlySoftwareSearch {
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
-
             services.AddDbContext<ModelContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("ModelContext")));
+
+            // Add authentication service.
+            services.AddAuthentication()
+                .AddGoogle(googleOptions => {
+                    googleOptions.ClientId = Configuration["Google:ClientId"];
+                    googleOptions.ClientSecret = Configuration["Google:ClientSecret"];
+                }).AddFacebook(facebookOptions => {
+                    facebookOptions.AppId = Configuration["Facebook:AppId"];
+                    facebookOptions.AppSecret = Configuration["Facebook:AppSecret"];
+                });
+
+            // Enforce HTTPS
+            services.Configure<MvcOptions>(options =>
+            {
+                options.Filters.Add(new RequireHttpsAttribute());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

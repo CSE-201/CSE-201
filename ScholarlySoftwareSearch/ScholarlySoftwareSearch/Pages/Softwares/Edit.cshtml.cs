@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ScholarlySoftwareSearch.Models;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace ScholarlySoftwareSearch.Pages.Softwares {
@@ -62,6 +63,14 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
 
             // Gets the modified state of the software.
             _context.Attach(Software).State = EntityState.Modified;
+
+            WebRequest webRequest = WebRequest.Create(Software.DownloadURL);
+            WebResponse webResponse;
+            try {
+                webResponse = webRequest.GetResponse();
+            } catch (System.Exception) {
+                return RedirectToPage("./Error");
+            }
 
             // Saves the changes if the software still exists.
             try {

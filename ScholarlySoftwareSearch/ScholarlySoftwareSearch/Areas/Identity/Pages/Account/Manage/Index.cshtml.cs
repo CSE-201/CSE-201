@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ScholarlySoftwareSearch.Controllers;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage {
         }
 
         public string Username { get; set; }
+        public string Role { get; set; }
 
         [TempData]
         public string StatusMessage { get; set; }
@@ -34,6 +36,10 @@ namespace ScholarlySoftwareSearch.Areas.Identity.Pages.Account.Manage {
         private async Task LoadAsync(IdentityUser user) {
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+            var roles = await _userManager.GetRolesAsync(user);
+
+            // If the user does not have a role, display the "Member" role.
+            Role = (roles.Count > 0) ? roles[0] : UserController.Roles.Member.ToString();
 
             Username = userName;
 
