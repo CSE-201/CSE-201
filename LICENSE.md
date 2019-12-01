@@ -1,1 +1,0 @@
-The license for this project is currently not yet determined.
