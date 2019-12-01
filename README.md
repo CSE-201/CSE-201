@@ -22,7 +22,7 @@ The search page.
 ## Tools Used
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
 - [ASP.net Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0)
-- [Azure Cloud] (https://azure.microsoft.com/en-us/)
+- [Azure Cloud](https://azure.microsoft.com/en-us/)
 
 <a name="license"></a>
 ## License
