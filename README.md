@@ -12,8 +12,10 @@ This is the repository for the development of Scholarly Software Search for [CSE
 
 <a name="media"/></a>
 ## Media
-The main search index page.
+The home page.
 ![Screenshot of home page](https://raw.githubusercontent.com/CSE-201/CSE-201-Project/development/Misc/Media/HomePage-ScholarySoftwareSearch.png)
+
+The search page.
 ![Screenshot of search page](https://raw.githubusercontent.com/CSE-201/CSE-201-Project/development/Misc/Media/SearchPage-ScholarySoftwareSearch.png)
 
 <a name="tools-used"></a>
