@@ -3,7 +3,6 @@
 - [Overview](#overview)
 - [Media](#media)
 - [Tools Used](#tools-used)
-- [Attributions](#attributions)
 - [License](#license)
 - [Collaborators](#collaborators)
 
@@ -13,17 +12,17 @@ This is the repository for the development of Scholarly Software Search for [CSE
 
 <a name="media"/></a>
 ## Media
-The main search index page.
-![Screenshot of index page](https://raw.githubusercontent.com/CSE-201/CSE-201-Project/development/Misc/Media/Screenshot_2019-11-02%20Index.png)
+The home page.
+![Screenshot of home page](https://raw.githubusercontent.com/CSE-201/CSE-201-Project/development/Misc/Media/HomePage-ScholarySoftwareSearch.png)
+
+The search page.
+![Screenshot of search page](https://raw.githubusercontent.com/CSE-201/CSE-201-Project/development/Misc/Media/SearchPage-ScholarySoftwareSearch.png)
 
 <a name="tools-used"></a>
 ## Tools Used
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
 - [ASP.net Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.0)
-  
-<a name="attributions"></a>
-## Attributions
-This section is currently empty.
+- [Azure Cloud] (https://azure.microsoft.com/en-us/)
 
 <a name="license"></a>
 ## License
