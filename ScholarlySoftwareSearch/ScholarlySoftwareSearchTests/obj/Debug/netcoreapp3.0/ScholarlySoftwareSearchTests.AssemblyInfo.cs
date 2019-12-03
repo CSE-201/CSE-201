@@ -12,8 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ScholarlySoftwareSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSearch\\ScholarlySoftware" +
-    "Search", "ScholarlySoftwareSearch.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ScholarlySoftwareSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Ktlie\\Desktop\\Development\\Software\\CSE-201-Project\\ScholarlySoftwareSear" +
+    "ch\\ScholarlySoftwareSearch", "ScholarlySoftwareSearch.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScholarlySoftwareSearchTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
