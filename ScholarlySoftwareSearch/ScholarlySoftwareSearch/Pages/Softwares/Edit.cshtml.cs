@@ -69,7 +69,7 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             try {
                 webResponse = webRequest.GetResponse();
             } catch (System.Exception) {
-                return RedirectToPage("./Error");
+                return RedirectToPage("/Error");
             }
 
             // Saves the changes if the software still exists.

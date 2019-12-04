@@ -5,7 +5,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
     [TestClass()]
     public class ClippedSoftwareTests {
         [TestMethod()]
-        public void ClippedSoftwareTestEmptySuccess() {
+        public void ClippedSoftwareTestEmptyEqual() {
             ClippedSoftware clippedSoftware = new ClippedSoftware();
 
             Assert.AreEqual("1", clippedSoftware.UploaderID);
@@ -15,17 +15,17 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void ClippedSoftwareTestEmptyFail() {
+        public void ClippedSoftwareTestEmptyNotEqual() {
             ClippedSoftware clippedSoftware = new ClippedSoftware();
 
-            Assert.AreEqual("2", clippedSoftware.UploaderID);
-            Assert.AreEqual("1", clippedSoftware.SoftwareID);
-            Assert.AreEqual(DateTime.Today, clippedSoftware.ClipDate);
-            Assert.AreEqual(1, clippedSoftware.Id);
+            Assert.AreNotEqual("2", clippedSoftware.UploaderID);
+            Assert.AreNotEqual("1", clippedSoftware.SoftwareID);
+            Assert.AreNotEqual(DateTime.Today, clippedSoftware.ClipDate);
+            Assert.AreNotEqual(1, clippedSoftware.Id);
         }
 
         [TestMethod()]
-        public void ClippedSoftwareTestConfirmSuccess() {
+        public void ClippedSoftwareTestConfirmEqual() {
             ClippedSoftware clippedSoftware = new ClippedSoftware("1e56", "2g52", DateTime.Today, 20);
 
             Assert.AreEqual("1e56", clippedSoftware.UploaderID);
@@ -35,13 +35,13 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void ClippedSoftwareTestConfirmFail() {
+        public void ClippedSoftwareTestConfirmNotEqual() {
             ClippedSoftware clippedSoftware = new ClippedSoftware("1e56", "2g52", DateTime.Today, 20);
 
-            Assert.AreEqual("2e56", clippedSoftware.UploaderID);
-            Assert.AreEqual("1g52", clippedSoftware.SoftwareID);
-            Assert.AreEqual(DateTime.MinValue, clippedSoftware.ClipDate);
-            Assert.AreEqual(19, clippedSoftware.Id);
+            Assert.AreNotEqual("2e56", clippedSoftware.UploaderID);
+            Assert.AreNotEqual("1g52", clippedSoftware.SoftwareID);
+            Assert.AreNotEqual(DateTime.MinValue, clippedSoftware.ClipDate);
+            Assert.AreNotEqual(19, clippedSoftware.Id);
         }
     }
 }

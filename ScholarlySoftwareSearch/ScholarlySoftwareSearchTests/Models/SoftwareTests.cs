@@ -5,7 +5,7 @@ namespace ScholarlySoftwareSearch.Models.Tests {
     [TestClass()]
     public class SoftwareTests {
         [TestMethod()]
-        public void SoftwareTestEmptySuccess() {
+        public void SoftwareTestEmptyEqual() {
             Software software = new Software();
 
             // Checks if software is created with it's default values.
@@ -21,23 +21,23 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void SoftwareTestEmptyFail() {
+        public void SoftwareTestEmptyNotEqual() {
             Software software = new Software();
 
             // Checks if software is created with it's default values.
-            Assert.AreEqual(1, software.Id);
-            Assert.AreEqual(" ", software.SoftwareName);
-            Assert.AreEqual(" ", software.Authors);
-            Assert.AreEqual(" ", software.UploaderID);
-            Assert.AreEqual(DateTime.Today, software.UploadDate);
-            Assert.AreEqual(" ", software.Description);
-            Assert.AreEqual(" ", software.Publisher);
-            Assert.AreEqual(" ", software.DownloadURL);
-            Assert.AreEqual(" ", software.Tag);
+            Assert.AreNotEqual(1, software.Id);
+            Assert.AreNotEqual(" ", software.SoftwareName);
+            Assert.AreNotEqual(" ", software.Authors);
+            Assert.AreNotEqual(" ", software.UploaderID);
+            Assert.AreNotEqual(DateTime.Today, software.UploadDate);
+            Assert.AreNotEqual(" ", software.Description);
+            Assert.AreNotEqual(" ", software.Publisher);
+            Assert.AreNotEqual(" ", software.DownloadURL);
+            Assert.AreNotEqual(" ", software.Tag);
         }
 
         [TestMethod()]
-        public void SoftwareTestConfirmSuccess() {
+        public void SoftwareTestConfirmEqual() {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                                 "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
@@ -54,24 +54,24 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void SoftwareTestConfirmFail() {
+        public void SoftwareTestConfirmNotEqual () {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                     "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
             // Tests if the software parameters assigned correctly and are not equal to the incorrect values.
-            Assert.AreEqual(2, software.Id);
-            Assert.AreEqual("SoftwareCame", software.SoftwareName);
-            Assert.AreEqual("Jubal Coo", software.Authors);
-            Assert.AreEqual("1e52", software.UploaderID);
-            Assert.AreEqual(DateTime.MinValue, software.UploadDate);
-            Assert.AreEqual("This a description.", software.Description);
-            Assert.AreEqual("Bubal Foo Inc.", software.Publisher);
-            Assert.AreEqual("www.bubalfoo.com", software.DownloadURL);
-            Assert.AreEqual("Bioformatics", software.Tag);
+            Assert.AreNotEqual(2, software.Id);
+            Assert.AreNotEqual("SoftwareCame", software.SoftwareName);
+            Assert.AreNotEqual("Jubal Coo", software.Authors);
+            Assert.AreNotEqual("1e52", software.UploaderID);
+            Assert.AreNotEqual(DateTime.MinValue, software.UploadDate);
+            Assert.AreNotEqual("This a description.", software.Description);
+            Assert.AreNotEqual("Bubal Foo Inc.", software.Publisher);
+            Assert.AreNotEqual("www.bubalfoo.com", software.DownloadURL);
+            Assert.AreNotEqual("Bioformatics", software.Tag);
         }
 
         [TestMethod()]
-        public void ToStringTestSuccess() {
+        public void ToStringTestEqual() {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                                 "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
@@ -80,12 +80,12 @@ namespace ScholarlySoftwareSearch.Models.Tests {
         }
 
         [TestMethod()]
-        public void ToStringTestFail() {
+        public void ToStringTestNotEqual () {
             Software software = new Software(1, "SoftwareName", "Jubal Foo", "1e56", DateTime.Today, "This is a description.",
                                     "Jubal Foo Inc.", "www.jubalfoo.com", "Bioinformatics");
 
             // Tests if to string outputs incorrectly.
-            Assert.AreEqual("2    SoftwareName Jubal Foo 1e56 " + DateTime.Today.ToString() + " This is a . Jubal Foo Inc. www.jubalfooatics", software.ToString());
+            Assert.AreNotEqual("2    SoftwareName Jubal Foo 1e56 " + DateTime.Today.ToString() + " This is a . Jubal Foo Inc. www.jubalfooatics", software.ToString());
         }
     }
 }
