@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScholarlySoftwareSearch", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScholarlySoftwareSearchTests", "ScholarlySoftwareSearchTests\ScholarlySoftwareSearchTests.csproj", "{BA9618F1-D112-423B-A23F-BB0135C83E91}"
 EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "ScholarlySoftwareSearchDeveloperDocumentation", "ScholarlySoftwareSearchDeveloperDocumentation\ScholarlySoftwareSearchDeveloperDocumentation.shfbproj", "{7841C02B-7534-42B4-93CA-59459DD0316A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA9618F1-D112-423B-A23F-BB0135C83E91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7841C02B-7534-42B4-93CA-59459DD0316A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7841C02B-7534-42B4-93CA-59459DD0316A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7841C02B-7534-42B4-93CA-59459DD0316A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7841C02B-7534-42B4-93CA-59459DD0316A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

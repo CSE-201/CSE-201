@@ -45,7 +45,7 @@ namespace ScholarlySoftwareSearch.Pages.Softwares {
             try {
                 webResponse = webRequest.GetResponse();
             } catch (System.Exception) {
-                return RedirectToPage("./Error");
+                return RedirectToPage("/Error");
             }
 
             // Adds the software to ModelContext.
