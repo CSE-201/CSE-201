@@ -1,4 +1,4 @@
-## CSE 201 Project
+## CSE 201: Scholarly Software Search
 
 - [Overview](#overview)
 - [Media](#media)
